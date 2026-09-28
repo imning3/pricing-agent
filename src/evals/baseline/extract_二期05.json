@@ -1,0 +1,680 @@
+{
+ "file": "二期05数据模拟软件需求规格说明.doc",
+ "model": "anthropic/MiniMax-M3",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 19,
+ "elapsed_s": 27.2,
+ "fpList": [
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "能力需求FR逻辑文件",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "能力需求（FR）章节；R1五元素定义；承载FR能力需求数据实体的内部逻辑文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "FR_1",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1 归属 FR_1；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "FR_2",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2.1 归属 FR_2；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "FR_3",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.1 归属 FR_3；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "FR_4",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_4.1 归属 FR_4；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "FR_5",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_5.1 归属 FR_5；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "模拟任务参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_2 数据模拟功能；R-ENHANCE-2 业务数据层；R16 业务价值过滤；维护模拟任务配置与运行参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "回放数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R-ENHANCE-2业务数据识别；用于存储回放过程中产生的记录与状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "回放控制参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10内部数据管理套路；维护回放控制相关参数配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "新增回放控制参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10内部管理CRUD套路；维护回放控制参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "修改回放控制参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10内部管理CRUD套路；维护回放控制参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "删除回放控制参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10内部管理CRUD套路；维护回放控制参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "查询回放控制参数",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10内部管理CRUD套路；读取回放控制参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "启动数据回放",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R1业务操作；生成回放数据ILF记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "暂停数据回放",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R1业务操作；维护回放数据ILF状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "停止数据回放",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R1业务操作；维护回放数据ILF状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "查询回放数据列表",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R10列表查询；读取回放数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "可视化回放数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_3数据回放功能；R14图表可视化；衍生呈现回放数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "外部接口参数信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外部接口需求章节；R3穿越判断；由外部系统维护、本系统只读的接口参数数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "外部接口协议配置",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外部接口需求章节；R-ENHANCE-6网络/通信相关数据识别；外部维护的接口协议配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取外部接口参数",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外部接口需求章节；R4权限绑定；EIF仅配EQ；读取外部接口参数信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "查询外部接口协议配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外部接口需求章节；R4权限绑定；EIF仅配EQ；查询外部接口协议配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义配置功能（FR_2.2）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_2.2 参数定义配置功能；R3穿越判断（由数据中台导出、本系统导入只读）；R9 EIF典型配置；R-ENHANCE-4 接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义配置功能（FR_2.2）",
+   "requirementName": "参数定义配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_2.2 参数定义配置功能；R11外部导入套路（EIF→EQ→ILF）；参数定义导入后由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义配置功能（FR_2.2）",
+   "requirementName": "导入参数定义",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2.2 参数定义配置功能；R11外部导入套路（解析生成参数定义数据）；R17 完整核心业务操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义配置功能（FR_2.2）",
+   "requirementName": "查询参数定义",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_2.2 参数定义详情；R10 CRUD+V套路；维护参数定义配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义配置功能（FR_2.2）",
+   "requirementName": "查询参数定义列表",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_2.2 参数定义页面；R12 关键字查询与列表查询可拆；R25 列表定位查询属独立EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "自定义参数配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节；R-ENHANCE-1 功能模块数据实体识别；R8 命名规范（参数配置数据为名词）；用于存储用户自定义的参数定义、模拟数值与发送模式，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "保存自定义参数配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节'选择参数，设置模拟数值与发送模式'；R10 内部数据管理报价套路；维护自定义参数配置数据 ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "修改自定义参数配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节；R10 内部数据管理报价套路；维护自定义参数配置数据 ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "删除自定义参数配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节；R10 内部数据管理报价套路；维护自定义参数配置数据 ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "查询自定义参数配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节；R10 内部数据管理报价套路；R6 仅读取不改变数据状态；查询自定义参数配置数据 ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "可视化自定义数据模拟页面",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节'自定义数据模拟页面'；R14 页面可视化涉及模拟配置交互呈现；R6 改变系统行为用于数据模拟发送",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "自定义数据模拟功能（FR_2.3）",
+   "requirementName": "向目标地址发送模拟数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据 FR_2.3 章节'向目标地址发送'；R6 发送操作改变应用行为并维护发送记录；R13 发送与可视化可拆分为独立 EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "时序参数数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10内部数据管理套路；维护时序参数数据模拟的配置与数值信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "新增时序参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10 CRUD套路；维护时序参数数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "修改时序参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10 CRUD套路；维护时序参数数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "删除时序参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10 CRUD套路；维护时序参数数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "查询时序参数数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10 CRUD+V套路；查询时序参数数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "时序参数数据模拟功能（FR_2.4）",
+   "requirementName": "可视化时序参数数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_2.4节；R10 CRUD+V套路；R14图表可视化；展示时序参数数据模拟结果",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "数据源码日志",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据FR_3节；R3穿越判断：由接口转发软件维护，本系统（数据回放功能）只读，作为回放输入文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "回放设置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_3节；R-ENHANCE-1：回放功能模块对应的配置数据，由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "读取数据源码日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3节；R4/R9：EIF仅配EQ，读取接口转发软件记录的日志文件作为回放输入",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "新增回放设置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10套路：维护回放设置ILF，配置回放参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "修改回放设置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10套路：维护回放设置ILF，调整回放参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "删除回放设置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10套路：维护回放设置ILF，删除已有回放配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "查询回放设置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10套路：查询回放设置ILF，定位已有回放配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "解析生成数据回放",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R11套路：基于回放文件和回放设置开始数据回放，解析生成回放数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "导出回放结果",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_3节；R6：导出回放执行结果，供运维人员查看",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "数据回放配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_3.1节；维护回放配置相关参数（数据源、地址端口、时间、倍速等）；R-ENHANCE-2基础数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "新增数据回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.1节；维护数据回放配置信息ILF；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "修改数据回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.1节；维护数据回放配置信息ILF；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "删除数据回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.1节；维护数据回放配置信息ILF；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "查询数据回放配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3.1节；读取数据回放配置信息ILF；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "日志文件数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_3.1节；外部日志文件由外部系统维护，本系统只读；R3穿越判断、R5外部接口识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放配置功能（FR_3.1）",
+   "requirementName": "加载数据源码日志文件",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3.1节；读取日志文件数据EIF；R4EIF配EQ、R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "回放配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 内部数据管理套路；存储数据回放页面所需的回放配置业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "数据源码文件",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R3 穿越判断；数据源码文件由外部系统/外部数据源维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "新增回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 CRUD套路；维护回放配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "修改回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 CRUD套路；维护回放配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "删除回放配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 CRUD套路；维护回放配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "查询回放配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 CRUD+V套路；R25 增删改前定位查询不单独拆分，作为配套EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "读取数据源码文件",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R4 EIF禁配EI；R9 EIF典型配置配1个EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "开始数据回放",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R17 完整核心业务操作；基于回放配置触发对数据源码文件的数据回放处理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据回放功能（FR_3.2）",
+   "requirementName": "可视化数据回放页面",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_3.2 数据回放功能；R10 CRUD+V套路；R14 数据回放页面呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "数据模拟软件对外接口",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外部接口需求表[TABLE:12]；R3穿越判断：接口数据由外部维护，本系统只读",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 66,
+  "types": {
+   "ILF": 10,
+   "EI": 29,
+   "EQ": 14,
+   "EO": 6,
+   "EIF": 7
+  },
+  "totalYuan": 413194.09
+ }
+}

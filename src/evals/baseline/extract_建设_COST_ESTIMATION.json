@@ -1,0 +1,2157 @@
+{
+ "file": "海南商发C3I系统二期建设方案(测发运维模拟转发一体化门户)(公开).docx",
+ "model": "anthropic/MiniMax-M3",
+ "tool": "COST_ESTIMATION",
+ "segments": 50,
+ "elapsed_s": 87.1,
+ "fpList": [
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "型号任务数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据指挥监控应用子系统章节；本系统维护的型号任务核心数据；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "测试发射数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'统筹测试发射等核心要素数据'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "地面勤务数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'统筹地面勤务等核心要素数据'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "无线测控数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'统筹无线测控等核心要素数据'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "气象数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'统筹气象等核心要素数据'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "资产履历数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'统筹资产履历等核心要素数据'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "发射场各系统汇聚信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'提供发射场各系统信息的采集、汇聚、存储、转发功能'；本系统维护；R-ENHANCE-2多层级数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "指挥决策依据数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'为指挥人员提供决策依据支撑型号发射任务指挥决策'；本系统维护；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "数据汇集中心交换信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节'作为发射场发射任务指挥协调中各系统的数据汇集中心与交换枢纽中心'；本系统维护；R-ENHANCE-3库/池/中心",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "基础支撑平台配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'基础支撑平台'；本系统维护的支撑平台配置；R-ENHANCE-4",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "云平台资源数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'云平台'；本系统维护的云平台资源；R-ENHANCE-4",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "统一门户用户与权限数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'统一门户软件'；本系统维护的门户用户权限；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "综合运维管理数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'综合运维软件'；本系统维护的运维管理数据；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "数据模拟配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'数据模拟软件'；本系统维护的模拟配置；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "一体化指显业务数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'一体化指显软件'；本系统维护的指显业务数据；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "测发指挥显示业务数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'测发指挥显示软件'；本系统维护的测发指挥显示数据；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "设备资产信息数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据章节列举的'服务器、磁盘阵列、席位计算机等设备'；本系统维护的设备资产信息；R-ENHANCE-1",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "外部系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据章节'信息采集、汇聚、存储、转发功能'对外接口；外部系统维护本系统引用；R3穿越判断+EIF；R5确保至少1个EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "外部气象系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据章节'统筹气象等核心要素数据'；气象数据由外部气象系统维护；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "外部无线测控系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据章节'统筹无线测控等核心要素数据'；无线测控数据由外部测控系统维护；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "外部勤务系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据章节'统筹地面勤务等核心要素数据'；地面勤务数据由外部勤务系统维护；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "指挥监控应用子系统",
+   "requirementName": "外部资产履历系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据章节'统筹资产履历等核心要素数据'；资产履历数据由外部履历系统维护；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "接口转发软件",
+   "requirementName": "外系统周期数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口转发软件核心功能描述；外系统维护、本系统只读取引接，R3判定为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "接口转发软件",
+   "requirementName": "指令数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口转发软件核心功能描述；下达指令由上级系统维护、本系统引接，R3判定为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "接口转发软件",
+   "requirementName": "状态量数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口转发软件核心功能描述；外系统状态量由外系统维护、本系统引接，R3判定为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "接口转发软件",
+   "requirementName": "转发指令数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口转发软件核心功能描述；本系统向外系统转发的指令数据由本系统维护，R3判定为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "端口配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（3）（5）（6）（8）（19）：数据端口自定义创建、协议解析器配置、转发属性配置、目标子系统地址配置、各通道日志记录开关均由本系统维护，纳入端口配置信息。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "协议文件信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（9）（17）：采用文件定义协议结构、运行时加载、版本化管理、协议插件转换模板，均由本系统维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务标记信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（2）：能够对接收数据进行任务标记，确保不同任务数据独立入库，该任务标记由本系统生成与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "数据源码日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（18）（19）（20）：每个收发通道的数据源码日志按实验项目独立归档，带时间戳、不滚动删除，本系统生成与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "工作日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（12）（13）：软件工作日志记录收发时间、帧长度、参数表号等，支持多档位详细度、滚动删除及参数配置，由本系统生成与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "结构化解析数据信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（21）（22）：原始报文转换为JSON/XML结构化数据、嵌套字段解析、格式标准化，均由本系统生成与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "端口统计信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（10）：端口接收信息帧个数及异常帧/错误数据包数量与内容，由本系统统计与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "异常诊断日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（16）：校验失败、长度越界、非法操作码导致的解析丢弃报文诊断信息（报文头部、错误码、协议栈上下文），基于ELK体系结构化存储，本系统生成与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "IP白名单信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（14）：基于IP白名单的访问控制列表由本系统维护，支持非授权IP访问实时告警。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "违规行为元数据信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（14）：违规行为元数据（源MAC/IP、首次出现时间等）由本系统记录与维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "接收原始数据信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（1）（22）（4）（7）：6发并行任务独立接收的原始报文、持久数据及带包序号/包源地址的转发报文，均由本系统入库与持久化维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "异常流量统计信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据条目（15）：动态频率分析的滑动时间窗口源端发送速率及阈值告警结果，由本系统维护。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "外网通信协议与路由配置信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据条目（7）：组播/点播通信方式、双路由/单路由传输模式由外部组网提供，本系统仅引用（R3外部维护只读）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "时统基准信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据条目（19）：外系统可能未与发射场时统系统对时，时间戳基准由外部时统系统提供，本系统仅引用（R3外部维护只读）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "外部子系统协议规范信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据条目（8）：动态配置外部多子系统的协议与数据格式，外部子系统协议规范由各外系统提供，本系统作为EIF引用（R3外部维护只读）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "流程指挥指令信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（1）；R8名词规则；本系统维护的流程指挥指令数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "测发模式配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（2）；手动/自动倒计时下达、任务时间修改等测发模式配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "并行指挥任务信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（3）；不少于6发任务并行指挥及多工位任务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务指挥模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（4）（5）（13）；流程指令配置形成的指挥模板及迁移同步数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务时间信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（6）（7）（9）；预计点火时间、发射窗口、备保时间、倒计时、飞行时等时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "授时信号信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求（8）；R3穿越判断，外部发射场时间统一系统维护，本系统只接收",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "T0信号信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（10）；发射场T0与火箭T0多路信号接收、有效性冗余判断后输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "对外发送参数配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（11）；流程指令、时间信息等发送逻辑、发送频率、参数定义的配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "显示模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（12）；可配置的显示模板及重要流程信息与测试参数数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（13）；按任务保存的模板数据，供快速调用与修改",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务工作内容状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（15）；当前任务测试阶段工作内容状态采集与显示数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "型号任务配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（16）；通过图形化界面集成的参数配置及接口配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "任务模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求(1)支持不少于200个任务模板管理；R3本系统维护，R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "任务指挥模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求(2)为不少于6发任务配置任务指挥模板；R3本系统维护，R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "并行测试发射任务信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求(3)支持不少于6个任务并行测试发射；R3本系统维护，R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "测发指挥显示软件运行状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求(5)(6)(7)(8)故障切换/CPU/内存/连续工作状态记录；R3本系统维护，R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "组态页面配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(1)组态化页面编辑能力；R-ENHANCE-2配置数据，由本系统维护的页面排版、控件位置、大小、绑定参数等配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "页面布局模板信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(1)末段预定义模板/布局定义模板/自由设计模板；R8命名规则，模板为业务实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "运行参数配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(1)软件运行的参数采用配置模式，统一数据库管理；R-ENHANCE-2配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "页面历史配置记录信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(3)允许用户二次修改布局方案，并保留历史配置记录；R-ENHANCE-2配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "页面发布分类分组信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(3)能够对页面进行整理并控制页面发布情况，能够对发布的页面进行分类分组管理；R-ENHANCE-2分类数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "图形控件样式属性信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(2)对每项控件、图元设置详细显示属性、样式或加载图片；R-ENHANCE-2控件样式配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "大屏页面显示配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(5)(6)(7)(8)(11)每发任务配置大屏页面、按机切换页面、图层配置；R-ENHANCE-2按型号-发次定制配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "大屏页面切换脚本信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(11)(14)将不同时段显示不同页面转化为脚本文件进行存储；R8命名规则，脚本文件为业务实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "数据监测视图配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(13)固定布局看板、表格曲线、阈值范围配置、监测页面同步；R-ENHANCE-2视图配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "指挥流程工作内容信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据(17)总检查/合练/发射日工作内容下发、查看、反馈；R-ENHANCE-2流程业务数据，由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "遥测显示描述信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据(1)末段根据火箭方遥测显示描述信息自动批量生成页面；R3穿越判断，遥测描述由火箭方维护，本系统只读引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "用户对象与权限信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据(1)指显画面根据用户对象和系统灵活组织显示画面；R3穿越判断，用户与权限由基础支撑平台维护，本系统引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "测发指挥流程指令信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据(17)通过接收测发指挥显示软件转发的流程指令展示任务进度；R3穿越判断，测发流程指令由测发指挥显示软件维护，本系统引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "用户账号信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(1)；R-ENHANCE-1模块数据实体，账号注册、密码设置、登录配置均依赖此主数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "数据权限配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)；R-ENHANCE-2多层级数据，数据访问权限按维度控制，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "菜单权限配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)；R-ENHANCE-2多层级数据，功能访问权限控制，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "登录会话信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(3)；登录控制与超时踢出等安全措施依赖的会话状态数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "门户快捷方式配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(4)；含分组与层级关系的快捷方式配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "应用访问入口配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(5)；按应用类别（含试验任务相关性等）分类的访问入口配置，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "门户主题信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(6)；门户背景与主题数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "门户媒体资源信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(6)；自定义插入的图片、视频等媒体资源数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "数据模拟软件",
+   "requirementName": "未分类",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "文档仅有'数据模拟软件'标题，无下属章节与表格，无可追溯的数据实体，依据R26不编造，归入未分类",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "通信配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（1）；本地端口、目的IP/端口的配置参数，属本系统维护的配置数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "模拟数据参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（2）；随机数、指定值、特定数据规律等模拟参数由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "发送频率参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（3）；频率调整参数由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "发射场通信协议信息字配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（4）；多种信息字的配置数据，属本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "趋势曲线参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（5）；飞行高度等趋势曲线及其噪声/浮动区间参数由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "接口转发软件日志",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求（6）；由外部接口转发软件记录并提供，本系统仅回放使用，符合R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "用户认证信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第1条；R3本系统维护用户身份及认证凭据数据；R8名词实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "权限策略信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第1条；权限审核与访问控制策略由本系统维护；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "服务注册信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第2条；动态注册与发现的服务列表由本系统维护；R3本系统维护；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "服务健康状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第3/12条；服务实例健康检查结果由本系统维护；R3本系统维护；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "路由规则信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第4条；统一入口的灵活路由与访问管理规则由本系统维护；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "流量控制策略信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第4/5条；限流、熔断、鉴权策略由本系统维护；R3本系统维护；R-ENHANCE-4接口数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "服务性能监控指标信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第6/13条；CPU使用率、请求成功率等性能指标由本系统采集维护；R3本系统维护；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第8/9条；服务日志集中存储由本系统维护；R21全系统日志仅算一次；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "链路追踪信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第10条；跨服务请求链路追踪数据由本系统维护；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "告警通知信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第12条；服务异常告警信息由本系统维护并发出；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "告警外部接收信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求第12条；告警通知外部接收方由外部系统维护，本系统仅引用；R3外部维护只读；R5至少1个EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "可视化展示配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求第7/13条；运维可视化面板配置由本系统维护；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "设施设备实时状态监测数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-1模块数据实体，设施设备实时状态监测功能维护的状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "设施设备故障预警信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-1模块数据实体，故障预警与管理功能维护的预警记录数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "设施设备故障管理信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-1模块数据实体，设施设备故障管理功能维护的故障记录与处理数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "设施设备健康状态数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-1模块数据实体，设施设备健康状态管理功能维护的健康评估数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "设施设备日常保养信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-1模块数据实体，日常保养功能维护的保养计划与记录数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "海上回收系统设施设备运维数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-6覆盖系统范围，海上回收系统设施设备运维相关数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "测控系统设施设备运维数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-6覆盖系统范围，测控系统设施设备运维相关数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "气象系统设施设备运维数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-6覆盖系统范围，气象系统设施设备运维相关数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "综合运维软件",
+   "requirementName": "地勤系统设施设备运维数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据综合运维软件章节；R-ENHANCE-6覆盖系统范围，地勤系统设施设备运维相关数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "物理服务器资源信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，统一纳管物理服务器对应的资源数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "虚拟化资源池信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，虚拟化资源池对应的资源数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "容器资源池信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，容器资源池对应的资源数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "网络资源信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，统一调配管理网络资源对应的网络数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "存储资源信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，灵活扩展存储容量和性能对应的存储数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "云平台软件",
+   "requirementName": "业务系统资源纳管信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据云平台软件章节；R-ENHANCE-1模块数据实体，统一纳管C3I、音视频、气象、测控等各业务系统资源对应的业务资源数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "虚拟资源池信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节资源虚拟化功能；R-ENHANCE-2多层级数据：弹性可扩展共享式虚拟资源池（含计算/网络/存储资源），本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "应用服务注册信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节应用服务管理功能；R8命名：应用服务查询/配置/访问全生命周期管理数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "资源调度策略信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节资源管理调度功能；R-ENHANCE-2多层级数据：按需/可靠/弹性的计算资源调度策略，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "高可靠运行保障配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节高可靠运行保障功能；服务跨计算模块/跨服务器迁移配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "运维监控指标信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节多维度运维监控功能；R-ENHANCE-2多层级数据：设备级/计算模块级/应用服务级CPU/内存/磁盘/网络速率监测指标，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "运维监控日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节监控与运维/集中告警与日志管理；R22日志全系统一次，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "上级运维软件接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节多维度运维监控功能；R3穿越判断：向上级运维软件信息报送，外部维护本系统引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "异构资源池纳管信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节异构资源纳管；R-ENHANCE-6网络通信类：KVM/FusionCompute/裸金属/VMware/Hyper-V/Power资源池纳管数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "资源视图展示信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节资源统一管理；R-ENHANCE-2多层级数据：所有资源/资源池/数据中心/VDC多视角视图数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "虚拟数据中心VDC信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节资源灵活分配；R8命名：VDC资源分配数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "租户信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节租户管理；R8命名：租户（项目）及网络资源分配数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "用户与权限信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节用户与权限管理；R8命名：用户组/用户及权限控制数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "虚拟私有云VPC信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节虚拟私有云VPC管理；R8命名：VPC创建/修改/删除及扩展网段配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "子网信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节子网管理；R8命名：VPC下子网创建/修改/删除网络信息，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "集中告警信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节监控与运维/集中告警与日志管理；R-ENHANCE-2多层级数据：物理设备/资源池/云资源/VDC/租户/服务集中告警数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "运维自动化策略信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节运维自动化；R8命名：运维自动化操作策略数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "安全加固与隔离配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节安全加固与隔离；R8命名：虚拟化安全加固与网络隔离配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "安全服务部署信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节安全服务集成；R8命名：云防火墙/企业主机安全/Web应用防火墙一键部署配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "容灾管理配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节容灾管理；R8命名：容灾管理保障业务连续性配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能组成",
+   "requirementName": "部署节点信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据'功能组成'节末段；R-ENHANCE-2多层级数据：指挥监控/屏幕显控/地面勤务/测控数据处理/智慧应用/信息安全系统部署于云平台计算节点的纳管数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "CPU占用率监控配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节；系统性能监控配置数据，含平均占用率≤40%、峰值占用率≤50%的阈值参数，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "内存资源占用率监控配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节；内存资源占用率≤60%阈值配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "软件连续运行时长配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节；软件连续工作时间≥720小时可靠性参数配置，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "磁盘性能监控指标数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-存储性能章节；IOPS/TPS、吞吐量、平均I/O数据尺寸、磁盘活动时间百分比等磁盘I/O监控数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "存储类型配置库",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-多种存储类型支持章节；普通/中等/高性能/超高性能磁盘类型规格配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "网络性能监控指标数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-低延迟与高带宽章节；带宽、延迟、丢包率等网络性能监控指标数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "虚拟私有云VPC网络架构配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-网络连通性保障章节；VPC架构、SDN网络架构配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "全方位监控对象配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-全面监控能力章节；物理设备、资源池、云资源、VDC、租户应用、服务等监控对象配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "集中告警配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-实时告警章节；告警规则、告警级别、告警阈值等告警配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "统一日志管理数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-日志管理章节；系统统一日志存储与管理数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "数据一致性保障配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-数据一致性保障章节；存储系统数据一致性定制配置参数，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "虚拟化安全加固配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-安全加固与隔离章节；虚拟化安全加固、网络隔离等安全策略配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "高可用集群配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-高可用性设计章节；多节点集群、故障切换、负载均衡等高可用配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "异构资源池纳管配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-兼容性与扩展性章节；KVM、FusionCompute、裸金属、VMware、Hyper-V、Power等异构资源池纳管配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "弹性扩展策略配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求-弹性扩展能力章节；根据业务负载动态调整计算资源的弹性伸缩策略配置，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "态势信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R3本系统维护的战场态势综合显示数据；命名R8为名词",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "地理信息数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-1模块数据实体，地图/地形/矢量等地理底图数据；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "目标信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-1模块数据实体，敌我目标属性/位置/轨迹数据；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "军标符号库",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-3库类数据实体，军事标图与符号定义数据；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "态势图层配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-1模块数据实体，图层显隐/叠加/显示样式配置；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "交互控制指令数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-1模块数据实体，操控员下达的选择/开窗/缩放等交互指令记录；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "显示样式模板数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R-ENHANCE-1模块数据实体，多窗口/多屏布局与显示样式模板；R3本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "外部情报数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R3外部系统维护本系统只读取的情报信息；R26可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "上级C3I系统态势数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R3外部C3I系统维护本系统只读取的态势信息；R-ENHANCE-5接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "屏幕显控子系统",
+   "requirementName": "传感器原始探测数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据屏幕显控子系统技术要求章节；R3外部传感器维护本系统只读取的探测数据；R-ENHANCE-5接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "总体要求",
+   "requirementName": "指挥显示信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据总体要求章节；本系统统一投屏显示的数据信息，属于本系统维护的数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "总体要求",
+   "requirementName": "视频画面信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据总体要求章节；负责视频画面的统一显示，本系统维护的数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "总体要求",
+   "requirementName": "发射工位任务组织指挥信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据总体要求章节；对任一发射工位试验任务组织指挥的指挥显示数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "总体要求",
+   "requirementName": "现有屏幕显控系统应用软件成果信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据总体要求章节；需继承利用的现有软件研制成果，作为本系统参考维护的数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "音视频综合管理平台",
+   "requirementName": "发射场音视频系统软件信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据音视频综合管理平台描述；平台需对音视频系统中包含的视频、音频系统软件进行集成与能力接入，集成对象信息属本系统维护的核心数据实体；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "音视频综合管理平台",
+   "requirementName": "多源视频信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据音视频综合管理平台描述；平台管理可视化综合管控平台汇聚的发射场任务视频和安防视频等多源视频数据，本系统负责统一分组、展示、回放与控制；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "音视频综合管理平台",
+   "requirementName": "音视频场景配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据音视频综合管理平台描述；平台面向平时、任务时、自定义等各类使用需求进行视频推送场景配置，属本系统维护的配置型数据；R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "音视频综合管理平台",
+   "requirementName": "可视化综合管控平台接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据音视频综合管理平台描述；视频、音频等数据由可视化综合管控平台等外部系统汇聚并提供，本平台仅消费不维护；R3外部维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "音视频综合管理平台",
+   "requirementName": "接口调用触发信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据音视频综合管理平台描述；平台支持通过接口调用方式触发并应用各类音视频场景配置，接口调用由外部发起方传入；R3外部维护本系统只读；R5跨系统接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "图层配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（1）；各型号图层配置数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "大屏显示图层信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（2）（3）；大屏显示图层数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "视频列表信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（5）（12）；视频分组、展示、回放、控制数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "条屏配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（6）；条屏屏幕大小、图层、底色配置数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "拼控设备配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（11）；拼控器启停、信号源切换及设备状态配置数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "视频资源视图信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（9）；公有/私有视图、预览窗口布局、资源组等视图管理数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "音视频场景配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求（13）；自动/手动视频流调取推送及各类音视频场景配置数据，本系统维护，R3穿越为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "试验通信系统任务视频子系统视频源地址信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求（10）；实时网络视频源及历史视频源地址由试验通信系统任务视频子系统维护，本系统仅引用，R3穿越为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "指挥应用监控子系统指令信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求（8）；切换指令由指挥应用监控子系统软件下发，本系统仅接收引用，R3穿越为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "显示数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(1)；条屏显示过程中涉及的文本及参数控件数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "背景色配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)；背景色设置及切换配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "发射过程数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求(3)；对接数据中台接收的倒计时、飞行时、风力、风速等数据，R3外部维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "数据映射配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(4)；解析后数据的映射配置信息（单位、文字映射等），本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "图层配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(5)；自动图层切换所需的图层配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "上级指令数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)(5)；接收上级软件下发的发射指令、图层切换指令等数据，R3外部维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "冗余备份主备切换时间参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'软件部署时考虑冗余备份，主备切换时间不高于1s'；冗余备份参数为本系统维护的运行参数，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "LED大屏配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'包括LED大屏和条屏...LED大屏点间距小于等于1.6mm，满足三防要求...总面积（含备件）不小于120㎡'；大屏规格参数为本系统维护的配置数据，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "条屏配置参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'条屏的总面积（含备品备件）不小于44㎡'；条屏规格参数为本系统维护的配置数据，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "显示屏显示比例参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'显示屏显示比例16：9'；显示比例为本系统维护的配置数据，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "CPU平均占用率参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'系统运行期间，CPU平均占用率≤40%，峰值占用率≤50%'；CPU占用率阈值为本系统维护的运行参数，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "内存资源平均占用率参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'内存资源平均占用率≤60%'；内存占用率阈值为本系统维护的运行参数，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "性能要求",
+   "requirementName": "连续工作时间参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据性能要求章节'软件支持连续工作不少于720小时'；连续工作时长阈值为本系统维护的运行参数，符合R-ENHANCE-1模块数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "测控数据处理子系统",
+   "requirementName": "飞行遥测数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据测控数据处理子系统描述；R3外部测控系统维护，C3I系统只读获取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "测控数据处理子系统",
+   "requirementName": "安控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据测控数据处理子系统描述；R3外部测控系统统一接收处理后推送显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "测控数据处理子系统",
+   "requirementName": "外测信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据测控数据处理子系统描述；R3外部测控系统统一接收处理后推送显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "测控数据处理子系统",
+   "requirementName": "测控指显信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据测控数据处理子系统描述；R3外部测控系统统一接收处理后推送显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "测控数据处理子系统",
+   "requirementName": "伴飞信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据测控数据处理子系统描述；R3本系统通过算法模型处理遥测数据后生成的伴飞显示数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "测控数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求(1)；R3外部测控系统维护，本系统接收",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "标称飞行数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据功能要求(1)；R3外部维护的标称飞行轨迹数据，本系统接收融合",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "参数判据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(1)(4)；R3本系统维护的多类型判据规则数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "飞行数字仿真模型",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)；R-ENHANCE-3模型类数据，多型号仿真模型本系统集成管理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "状态导出参数",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(2)；由遥测与仿真模型融合生成的关键状态参数，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "多型号仿真模型库",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(4)；R-ENHANCE-3多型号仿真模型统一集成管理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "判读数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(4)；本系统管理的判读理论值及关联数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "历史数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(3)；R-ENHANCE-6支持历史回放的飞行状态历史数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "任务状态配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(4)(5)；R-ENHANCE-2配置项数据，型号任务切换配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "功能要求",
+   "requirementName": "接口配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能要求(5)；上下游接口参数配置数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "地面设施设备实时态势信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-地勤一体化综合态势呈现功能；R-ENHANCE-1模块数据实体，地面设施设备状态数据由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "发射区任务岗位人员实时技术状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-发射区运维人员实时技术状态监控；R-ENHANCE-1模块数据实体，本系统采集维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "任务实时状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-任务实时状态数据综合性态势呈现；R-ENHANCE-1模块数据实体，任务流程状态由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "设施设备运维管理信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-设施设备运维管理可视化；R-ENHANCE-2库/池类数据实体，运维管理数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "设备故障预警信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-设备实时态势、设备故障预警等10个功能点；R-ENHANCE-1模块数据实体，故障预警数据本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "地面系统综合效能评估信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-为发射场地面系统综合效能评估提供逼真的生产任务执行流程；R-ENHANCE-2评估类数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "测发远程技术支持数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-为测发远程技术支持提供数据支撑；R-ENHANCE-1模块数据实体，本系统提供",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "系统控制权限配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-控制权限集中统一管理，可单独配置控制权限使用或禁止；R-ENHANCE-3配置类数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "安防系统数据接口信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-预留安防系统数据、视频联动接口；R3穿越判断，由外部安防系统维护，本系统引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "安防系统视频联动接口信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-可与安防系统进行实时或历史的数据、视频信息交互；R3穿越判断，外部安防系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "C3I系统设计要求",
+   "softwareObject": "地面勤务信息系统",
+   "requirementName": "各系统远程控制接口信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据地面勤务信息系统-需预留各系统远程控制接口，提供各系统控制调试功能；R3穿越判断，引用外部各系统控制数据",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 214,
+  "types": {
+   "ILF": 178,
+   "EIF": 36
+  },
+  "totalYuan": 5536013.64
+ }
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+data/
+.env
+*.db
+*.db-wal
+*.db-shm
+README.md

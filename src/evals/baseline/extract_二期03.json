@@ -1,0 +1,2680 @@
+{
+ "file": "二期03接口转发软件需求规格说明.doc",
+ "model": "anthropic/MiniMax-M3",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 52,
+ "elapsed_s": 70.2,
+ "fpList": [
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "能力需求（FR）",
+   "requirementName": "能力需求数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "能力需求（FR）章节；R26来源可追溯；R1五元素-ILF定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "接口配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R-ENHANCE-1模块数据实体识别；描述接口转发任务的基础配置参数数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "转发任务信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R-ENHANCE-2业务数据识别；描述接口转发任务的核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "接口状态数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R-ENHANCE-6网络通信相关数据识别；描述接口运行状态及转发状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "新增接口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护接口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "修改接口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护接口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "删除接口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护接口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "查询接口配置信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；读取接口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "新增转发任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护转发任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "修改转发任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护转发任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "删除转发任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；维护转发任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "查询转发任务信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；读取转发任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "启动转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R8动宾短语命名规范；触发并维护接口状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "停止转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R8动宾短语命名规范；触发并维护接口状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "查询接口状态数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R10内部数据管理CRUD套路；读取接口状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "可视化接口状态数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R14可视化定义；图表方式展示接口运行及转发状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "外部转发数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R-ENHANCE-4接口数据识别；描述由外部系统提供、本系统转发的接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "读取外部转发数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R4EIF只配EQ；R9EIF典型配置；读取外部转发数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "导出转发任务日志",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1接口转发任务管理功能章节；R22日志去重全系统仅此一次；导出接口转发任务的执行日志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "外部引接数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R-ENHANCE-4接口数据识别；外部系统维护的引接数据，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "引接解析日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R22日志去重（占位，仅全系统计一次）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "解析生成引接数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R11外部数据导入套路（EIF→EQ→ILF→EI）；解析外部引接数据并入库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "读取外部引接数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R9 EIF典型配置；读取外部系统引接的原始数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询引接数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R10内部数据管理套路；查询已解析入库的引接数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "导出引接数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_2数据引接解析功能；R10套路；导出引接解析后的数据供下游使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "数据转发规则信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R7颗粒度；维护数据转发规则信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "数据重组方案信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R7颗粒度；维护数据重组方案信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "外部原始数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R3穿越判断/外部系统维护的原始数据,本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "外部目标系统接口信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R3穿越判断/外部目标系统接口配置,本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "新增数据转发规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据转发规则信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "修改数据转发规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据转发规则信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "删除数据转发规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据转发规则信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "新增数据重组方案",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据重组方案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "修改数据重组方案",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据重组方案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "删除数据重组方案",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；维护数据重组方案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询数据转发规则",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；查询数据转发规则信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询数据重组方案",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R10套路；查询数据重组方案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "读取外部原始数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R4/R9套路；读取外部原始数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "解析生成数据重组方案",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R11套路；解析外部原始数据生成数据重组方案",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "导出数据重组方案",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R11套路；导出数据重组方案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R22日志去重；系统运行日志记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询日志信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R22日志去重；查询系统日志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "导出日志信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_3数据转发重组功能；R22日志去重；导出系统日志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R16业务价值（日志数据为持久化记录）；R22日志去重（本估算对象下识别一次）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "查询日志数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R10内部管理套路；按条件检索历史日志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "导出日志数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R10内部管理套路；将日志数据导出为文件用于离线分析",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "协议配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R-ENHANCE-1 模块核心数据实体识别；R3 内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "外部协议规范数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R-ENHANCE-4 接口数据识别；R3 穿越判断-外部维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "新增协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R10 内部管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "修改协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R10 内部管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "删除协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R10 内部管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "查询协议配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R10 内部管理CRUD套路；R25 禁止拆分定位查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "读取外部协议规范",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R9 EIF典型配置-配1个EQ；R4 EIF禁EI只配EQ/EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "可视化协议配置",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_5 协议管理功能；R10 内部管理CRUD+V套路；R14 可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "外系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息；R3穿越判断（外部系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取外系统接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息；R9典型配置（EIF配1个EQ）；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "外部接口需求数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "配置项级外部接口输入数据；R3穿越判断（外部维护，本系统只读）；R5软件通常有EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "读取外部接口需求数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据外部接口转发软件输入章节；R4 EIF仅配EQ；R9 EIF典型配置1EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "转发外部接口需求数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据外部接口转发软件输入章节；R4 EIF可配EO（转发即衍生输出，改变应用行为）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "接口转发数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R-ENHANCE-4接口数据识别；由本系统内部维护的转发数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "接收外部接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R3穿越判断；外部系统接口数据，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "外部接口配置",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R3穿越判断；外部接口参数由外部系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "解析生成接口转发数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R11外部导入报价套路；维护接口转发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "查询接口转发数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R6判定标准-无内部状态改变；查询接口转发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "导出接口转发结果",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R6判定标准-生成衍生数据；导出接口转发结果",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "读取外部接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R9 EIF典型配置；读取外部接口数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "运行日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据《接口转发软件输出》章节；R22日志去重-全系统只报一次；接口转发软件运行日志记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "内部接口需求文档（ILF）",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R-ENHANCE-1；按模块数据实体识别规则，接口文档作为内部维护的数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "新增内部接口需求（EI）",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路（CRUD+V）；维护内部接口需求ILF的新增操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "修改内部接口需求（EI）",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路（CRUD+V）；维护内部接口需求ILF的修改操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "删除内部接口需求（EI）",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路（CRUD+V）；维护内部接口需求ILF的删除操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "查询内部接口需求（EQ）",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路（CRUD+V）；对内部接口需求ILF进行无状态变更的读取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "导出内部接口需求（EO）",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路（CRUD+V）；含数据计算/衍生，导出内部接口需求ILF内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "接口转发任务数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1；R7颗粒度：任务管理与状态监测共属一个功能块；R-ENHANCE-1功能模块数据实体识别；R8名词命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "外部接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_1；R3穿越判断：外部系统维护、本系统只读；R5软件通常有EIF；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "新增接口转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1；R10内部数据管理CRUD套路；维护接口转发任务数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "修改接口转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1；R10内部数据管理CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "删除接口转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1；R10内部数据管理CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "查询接口转发任务",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1；R10内部数据管理CRUD套路；R6无改变内部数据/状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "读取外部接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1；R4EIF只配EQ；R9EIF典型配置1个EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "可视化任务状态",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1任务状态监测功能；R6改变应用行为（状态呈现）；R14任务状态监测具有监测展示业务价值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "任务配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1节；R7颗粒度；任务创建与通道配置产生的核心业务数据，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "新增转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF，支持转发任务创建功能",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "修改转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF，支持任务配置功能",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "删除转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "控制任务启用状态",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF，控制接收转发任务启用状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "配置接收通道参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF，针对每个任务的接收通道配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "配置转发通道参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；维护任务配置信息ILF，针对每个任务的转发通道配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "查询任务配置信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1节；R10套路；读取任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "可视化任务配置信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.1节；R14可视化定义；展示任务配置与通道配置结果",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "任务信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.1 创建任务功能；R-ENHANCE-1 功能模块数据实体识别，接收转发任务的核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "新增任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.1 创建任务功能 任务管理页面 添加任务；R10 内部数据管理报价套路，维护任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "修改任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.1 创建任务功能；R10 内部数据管理报价套路，维护任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "删除任务信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.1 创建任务功能；R10 内部数据管理报价套路，维护任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "查询任务信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.1 创建任务功能 任务管理页面；R10 内部数据管理报价套路，读取任务信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "服务日志记录等级",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R-ENHANCE-1功能模块数据实体识别；配置内容数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "源地址编码",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R-ENHANCE-1功能模块数据实体识别；配置内容数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "查询服务日志记录等级",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R25增删改前定位查询属于EI的一部分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "查询源地址编码",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R25增删改前定位查询属于EI的一部分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "配置服务日志记录等级",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R10内部数据管理报价套路（CRUD+V）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "配置源地址编码",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R10内部数据管理报价套路（CRUD+V）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "操作日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R22日志去重：全系统只报一次；本次识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "记录操作日志",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R22日志去重：全系统只报一次；本次识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "查询操作日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R22日志去重：全系统只报一次；本次识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "导出操作日志",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.1.2节；R22日志去重：全系统只报一次；本次识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "接收通道信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R-ENHANCE-2业务数据；系统内部维护的接收通道配置数据，含通道名称、端口地址、单播/组播、协议等配置项",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "新增接收通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R10套路；创建接收通道，维护接收通道信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "删除接收通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R10套路；删除已创建的接收通道，维护接收通道信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "修改接收通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R10套路；修改通道名称、端口地址、单播/组播、协议等配置，维护接收通道信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "查询接收通道",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R10套路；查询接收通道配置信息列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "可视化接收通道",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.1.3节；R10套路；通过管理页面可视化展示接收通道列表及配置详情",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "通道配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4节；R-ENHANCE-1功能模块对应ILF；R23关联数据合并（通道名称、目标地址、单播/组播、挑点、降频、协议转换等配置项同时创建同时使用，合并为一个ILF）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "新增转发通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4节'转发通道创建'；R10内部数据管理套路CRUD；维护通道配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "删除转发通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4节'转发通道删除'；R10内部数据管理套路CRUD；维护通道配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "修改转发通道配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4节'通道名称配置、目标地址配置、单播/组播转发配置、挑点配置、降频配置、协议转换配置'；R10内部数据管理套路CRUD；维护通道配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "查询转发通道",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4节通道查询业务；R10内部数据管理套路CRUD+V；R25定位查询归入EI后，此处为列表/关键字查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "可视化转发通道",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.1.4节通道配置展示；R10内部数据管理套路CRUD+V；R14涉及通道配置的可视化展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "透传数据信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.1节；R-ENHANCE-1功能模块数据实体识别；透传功能维护的待转发数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "解析生成透传数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.1节；R10内部数据管理套路；解析外部输入数据并生成本系统待转发的透传数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "转发透传数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.1节；R10内部数据管理套路；将透传数据无修改转发至外部，维护透传数据生命周期",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "查询透传数据列表",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.1节；R10内部数据管理套路；查询透传数据记录列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "挑点参数配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R1五元素（ILF为内部维护的名词性数据实体），R-ENHANCE-1 模块数据实体识别（功能模块对应1-3个ILF）；承载完整数据帧的挑点参数配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "完整数据帧信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R1五元素定义（EIF为外部维护、本系统只读），R3穿越判断（完整数据帧由外部维护并输入本系统）,",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "读取完整数据帧信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R4权限绑定（EIF仅配EQ/EO），R9 EIF典型配置（EIF配1个EQ）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "新增挑点参数配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R10内部数据管理CRUD套路，维护挑点参数配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "修改挑点参数配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R10内部数据管理CRUD套路，维护挑点参数配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "删除挑点参数配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R10内部数据管理CRUD套路，维护挑点参数配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "查询挑点参数配置信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R10内部数据管理CRUD套路，读取挑点参数配置信息ILF，R6无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "挑点转发处理日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R22日志去重（全系统仅报一次，此处先占位，若其他对象已识别则去除）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "记录挑点转发处理日志",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.2 挑点功能章节；R22日志全系统仅识别一次EI操作，此处先占位",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "协议转换功能功能点",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.3 协议转换功能；表格驱动文档、无标题层级、无可识别的数据实体与操作功能，作为兜底按业务表整体挂'能力需求（FR）'配置项；文档原文仅含表格占位[TABLE:11]，无具体数据/操作可识别（R26来源不可追溯、R2无报价根基，禁止编造）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "参数定义信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R-ENHANCE-1 模块数据实体识别；本模块内部维护的参数定义数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "参数定义转换结果数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R-ENHANCE-2 业务数据/结果数据识别；经参数组合转换生成的表号数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "新增参数定义信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R10 内部管理CRUD套路；维护参数定义信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "修改参数定义信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R10 内部管理CRUD套路；维护参数定义信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "删除参数定义信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R10 内部管理CRUD套路；维护参数定义信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "查询参数定义信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R10 内部管理CRUD套路；查询参数定义信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "解析生成参数定义转换表号",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R8 完整动宾短语；将参数信息组合生成新的表号，维护参数定义转换结果ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "查询参数定义转换结果",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R10 内部管理CRUD套路；查询参数定义转换结果ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "导出参数定义转换表号",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.1.4.4；R6 EO改变内部数据/状态；导出生成的参数定义转换表号结果数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "转发通道配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R7颗粒度；功能块对应的转发通道配置信息，内部维护的数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "配置转发通道",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R10套路；维护转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "查询转发通道配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R10套路；查询转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "删除转发通道配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R10套路；维护转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "原始高频数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R3穿越判断；降频处理的源数据由外部维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "读取原始高频数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R4权限绑定；EIF只配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "降频后分发数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R7颗粒度；抽帧处理后的降频数据，由本系统生成并维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "解析生成降频数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R11套路；通过固定间隔抽帧解析生成降频后分发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "查询降频分发状态",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.1.4.5节；R10套路；查询降频后分发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "任务配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节控制任务功能；R10套路；存储已配置的接收转发任务（启用状态、端口信息），由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "新增任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；R10套路；维护任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "修改任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；R10套路；维护任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "删除任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；R10套路；维护任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "启用接收转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；启用已配置的接收转发任务并对数据接收通道端口冲突进行检查，改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "停用接收转发任务",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；停用已配置的接收转发任务，改变任务启用状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "查询任务配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；R10套路；读取任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "端口冲突检查结果",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1.1.5节；任务启动时执行数据接收通道端口冲突计算并输出检查结果，改变系统内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "服务运行状态数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2节；R1五元素定义(ILF=内部维护数据功能)；本系统维护接口转发软件及其各数据接收转发服务的运行状态信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "任务状态监测日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2节；R1五元素定义；R-ENHANCE-3日志去重(R22)在本估算对象不重复统计，统一在系统级日志功能点归集；本对象维护任务接收转发的状态监测日志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "服务状态总览信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'服务状态总览'；R1五元素定义；汇总各数据接收转发服务的运行状态用于总览展示的内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "接收转发任务状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'接收转发任务状态监测'；R1五元素定义；记录任务期间数据接收转发过程的状态信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "外部运维指令数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "FR_1.2节；R3穿越判断-外部运维人员下发的监测配置/控制指令由外部维护；R5软件通常至少一个EIF；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "读取外部运维指令",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2节；R4EIF只配EQ/EO；R9EIF典型配置EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "监测服务运行状态",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.2节；R10内部数据管理套路；启动并维护服务运行状态ILF的监测操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "查询服务状态总览",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'服务状态总览'；R10内部管理CRUD+V套路中的EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "可视化服务状态总览",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'服务状态总览'；R6EO改变(可视化衍生)；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "监测接收转发任务状态",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'接收转发任务状态监测'；R10内部数据管理CRUD套路；维护任务状态ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "查询接收转发任务状态",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'接收转发任务状态监测'；R12关键字/列表查询可拆分；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "导出任务状态监测报告",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'数据日志浏览工具'；R6EO改变(创建衍生报告数据)；R13EO可拆分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "可视化任务状态监测图表",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2节子功能'数据日志浏览工具'；R6EO改变(图表生成)；R13EO可拆分(三维/图表/动画)；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "任务状态概览数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.1.2；R-ENHANCE-2基础/结果数据；包含接收转发任务名称、描述、发射任务信息、通道运行状态、线程占用等概览数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "查询任务状态概览",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2.1.2；R10套路；查询任务状态概览数据，无内部数据变更",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "可视化任务状态概览",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2.1.2；R10套路+R14；以框图形式可视化显示接收转发任务状态，涉及图表生成，改变呈现行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "错误日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3错误日志显示功能；R1数据功能命名规范；R-ENHANCE-2基础数据层级",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "服务状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3服务状态总览页面；R1数据功能命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "实时错误日志信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3异常信息显示实时显示错误日志信息；R3穿越判断(外部日志系统维护)；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "读取实时错误日志信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3实时显示错误日志信息；R4 EIF配EQ(只读)；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "新增错误日志信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3错误日志显示功能；R10内部数据管理CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "修改错误日志信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3错误日志显示功能；R10 CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "删除错误日志信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3错误日志显示功能；R10 CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "查询错误日志信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3错误日志显示功能；R10 CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "可视化错误日志信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3异常信息显示实时显示；R10 CRUD+V套路；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "可视化服务状态总览",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1.2.1.3服务状态总览页面；R13图表可视化可拆为独立EO；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "接收转发任务状态信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.2节；R-ENHANCE-1业务核心数据识别；任务状态监测所维护的核心业务数据，包含任务端口配置、帧计数、流量统计、错误帧告警等",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "查询任务状态信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2.2节；R10内部数据管理套路；定位并读取特定接收转发任务的状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "可视化任务状态信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2.2节；R14可视化定义；显示接收/转发端口、帧计数、近1分钟数据流量、错误帧告警及异常帧内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "修改任务端口控制参数",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_1.2.2节；R10内部数据管理套路；控制端口的启停，改变端口运行状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "接收通道监测数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.2.1节；R1五元素定义-名词数据实体；R-ENHANCE-1功能模块数据实体识别；接收通道监测功能的核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "接收通道参数信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.2.1节；R1五元素定义-名词数据实体；R7颗粒度-接收通道监测相关的参数配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "查询接收通道监测信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2.2.1节；R4权限绑定-ILF配EQ；R6查询无改变内部状态；读取接收通道监测数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "可视化接收通道监测信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2.2.1节；R4权限绑定-ILF配EO；R14可视化定义-生成监测图表展示通道状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "接收转发任务运行状态数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_1.2.2.2节；R-ENHANCE-1功能模块数据实体识别；维护各接收转发任务名称、描述、对应发射任务及火箭型号/发次、通道运行状态、占用线程数等核心运行数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "查询接收转发任务运行状态",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_1.2.2.2节；R10套路；查询接收转发任务运行状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "可视化接收转发任务框图",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_1.2.2.2节；R10/R13套路；以框图形式可视化当前启用接收转发任务及关联信息（含统计图表呈现），EO改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "错误日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.2.3节；R10套路；本系统维护的错误日志数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "查询错误日志信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2.2.3节；R10套路；定位查询错误日志记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "可视化错误日志信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2.2.3节；R10/R14；实时显示错误日志信息（界面呈现）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "数据日志信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_1.2.2.6节；R-ENHANCE-2结果数据识别；数据日志为系统维护的业务数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "查询数据日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_1.2.2.6节；R10套路；浏览已配置通道的数据日志，无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "可视化数据日志",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_1.2.2.6节；R14可视化定义；在监测界面呈现通道数据日志内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "数据接收通道配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R1 名词型数据实体；R-ENHANCE-1 功能模块核心数据识别为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "接收转发任务配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R1 名词型数据实体；R-ENHANCE-1 任务调度核心配置识别为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "新增数据接收通道配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "修改数据接收通道配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "删除数据接收通道配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "新增接收转发任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "修改接收转发任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "删除接收转发任务配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD套路；R26 来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询数据接收通道配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD+V套路；R6 无改变内部状态仅读取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询接收转发任务配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R10 内部数据管理CRUD+V套路；R6 无改变内部状态仅读取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "可视化外部引接数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据 FR_2 数据引接解析功能章节；R4 EIF可配EO；R14 可视化定义涉及图表/渲染呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "转发端口配置信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_3节；R1/R16名词命名；维护转发端口配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "重组后转发数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_3节；R-ENHANCE-2过程/结果数据识别；持久化的转发数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "接收解析数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据FR_3节；R3穿越判断；外部维护、本系统只读的输入数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询转发端口配置信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3节；R4 EIF仅配EQ；读取外部转发端口配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "新增转发端口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10 CRUD套路；维护转发端口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "修改转发端口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10 CRUD套路；维护转发端口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "删除转发端口配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R10 CRUD套路；维护转发端口配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "解析生成重组转发数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据FR_3节；R11外部导入套路；接收解析数据EIF→重组后转发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询重组转发数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_3节；R6无内部状态改变；读取重组后转发数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "导出重组转发数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_3节；R6含数据计算/衍生；向各发送端口输出重组后数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "日志记录数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R2报价根基；R18仅持久化日志作为数据实体；R22日志去重（本估算对象下唯一日志ILF）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "查询日志记录",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R10套路；查询日志记录数据；R25定位查询不独立成EQ，仅业务查询可计",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "导出日志记录",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R6判定：导出含衍生数据文件，产生新输出文件，改变系统输出状态；R10套路可视化导出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "归档日志记录",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据FR_4日志记录功能；R6判定：归档操作维护日志ILF的存储状态，符合EO定义；R1动宾短语规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "服务运行日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.1节；R1五元素识别；接收转发任务独立记录的服务运行日志数据文件，由本系统维护；R22日志去重前提",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "新增服务运行日志",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "FR_4.1节；R10 CRUD套路；接收转发任务时新增服务运行日志；R17完整业务操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "服务运行日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.2节；R-ENHANCE-2业务数据；服务运行过程中产生的日志记录数据，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "查询服务运行日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_4.2节；R10套路；查询服务运行日志ILF记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "可视化服务运行日志",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_4.2节；R14；服务运行日志查看页面渲染展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志记录功能（FR_4.3）",
+   "requirementName": "错误日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.3节；R2报价根基；R-ENHANCE-1模块数据实体识别；以接口转发软件为单位的错误日志数据，由本系统维护，符合R3穿越判断（内部维护→ILF）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "错误日志记录功能（FR_4.3）",
+   "requirementName": "读取错误日志数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_4.3节；R4权限绑定（ILF可配EQ）；支持在接口转发软件状态总览页面查看错误日志信息。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志记录功能（FR_4.5）",
+   "requirementName": "数据源码日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.5节；R-ENHANCE-2基础数据；R3穿越判断（本系统内部维护）；R22日志去重需挂载日志功能统一挂载点",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "数据源码日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.6节；R-ENHANCE-1功能模块数据实体识别；接口转发软件内部维护的数据源码日志实体，支撑日志查看业务",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "查询数据源码日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_4.6节；R10套路读取ILF；页面呈现数据源码日志列表，R25定位查询不单独计EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "可视化数据源码日志页面",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "FR_4.6节；R14可视化定义；数据源码日志页面渲染展示，含日志详情呈现，符合EO衍生数据生成",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "系统操作日志",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "FR_4.6节；R22日志去重规则；接口转发软件运行操作日志，全系统仅报一次，R26溯源自查看日志功能",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "查询系统操作日志",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "FR_4.6节；R22+R10套路；读取系统操作日志ILF，支撑运维审计追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "协议信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "协议管理功能（FR_5）；R1五元素识别；R-ENHANCE-1功能模块数据实体识别；本系统维护的协议基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "查询协议信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "协议管理功能（FR_5）查看协议；R10内部管理套路CRUD+V；R26来源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "能力需求（FR）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "可视化协议信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "协议管理功能（FR_5）协议管理页面；R10套路可视化；R14页面呈现协议列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "火箭测试信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部火箭测发控系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "卫星测试信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部卫星系统维护，本系统只读）；预留接口",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "海上回收测试信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部海上回收系统维护，本系统只读）；预留接口",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "测控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部发射场测控系统维护，本系统只读）；R-ENHANCE-4",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "地勤信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部加注供气/配电/整流罩空调/发射台等系统维护，本系统只读）；R-ENHANCE-4",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "气象信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R3穿越判断（外部发射场气象系统维护，本系统只读）；R-ENHANCE-4",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取火箭测试信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取卫星测试信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取海上回收测试信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取测控信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取地勤信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取气象信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "外系统-接口转发软件输入信息节；R4（EIF配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "T0信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "章节：C3I及试验通信系统内部接口转发软件输入；R3穿越判断：T0信息由外部C3I系统维护，本系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "网络监控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "章节：C3I及试验通信系统内部接口转发软件输入；R3穿越判断：网络监控信息由外部系统维护，本系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "各分系统状态信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "章节：C3I及试验通信系统内部接口转发软件输入；R3穿越判断：各分系统状态由外部分系统产生，本系统只读，识别为EIF；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "转发通道配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "章节：接口转发软件输出；依据R1数据功能定义，转发通道配置为本系统维护的内部数据；R26章节溯源可追溯",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "接口转发结果",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "章节：接口转发软件输出；依据R6判定，输出转发结果改变了内部数据状态（执行数据计算/创建衍生数据），识别为EO；R26依据'根据转发通道配置进行输出'",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "内部接口需求数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R-ENHANCE-4接口数据识别；分系统间接口数据由本系统维护，识别为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "外部接口引用数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R-ENHANCE-4；外部系统维护的接口数据，本系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "新增内部接口需求",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路CRUD；维护内部接口需求数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "修改内部接口需求",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路CRUD；维护内部接口需求数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "删除内部接口需求",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路CRUD；维护内部接口需求数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "查询内部接口需求",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路CRUD+V；按R25该EQ为独立查询操作（非增删改前定位查询），可识别为EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "可视化内部接口需求",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R10套路CRUD+V；R14需涉及图表生成等可视化方识别为EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "需求",
+   "moduleConfig": "内部接口需求",
+   "softwareObject": "内部接口需求",
+   "requirementName": "读取外部接口引用数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "内部接口需求章节；R4+EIF禁EI只配EQ；R9典型配置1个EQ",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 266,
+  "types": {
+   "ILF": 57,
+   "EI": 82,
+   "EQ": 65,
+   "EO": 37,
+   "EIF": 25
+  },
+  "totalYuan": 1334066.36
+ }
+}

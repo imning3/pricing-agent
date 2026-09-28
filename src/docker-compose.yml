@@ -1,0 +1,30 @@
+services:
+  agent:
+    build: .
+    image: pricing-llm-agent:0.1.0
+    container_name: pricing-llm-agent
+    restart: unless-stopped
+    ports:
+      - "8600:8600"
+    env_file:
+      - .env
+    environment:
+      AGENT_DB_PATH: /app/data/tasks.db
+    volumes:
+      # 任务运行态持久化：命名卷——首挂时继承镜像内 /app/data 的属主(agent:1000)，
+      # 无宿主机权限坑；卷名固定，跨版本升级数据不丢
+      - agent_task_data:/app/data
+      # [DEV-ONLY BEGIN]
+      # 测试语料只读挂载：宿主机 测试文件/ → 容器 /data/testfiles（联调期本地路径模式用；
+      # 生产环境此挂载移除，文件走 MinIO 预签名 URL）——打包脚本会剥离本段
+      - ../测试文件:/data/testfiles:ro
+      # [DEV-ONLY END]
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "3"
+
+volumes:
+  agent_task_data:
+    name: pricing-agent-task-data

@@ -1,0 +1,24 @@
+# ===== 产物与运行时数据（不入库） =====
+dist/
+data/
+src/data/
+src/evals/api_smoke/
+.uploads/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ===== 内部资料（不入库：测试语料/原型/契约与公式文档） =====
+测试文件/
+原型/
+*.doc
+*.docx
+*.docx.bak
+*.xls
+*.xlsx
+~$*
+
+# ===== 密钥与本地配置 =====
+.env
+src/.env

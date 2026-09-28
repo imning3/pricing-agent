@@ -1,0 +1,2640 @@
+{
+ "file": "海南商发C3I系统二期建设方案(测发运维模拟转发一体化门户)(公开).docx",
+ "model": "anthropic/MiniMax-M3",
+ "tool": "COST_MEASUREMENT",
+ "segments": 50,
+ "elapsed_s": 77.1,
+ "fpList": [
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统软硬件选型要求",
+   "softwareObject": "功能架构",
+   "requirementName": "功能架构数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能架构章节；R1名词命名，承载功能架构定义信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统软硬件选型要求",
+   "softwareObject": "功能架构",
+   "requirementName": "功能架构图数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据功能架构章节；R1，承载系统功能划分与层级关系数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统软硬件选型要求",
+   "softwareObject": "功能架构",
+   "requirementName": "查询功能架构信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据功能架构章节；R4/R10，读取功能架构ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统软硬件选型要求",
+   "softwareObject": "功能架构",
+   "requirementName": "修改功能架构信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据功能架构章节；R10，维护功能架构ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统软硬件选型要求",
+   "softwareObject": "功能架构",
+   "requirementName": "可视化功能架构图",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据功能架构章节；R14，图表可视化呈现功能架构",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "时序数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R3穿越判断，由接口转发软件维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "音视频数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R3穿越判断，由音视频综合管理平台维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "设备状态数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R3穿越判断，由数据中台运维管理功能维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "录入数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R3穿越判断，由设备设施健康管理软件维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "主题数据接口数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R-ENHANCE-4接口数据识别，数据中台主题数据接口格式数据，本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "指挥指令数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R-ENHANCE-2过程数据，测发指挥显示软件向接口转发软件与条屏控制软件下达的指令数据，本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "测控数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R-ENHANCE-2过程数据，火箭数字伴飞软件从接口转发软件获取的测控数据，本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "显示页面数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R-ENHANCE-3库池数据识别，一体化指显软件、发射场数字孪生软件页面组态化编辑与发布管理的页面数据，本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "读取时序数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R9 EIF典型配置，业务软件通过数据中台读取时序数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "读取音视频数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R9 EIF典型配置，从视频信源地址拉流并解析音视频数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "读取设备状态数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R9 EIF典型配置，数据中台运维管理功能采集设备运行状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "读取录入数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R9 EIF典型配置，设备设施健康管理软件录入设备履历与人员信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "解析生成主题数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R11外部导入报价套路，解析接口转发软件传入的时序数据并生成主题数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "新增指挥指令",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，测发指挥显示软件生成并下达指挥指令",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "解析生成测控数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R11外部导入报价套路，解析接口转发软件传入的测控数据并生成内部测控数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "新增显示页面",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，一体化指显软件与发射场数字孪生软件组态化编辑新增显示页面",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "发布显示页面",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，面向设备设施健康管理、设备运维管理、发射任务管控软件发布显示页面",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "查询时序数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，业务软件查询特定任务、系统的时序数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "查询主题数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，查询数据中台主题数据接口规定的元数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "查询指挥指令",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，接口转发软件与条屏控制软件查询接收的指挥指令",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "查询测控数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，火箭数字伴飞软件查询测控数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "查询显示页面",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R10内部管理报价套路，查询已发布的显示页面列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "可视化时序数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R13三维/图表可视化拆分，实现发射任务、地面勤务相关态势图表可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "可视化音视频数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R14可视化定义，一体化指显软件、发射场数字孪生软件浏览任务视频与安防视频",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "信息交互架构",
+   "softwareObject": "信息交互架构",
+   "requirementName": "可视化测控数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据信息交互架构章节；R14可视化定义，火箭数字伴飞软件实现火箭飞行状态可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "外部系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R3穿越判断；外部系统（火箭系统、航天器系统、地面勤务系统、发射场测控系统、军方发射场、安防系统、海上回收系统等）维护的数据，本系统作为数据枢纽汇聚读取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "T0时间信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R3穿越判断；试验通信系统上报的T0信息，由外部系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "时间统一信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R3穿越判断；试验通信系统上报的时间统一信息，由外部系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "视频监控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R3穿越判断；试验通信系统上报的视频监控信息，由外部系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "网络信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R3穿越判断；试验通信系统上报的网络信息，由外部系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "接口汇聚数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R-ENHANCE-4接口数据识别；C3I系统作为发射场数据枢纽汇聚的多源接口数据，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "读取外部系统接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R4权限绑定；EIF外部系统接口数据配套读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "读取T0时间信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R4权限绑定；R9 EIF典型配置；读取试验通信系统上报的T0信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "读取时间统一信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R4权限绑定；R9 EIF典型配置；读取试验通信系统上报的时间统一信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "读取视频监控信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R4权限绑定；R9 EIF典型配置；读取试验通信系统上报的视频监控信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "读取网络信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R4权限绑定；R9 EIF典型配置；读取试验通信系统上报的网络信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "解析生成接口汇聚数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R11外部数据导入报价套路；将多源外部接口数据解析生成汇聚至接口汇聚数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "数据接口设计",
+   "requirementName": "可视化接口关系图",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据数据接口设计章节；R14可视化定义；总体接口关系图呈现，涉及多系统拓扑图形渲染",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "火箭测试信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断——火箭系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务时间信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断——C3I系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务指挥信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断——C3I系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取火箭测试信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4+R9——EIF配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取任务时间信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4+R9——EIF配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取任务指挥信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4+R9——EIF配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "C3I系统接口协议配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据3.x节接口协议；R-ENHANCE-6网络/通信相关数据识别（通信协议配置→ILF）；R24固化数据不识别——接口协议属预置约定，固化协议本身不单独计ILF，仅其参数编码数据作为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "火箭系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R3穿越判断：火箭系统维护、C3I系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "时间信息数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R3穿越判断：外部维护、本系统转发只读；R-ENHANCE-1模块数据实体识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "指挥信息数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R3穿越判断：外部维护、本系统转发只读；R-ENHANCE-1模块数据实体识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接口转发记录",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R-ENHANCE-4接口数据识别：本系统维护的接口转发日志记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接收火箭系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R11外部导入套路：接收并解析火箭系统组包数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发时间信息至火箭系统",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据实现方式段；R6判定：改变应用行为（建立对外发送通道），R4 EIF配EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发指挥信息至火箭系统",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据实现方式段；R6判定：改变应用行为（建立对外发送通道），R4 EIF配EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询接口转发记录",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：接口转发记录ILF配套查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "卫星航天器系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R3穿越判断：卫星/航天器系统维护、数据中台只读取存储；R-ENHANCE-1模块数据实体识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "任务试验任务层级数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R-ENHANCE-2多层级数据识别：基于任务-试验任务层级管理的业务数据，本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "型号共用参数表号编码数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R-ENHANCE-3库/池/中心数据识别：各型号共用参数表号-编码区间配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "火箭系统测试数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式段；R-ENHANCE-4接口数据识别：本系统接收并存储管理的测试数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取卫星航天器系统数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式段；R11外部导入套路：EIF配套EQ，读取并存储外部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解析生成任务试验任务层级数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R11外部导入套路：解析外部数据生成本系统ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改任务试验任务层级数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-U",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "删除任务试验任务层级数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-D",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询任务试验任务层级数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-R",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "导出任务试验任务层级数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-V导出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "新增型号共用参数表号编码数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-C",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改型号共用参数表号编码数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-U",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询型号共用参数表号编码数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式段；R10套路：CRUD-R",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "卫星航天器测试信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断——卫星、航天器系统维护、C3I系统只读的上报数据（电源电压、电流、频率、起始电平、飞行时序、时串、开关量及测试进程/状态信息）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务时间与指挥信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断——C3I系统内部维护并向卫星、航天器系统下发的数据（任务时间信息：北京时间、预计点火时间、发射窗口、倒计时、T0时间、飞行时间；任务指挥信息：-8H准备、-6H准备等转段指令）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取卫星航天器测试信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定（EIF仅配EQ/EO）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "下发任务时间与指挥信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定（ILF配EI）；R10内部管理套路——向卫星/航天器系统下发任务时间与指挥信息，维护本系统任务时间与指挥信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "卫星航天器接口协议数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断——协议格式由外部卫星/航天器系统维护，本系统只读引用；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取接口协议数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4 EIF只配EQ；R9 EIF典型配置1个EQ；延续一期建设状态仅作读取引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "卫星航天器数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式首段；R-ENHANCE-4接口数据识别；卫星、航天器系统通过防火墙接入试验通信系统IP承载网的数据实体，由外部系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接口报文数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式第二段；R-ENHANCE-1功能模块数据实体识别；C3I系统与卫星、航天器系统基于帧格式进行信息组包的接口业务数据，由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取卫星航天器数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式首段；R9 EIF典型配置；接口转发软件接收卫星、航天器系统数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发时间信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式第三段；R6 EO含改变（创建衍生数据/维护接口状态）；接口转发软件将时间信息转发至卫星、航天器系统",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发指挥信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式第三段；R6 EO含改变（创建衍生数据/维护接口状态）；接口转发软件将指挥信息转发至卫星、航天器系统",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "存储卫星航天器数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式第四段；R10 CRUD套路；数据中台软件存储卫星、航天器系统数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "管理任务试验任务层级",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式第四段；R10 CRUD套路；数据中台软件基于任务-试验任务层级管理数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询卫星航天器数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式第四段；R10 CRUD套路；数据中台软件对外提供数据查询能力",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "日志数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式全段；R22日志去重；记录接口收发的系统运行日志数据，由本系统维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "记录接口运行日志",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式全段；R22日志去重；维护日志数据ILF的统一日志记录操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "地面勤务系统接口信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R3穿越判断；本系统维护的C3I及试验通信系统与地面勤务系统接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "查询地面勤务系统接口信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R10套路；读取接口信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "可视化地面勤务系统接口信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R10套路；接口拓扑可视化展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "修改地面勤务系统接口信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R10套路；维护接口信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "地面勤务系统状态数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R3穿越判断；外部地面勤务系统维护、本系统只读的状态信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与地面勤务系统接口",
+   "requirementName": "读取地面勤务系统状态数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据系统接口章节；R4+R9；EIF只配EQ，读取外部地面勤务系统状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "地勤监控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容节；R3穿越判断——地面勤务系统维护、本系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取地勤监控信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容节；R4 EIF仅配EQ；R9 EIF典型配置1个EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "交互信息帧格式数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R-ENHANCE-4接口数据识别；地面勤务与C3I系统交互信息帧格式数据，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "参数编码规则数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R-ENHANCE-4接口数据识别；地面勤务与C3I系统参数编码规则数据，由本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "GJB7337-2011协议格式数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断；外部协议格式，本系统只读参照",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询交互信息帧格式",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4 EIF配EQ；读取查询交互信息帧格式参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询参数编码规则",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4 EIF配EQ；读取查询参数编码规则",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "新增交互信息帧格式",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护交互信息帧格式ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "修改交互信息帧格式",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护交互信息帧格式ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "删除交互信息帧格式",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护交互信息帧格式ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询交互信息帧格式列表",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；查询交互信息帧格式ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "新增参数编码规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护参数编码规则ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "修改参数编码规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护参数编码规则ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "删除参数编码规则",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；维护参数编码规则ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询参数编码规则列表",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10 CRUD套路；查询参数编码规则ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "勤务系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式节；R3穿越判断——地面勤务系统维护、本系统只读的接口帧数据；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "C3I系统时间信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式节；本系统维护的时间数据实体；R-ENHANCE-2基础数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "C3I系统指挥信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式节；本系统维护的指挥数据实体；R-ENHANCE-2业务数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "发射场勤务系统数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式节；数据中台软件管理的发射场数据，独占参数表号编码区间，独立于任务层级；R-ENHANCE-3库池/中心数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接收地面勤务系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；接口转发软件接收外部勤务系统帧数据并入库；R11外部导入套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发时间信息至地面勤务系统",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式节；接口转发软件将本系统时间信息对外发送，改变内部数据出口状态；R4/R6",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发指挥信息至地面勤务系统",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式节；接口转发软件将本系统指挥信息对外发送，改变内部数据出口状态；R4/R6",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取勤务系统接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式节；按约定帧格式读取EIF；R4 EIF只配EQ；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "存储发射场勤务系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；数据中台软件将接口数据持久化入库；R10 CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "管理发射场勤务系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；数据中台软件对发射场数据进行维护管理；R10",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询发射场勤务系统数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式节；各任务-试验任务均可调用查询；R10",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "导出发射场勤务系统数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式节；数据中台软件对外提供数据导出能力；R10",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "首区测控信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容首段；R3穿越判断，发射场测控系统上报、C3I系统只读，为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务时间与任务指挥信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容次段；R3穿越判断，C3I系统下发、发射场测控系统只读，为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取首区测控信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容首段+R9；C3I系统按需读取测发上报的遥测/摄影/安控信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "可视化首区测控信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "接口内容首段+R9+R14；对遥测参数、高速摄影信息进行统计图表/可视化呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "遥测参数接口协议数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断，外部维护的接口协议数据本系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取遥测参数接口协议",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4 EIF只配EQ；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "发射场测控数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R3穿越判断：外部测控系统维护，C3I系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接口约定帧格式数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R-ENHANCE-4接口数据识别：基于接口约定的组包参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "时间信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；接口转发软件维护的时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "指挥信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；接口转发软件维护的指挥数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "首区遥测参数数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R-ENHANCE-2业务数据；按任务层级管理的参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取发射场测控数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R4/R9：EIF仅配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解析生成接口约定帧格式",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R11套路：EIF→EQ→ILF→EI",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接收发射场测控系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；接口转发软件接收外部数据并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发时间信息至发射场测控系统",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；维护时间信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "转发指挥信息至发射场测控系统",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；维护指挥信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "存储首区遥测参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；数据中台软件维护参数ILF；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改首区遥测参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "删除首区遥测参数数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询首区遥测参数数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解码遥测图像网络视频流",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；屏幕显控子系统解析视频流数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "可视化遥测图像投屏浏览",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R14可视化定义：投屏/席位浏览为可视化EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与发射场气象系统接口",
+   "requirementName": "发射场气象数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据《C3I及试验通信系统与发射场气象系统接口》章节；R3穿越判断，由发射场气象系统维护、本系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与发射场气象系统接口",
+   "requirementName": "读取发射场气象数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据《C3I及试验通信系统与发射场气象系统接口》章节；R4 EIF只配EQ；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "本场气象监测信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容节；R3穿越判断，气象监测信息由发射场气象系统外部维护，C3I系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取气象监测信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容节；R4权限绑定，EIF仅配EQ，读取发射场气象系统上报的气象监测信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "气象系统接口协议数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R-ENHANCE-4接口数据识别；系统接口配置项下接口协议对象维护的内部协议格式与编码规则数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询气象系统接口协议",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10套路；查询接口协议格式与编码规则信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "试验通信系统网络地址配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式节；R3穿越判断，由发射场气象系统自身维护网络地址、端口参数，识别为ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "C3I系统接口帧格式约定",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式节；R3穿越判断，帧格式由气象系统与C3I系统接口约定提供、本系统只读引用，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取试验通信网络地址端口",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式节；R4，EIF仅配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取C3I系统接口帧格式",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式节；R4/R9，EIF典型配置1个EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解析生成C3I对接报文数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；R10/R11，按接口约定帧格式组包生成对外发送数据，维护本系统ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询试验通信网络配置信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式节；R10，内部管理配套查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改试验通信网络配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；R10，CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "删除试验通信网络配置信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式节；R10，CRUD套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "可视化C3I对接报文发送状态",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式节；R6/R14，呈现组包发送状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I系统与T0系统接口",
+   "requirementName": "T0系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据C3I系统与T0系统接口章节；R3穿越判断，外部系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I系统与T0系统接口",
+   "requirementName": "读取T0系统接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据C3I系统与T0系统接口章节；R4/R9，EIF配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "T0信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R-ENHANCE-4接口数据识别；T0分系统上报的数据，由C3I系统维护，本试验通信系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "T0设备状态监测信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R-ENHANCE-4接口数据识别；T0分系统上报的设备状态数据，由T0分系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务时间信息",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断；C3I系统下发的任务时间数据，由本系统接收并维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取T0信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定+EIF配EQ；读取T0分系统上报的T0信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取T0设备状态监测信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定+EIF配EQ；读取T0分系统上报的设备状态监测信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "解析生成任务时间信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R11外部导入报价套路；维护任务时间信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "查询任务时间信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R10内部管理套路；查询任务时间信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "内部接口约定数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断——由外部（T0系统/海南商业航天发射场）维护的接口约定，本系统只读使用；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取内部接口约定",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4+R9——EIF配EQ；读取帧格式与参数编码要求用于接口适配",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "T0设备状态数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R-ENHANCE-1功能模块数据实体识别，T0系统内部维护的设备状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "任务时间信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R3穿越判断，由C3I系统外部维护，T0系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "行程开关触电信号数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R3穿越判断，由外部T0控制台触发，本系统接收处理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "T0系统数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R-ENHANCE-1，C3I系统数据中台存储管理的T0系统数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解析生成行程开关触电信号",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R11外部导入报价套路，解析外部触电信号并组包",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "新增T0设备状态信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路，维护T0设备状态ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改T0设备状态信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路，维护T0设备状态ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "删除T0设备状态信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路，维护T0设备状态ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询T0设备状态信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取任务时间信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R4权限绑定，EIF只能配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接收T0系统数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R4权限绑定，EIF配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "存储T0系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路，维护T0系统数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询T0系统数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "管理T0系统数据任务-试验任务层级",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据「实现方式」章节；R10内部数据管理套路，采用任务-试验任务层级管理T0系统数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "时间统一设备状态监测信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断，由外部时间统一分系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "NTP对时包",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断，由外部时间统一分系统下发，本系统接收",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取时间统一设备状态监测信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4+R9，EIF只配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取NTP对时包",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4+R9，EIF只配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "时间统一系统设备状态数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断，外部时间统一系统维护，C3I系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "NTP对时包数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断，外部时间统一系统基于NTP协议下发，C3I系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取时间统一系统设备状态",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4EIF只配EQ；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取NTP对时包",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4EIF只配EQ；R9 EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "T0设备状态数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R3穿越判断——由T0系统维护，C3I系统只读，作为外部接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接口帧格式配置",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R-ENHANCE-6接口数据识别——基于《内部接口约定》的帧格式组包配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "接收T0设备状态数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R4权限绑定——EIF只配EQ，接口转发软件读取T0系统数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "解析生成T0系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R11外部导入套路——将T0系统数据解析生成后存储至ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "修改T0系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10内部管理套路——维护T0系统数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "删除T0系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10内部管理套路——维护T0系统数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取触点信号并组包",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10内部管理套路——T0控制台获取行程开关信号并按帧格式组包",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "存储与管理T0系统数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据实现方式章节；R10内部管理套路——数据中台软件存储管理T0系统数据，采用任务-试验任务层级管理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "任务视频监控数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断——由任务视频分系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "实况电视监控数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断——由实况电视分系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "火箭重点部位图像数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——含点火发射全景、尾部、七管连接器、加注口、整流罩空调连接器等外部图像",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "重要测试设备图像数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——含发控台、动力测控台、配电柜等外部图像",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "地勤设备重点部位图像数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——含活门开闭、摆杆摆开、脱插脱落等外部图像",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "商业航天指控中心电视数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——外部指控中心传送的电视画面与数据信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "文昌指控中心电视数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——外部指控中心传送的电视画面与数据信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "各工作间测试间电视监视数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口内容；R3穿越判断、R-ENHANCE-4接口数据识别——外部工作间、测试间电视监视数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取任务视频监控数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取实况电视监控数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取火箭重点部位图像数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取重要测试设备图像数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取地勤设备重点部位图像数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取商业航天指控中心电视数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取文昌指控中心电视数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取各工作间测试间电视监视数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定——EIF仅配EQ，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "可视化视频监控图像",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "接口内容；R4权限绑定、R14可视化定义——对多路视频监控图像进行统一界面渲染呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "任务摄像头视频信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口协议章节；R3穿越判断——任务摄像头为外部设备，视频信息由外部维护、本系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "实况电视视频信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "接口协议章节；R3穿越判断——实况电视为外部设备，视频信息由外部维护、本系统只读，识别为EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取任务摄像头视频流",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口协议章节；R4+R9——EIF仅配EQ，通过RTSP流媒体协议读取外部摄像头视频信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取实况电视视频流",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "接口协议章节；R4+R9——EIF仅配EQ，通过SDI-HDMI协议读取实况电视视频信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "任务视频流数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式-任务视频摄像头；R3穿越判断：外部系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "实况电视视频流数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式-实况电视；R3穿越判断：外部系统维护、本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取任务视频流",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式-任务视频摄像头；R9 EIF典型配置；R4 EIF禁EI",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取实况电视视频流",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式-实况电视；R9 EIF典型配置；R4 EIF禁EI",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "可视化任务视频",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式-任务视频摄像头席位浏览与大屏显示；R6改变应用行为；R14视频可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "可视化实况电视画面",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式-实况电视席位浏览与大屏显示；R6改变应用行为；R14视频可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "网络拓扑信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断：由C3I系统侧维护、本系统只读；R-ENHANCE-6网络拓扑数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取网络拓扑信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定：EIF只配EQ；R9典型EIF配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "上报网络拓扑信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R6EO判定：向C3I系统输出拓扑数据，含数据计算与分发；R-ENHANCE-6网络状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "接口协议数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断——内部维护的帧格式与参数编码数据；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询接口协议",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10套路；查询接口协议ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "解析接口协议帧格式",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R11套路；解析外部接口帧格式，维护接口协议ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "网络拓扑信息数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "实现方式章节；R-ENHANCE-6网络相关数据识别；IP承载网系统内部维护的网络拓扑数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "IP承载网系统数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "实现方式章节；R3穿越判断；由C3I系统数据中台维护、本系统只读的发射场共享数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "收集网络拓扑信息数据",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式章节；R10套路；维护网络拓扑信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "组包并发送IP承载网系统数据至C3I系统",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "实现方式章节；R17完整业务操作；按接口约定将网络拓扑数据组包外发",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "查询网络拓扑信息数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式章节；R10套路；查询网络拓扑信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "读取IP承载网系统数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "实现方式章节；R4/R9；EIF仅配EQ，读取C3I数据中台共享的发射场数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "实现方式",
+   "requirementName": "可视化网络拓扑信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "实现方式章节；R10套路；R14网络拓扑三维/图表渲染可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与军方发射场接口",
+   "requirementName": "军方发射场接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据C3I及试验通信系统与军方发射场接口章节；R3穿越判断——军方发射场维护、本系统只读的接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与军方发射场接口",
+   "requirementName": "读取军方发射场接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据C3I及试验通信系统与军方发射场接口章节；R4/R9——EIF仅配EQ，读取外部发射场接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "C3I及试验通信系统与军方发射场接口",
+   "requirementName": "导出军方发射场接口数据",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据C3I及试验通信系统与军方发射场接口章节；R4/R9——EIF配EO，导出外部发射场接口数据用于归档",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "接口内容数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据《技术要求》系统接口-接口内容章节；R-ENHANCE-4接口数据识别；维护本系统对外接口的结构化内容定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "查询接口内容",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据《技术要求》系统接口-接口内容章节；R10套路；读取接口内容ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "修改接口内容",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据《技术要求》系统接口-接口内容章节；R10套路；维护接口内容ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "导出接口内容",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据《技术要求》系统接口-接口内容章节；R10套路；导出接口内容ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "接口协议配置数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R-ENHANCE-6网络/通信相关数据识别；R3本系统维护的接口协议配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "外部系统接口数据",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R3穿越判断，外部系统维护本系统只读；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "新增接口协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10内部数据管理套路；维护接口协议配置ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "修改接口协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10内部数据管理套路；维护接口协议配置ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "删除接口协议配置",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10内部数据管理套路；维护接口协议配置ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "查询接口协议配置",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R10内部数据管理套路；R25禁止拆分定位查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "读取外部系统接口数据",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R4EIF只配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口协议",
+   "requirementName": "导出接口协议文档",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据接口协议章节；R6改变行为，导出协议配置供外部使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "安防上报信息",
+   "fpType": "EIF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断，安防系统维护、本系统只读；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "告警指令数据",
+   "fpType": "ILF",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R3穿越判断，由本系统维护并下发告警信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "读取安防上报信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R4权限绑定，EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "查询安防上报信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R12关键字查询与列表查询可拆分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "解析生成告警信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R10内部管理套路，向安防系统发送告警信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "修改告警信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R10 CRUD套路，维护告警指令ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "删除告警信息",
+   "fpType": "EI",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R10 CRUD套路，维护告警指令ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "查询告警信息",
+   "fpType": "EQ",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R10 CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "技术要求",
+   "moduleConfig": "系统接口",
+   "softwareObject": "接口内容",
+   "requirementName": "可视化告警信息",
+   "fpType": "EO",
+   "fpCount": "1",
+   "description": "依据接口内容章节；R14涉及图表生成，识别为EO",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 262,
+  "types": {
+   "ILF": 36,
+   "EQ": 82,
+   "EI": 60,
+   "EO": 26,
+   "EIF": 58
+  },
+  "totalYuan": 1254699.09
+ }
+}
