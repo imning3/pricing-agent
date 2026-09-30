@@ -1,0 +1,54 @@
+# ===== 产物与运行时数据（不入库） =====
+dist/
+data/
+src/data/
+src/evals/api_smoke/
+.uploads/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ===== 内部资料（不入库：测试语料/原型/契约与公式文档） =====
+测试文件/
+原型/
+*.doc
+*.docx
+*.docx.bak
+*.xls
+*.xlsx
+~$*
+
+# ===== 密钥与本地配置 =====
+.env
+src/.env
+
+# ===== ↑ 以上同步自 .gitignore（「从 .gitignore 同步」只重写以上部分）=====
+.git/
+.hg/
+.svn/
+bower_components/
+jspm_packages/
+site-packages/
+venv/
+coverage/
+htmlcov/
+lcov-report/
+cmakefiles/
+cmake-build-*/
+bazel-*/
+pods/
+deriveddata/
+storybook-static/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+cdk.out/
+*.egg-info/
+*.dist-info/
+eggs/
+pip-wheel-metadata/
+wheels/
+# ----- ↑ 以上为 ZCode 默认排除规则（自定义规则请写在本行下方，不会被同步/恢复改动）-----
+# 自定义规则写在下方（本行提示可删除）

@@ -1,0 +1,530 @@
+{
+ "file": "二期05数据模拟软件需求规格说明.docx",
+ "model": "anthropic/deepseek-v4-flash",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 14,
+ "elapsed_s": 92.0,
+ "fpList": [
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "通道配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；本系统内部维护通道名称、网络类型、端口、协议及启用状态等核心业务数据，遵循R1/R3/R8规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "新增通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；支持创建标签组及一组或多组通道并填写唯一标识与协议属性，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "修改通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；支持批量编辑通道属性及调整启用/停用状态，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "删除通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；支持批量删除已配置的通道记录，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "查询通道配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；仅读取并展示通道列表及基础属性，不改变系统内部数据或状态，遵循R1/R6/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "可视化通道配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.1章节识别；对通道配置数据进行图形化界面呈现与交互展示，遵循R1/R6/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "参数定义文件",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；由数据中台外部维护并提供XML格式文件，本系统边界外只读导入，遵循R1/R3/R4/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "读取参数定义文件",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；从外部系统接收并读取上传的参数定义XML文件，遵循R1/R4/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "解析生成参数定义信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；解析外部文件并创建内部参数类型、发送周期、标签组等业务数据实体，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "修改参数定义信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；对已入库的参数定义属性进行更新与维护，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "删除参数定义信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；移除选中通道关联的参数定义记录，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "查询参数定义信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；检索并展示参数定义详情列表，不改变应用行为，遵循R1/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "可视化参数定义信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.2章节识别；以结构化表格或统计图表形式动态展示参数定义数据，遵循R1/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "自定义模拟参数",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；本系统内部维护用户勾选的参数集合、模拟数值设置（常值/随机/波形）、发送模式等业务数据，遵循R1/R3/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "新增自定义模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；从参数库勾选参数至已选区域，并配置模拟数值与发送模式，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "修改自定义模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；批量调整已选参数的模拟数值、周期长度及连续/单次发送模式，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "删除自定义模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；批量移除已选参数区域中的参数记录，遵循R1/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "查询自定义模拟参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；检索并展示已配置的自定义模拟参数列表，遵循R1/R6/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "可视化自定义模拟参数",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.3章节识别；对自定义参数配置进行图形化界面呈现与交互展示，遵循R1/R6/R8/R10规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "时序参数文件",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；由外部提供包含相对时间与参数时序值的模板/文件，本系统边界外只读导入，遵循R1/R3/R4/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "读取时序参数文件",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；下载标准模板或导入外部时序参数文件，遵循R1/R4/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "解析生成时序模拟数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；解析外部文件并创建内部时序参数列表、噪声参数、浮动区间等业务数据，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "修改时序模拟数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；调整时序数据的噪声强度、浮动范围及浮动频率参数，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "删除时序模拟数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；批量删除选中的时序参数数据记录，遵循R1/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "查询时序模拟数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；检索并展示时序参数列表及默认部分数据，遵循R1/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "可视化时序模拟曲线",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；生成并动态渲染模拟曲线（含竖线指示、数据高亮），涉及图表计算与衍生数据展示，遵循R1/R6/R8/R11/R14规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据模拟功能（FR_2）",
+   "requirementName": "导出时序参数模板",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据《数据模拟软件需求规格说明》FR_2.4章节识别；生成并输出标准时序参数文件模板供外部系统使用，遵循R1/R6/R8/R11规则。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "数据回放配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "溯源：FR_3.1数据回放配置功能处理及输出项；依据：R3由本系统内部维护，R8采用名词命名，R10作为内部管理CRUD+V报价根基。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "数据源码日志文件",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "溯源：FR_3.1/FR_3.2输入项；依据：R3由外部接口转发软件维护本系统只读，R8采用名词命名，R11作为外部导入读取根基。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "新增数据回放配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：FR_3.1输入及处理项（加载文件、设置目标地址端口、时间区间、倍速等）；依据：R4绑定ILF，R8完整动宾短语，R10CRUD+V新增操作。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "修改数据回放配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：FR_3.1处理及说明项（通道设置调整、多开端口配置变更）；依据：R4绑定ILF，R8完整动宾短语，R10CRUD+V修改操作。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "删除数据回放配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：FR_3.1说明项（批量删除数据源码文件及对应配置）；依据：R4绑定ILF，R8完整动宾短语，R10CRUD+V删除操作。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "查询数据回放配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "溯源：FR_3.1输出项（回放文件列表、配置参数展示）；依据：R4绑定ILF，R8完整动宾短语，R6仅读取展示不改变内部数据或状态。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "读取数据源码日志文件",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "溯源：FR_3.1/FR_3.2处理项（导入文件、识别时间戳、解析回放内容）；依据：R4绑定EIF仅允许配EQ，R8完整动宾短语，R6仅读取解析不改变本系统业务数据。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "数据回放功能（FR_3）",
+   "requirementName": "启动数据回放",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "溯源：FR_3.2处理项（点击回放按钮、暂停继续、显示进度与当前时间）；依据：R4绑定ILF/EIF触发流程，R8完整动宾短语，R6改变应用行为及系统运行状态。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "模拟参数数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟支持的数据特征；规则依据：R1(ILF定义)、R26(来源可追溯)、R16(业务价值过滤)、R2(报价根基)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "新增模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟支持随机值、指定值等数据特征配置；规则依据：R1(EI定义)、R10(内部数据管理报价套路)、R8(命名规范)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "修改模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟数据特征维护；规则依据：R1(EI定义)、R10(内部数据管理报价套路)、R8(命名规范)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "删除模拟参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟数据生命周期管理；规则依据：R1(EI定义)、R10(内部数据管理报价套路)、R8(命名规范)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "查询模拟参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟数据读取与检索；规则依据：R1(EQ定义)、R10(内部数据管理报价套路)、R6(EQ无改变)、R8(命名规范)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "可视化模拟参数",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "章节溯源：其他性能指标（XN_4）- 参数模拟数据展示与分析；规则依据：R1(EO定义)、R10(内部数据管理报价套路)、R6(EO有改变/衍生)、R8(命名规范)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "外部接口需求",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "溯源至《外部接口需求》章节表格序号2（信源：数据中台，信宿：数据模拟软件）；依据R-ENHANCE-4与R3，该数据跨越本系统边界且由外部系统维护，本系统仅接收使用，识别为EIF。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "溯源至《外部接口需求》章节表格序号2；依据R9与R6，针对外部输入的“参数定义数据”执行读取/导入操作，不改变系统内部数据或状态，识别为EQ。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "外部接口需求",
+   "requirementName": "模拟/回放数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "溯源至《外部接口需求》章节表格序号1（信源：数据模拟软件，信宿：接口转发软件）；依据R-ENHANCE-4与R3，该接口数据跨越系统边界，按增强规则对外部输出的指令类接口数据统一识别为EIF。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "外部接口需求",
+   "requirementName": "发送模拟/回放数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "溯源至《外部接口需求》章节表格序号1；依据R9与R6，将内部生成的模拟/回放数据通过UDP协议向外输出，涉及数据计算与传输行为改变，识别为EO。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "用户权限数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "溯源：文档提及‘实行用户权限管理和鉴权管理，对应用的访问权限和数据的访问权限进行细粒度划分’；依据：R1（内部逻辑文件）、R3（本系统维护）、R16（具业务价值非抽象机制）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "新增用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：文档提及‘实行用户权限管理’；依据：R1（输入操作）、R8（动宾短语命名）、R10（内部管理CRUD+V套路）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "修改用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：文档提及‘实行用户权限管理’；依据：R1（输入操作）、R8（动宾短语命名）、R10（内部管理CRUD+V套路）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "删除用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "溯源：文档提及‘实行用户权限管理’；依据：R1（输入操作）、R8（动宾短语命名）、R10（内部管理CRUD+V套路）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "查询用户权限",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "溯源：文档提及‘实行用户权限管理’；依据：R1（查询输出）、R8（动宾短语命名）、R10（内部管理CRUD+V套路）。",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期05数据模拟软件需求规格说明",
+   "moduleConfig": "数据模拟软件",
+   "softwareObject": "安全性需求",
+   "requirementName": "可视化权限配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "溯源：文档提及‘对应用的访问权限和数据的访问权限进行细粒度划分’；依据：R1（导出/可视化输出）、R8（动宾短语命名）、R10（内部管理CRUD+V套路）、R14（涉及配置视图呈现）。",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 51,
+  "types": {
+   "ILF": 5,
+   "EI": 21,
+   "EQ": 11,
+   "EO": 9,
+   "EIF": 5
+  },
+  "totalYuan": 313596.82
+ }
+}

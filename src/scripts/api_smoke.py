@@ -37,11 +37,11 @@ from pathlib import Path
 import httpx
 
 DEFAULT_DOC = (Path(__file__).resolve().parent.parent.parent
-               / "测试文件" / "01HNSF02_需求规格说明（公开）"
+               / "测试文件" / "需规说明（工具5）"
                / "二期05数据模拟软件需求规格说明.docx")
-# 容器内挂载路径（compose: ../测试文件 → /data/testfiles）。
+# 容器内挂载路径（compose: ../测试文件 → /data/testfiles；语料子目录按工具标注命名）。
 # 路径在代码内拼接而非命令行传入，规避 Git Bash 的 MSYS 路径自动转换。
-DOCKER_DOC = "/data/testfiles/01HNSF02_需求规格说明（公开）/二期05数据模拟软件需求规格说明.docx"
+DOCKER_DOC = "/data/testfiles/需规说明（工具5）/二期05数据模拟软件需求规格说明.docx"
 
 PASS, FAIL = "  ✓", "  ✗"
 failures: list[str] = []
@@ -72,8 +72,8 @@ async def submit(c: httpx.AsyncClient, base: str, body: dict) -> dict:
     return {"http": r.status_code, "body": r.json()}
 
 
-async def poll(c: httpx.AsyncClient, base: str, cid: str, timeout: int = 300) -> dict:
-    """轮询到终态（模拟后端：3s 间隔）。瞬时连接错误自动重试。"""
+async def poll(c: httpx.AsyncClient, base: str, cid: str, timeout: int = 600) -> dict:
+    """轮询到终态（模拟后端：3s 间隔；真实全量抽取约 5 分钟，窗口需 600s）。瞬时连接错误自动重试。"""
     t0 = time.time()
     while time.time() - t0 < timeout:
         try:
@@ -170,8 +170,9 @@ async def main() -> None:
             fps = res["originalFpList"]
             check(bool(fps) and bool(res["fpScaleList"]) and bool(res["costItemList"]),
                   "1.3 result 三列表齐全", f"fp={len(fps)} scale={len(res['fpScaleList'])} cost={len(res['costItemList'])}")
-            check(all(e["moduleSystem"] == "二期05数据模拟软件" for e in fps),
-                  "1.4 moduleSystem=项目名（S3 v2）", dict.fromkeys(e["moduleSystem"] for e in fps))
+            ms_values = {e["moduleSystem"] for e in fps}
+            check(len(ms_values) == 1,
+                  "1.4 moduleSystem 全局一致（判出的子系统或项目名回退）", ms_values)
             amounts = [float(i["subtotal"]) for i in res["costItemList"]]
             check(all(a > 100 for a in amounts), "1.5 金额单位为元（万元级数值）",
                   f"小计示例 {amounts[0]:.2f} 元，合计 {sum(amounts):.2f} 元")

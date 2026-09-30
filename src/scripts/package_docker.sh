@@ -29,28 +29,13 @@ sed -e '/# \[DEV-ONLY BEGIN\]/,/# \[DEV-ONLY END\]/d' \
     -e "s|image: pricing-llm-agent:.*|image: ${IMAGE}|" \
     docker-compose.yml > "$DIST/docker-compose.yml"
 
-cat > "$DIST/.env.example" <<'EOF'
-# ===== 智能体服务 生产配置 =====
-# 部署时复制为 .env 并按内网实际填写（.env 不要打包外传）
-
-# 服务间静态鉴权 token（生产必填，与后端约定一致）
-AGENT_API_TOKEN=
-AGENT_PORT=8600
-AGENT_DB_PATH=/app/data/tasks.db
-AGENT_WORKERS=4
-AGENT_TASK_TTL_HOURS=24
-
-# LLM：内网私有化部署（vLLM/Ollama 的 OpenAI 兼容地址）
-LLM_BACKEND=litellm
-LLM_MODEL=openai/deepseek-v4-flash
-LLM_BASE_URL=http://<内网模型服务地址>/v1
-LLM_API_KEY=<内网模型服务密钥，无鉴权可留空>
-LLM_TIMEOUT_SECONDS=1200
-# 离线环境必开：litellm 直接用内置价格表，跳过对外网 raw.githubusercontent.com 的拉取重试
-LITELLM_LOCAL_MODEL_COST_MAP=True
-
-AGENT_MAX_FILE_MB=1024
-EOF
+# .env 模板：直接拷贝工程根的 .env.example（单一事实源；密钥/内网地址不进脚本与仓库，
+# 部署时 cp .env.example .env 后按实际填写）
+if [[ ! -f .env.example ]]; then
+    echo "✗ 缺少 .env.example（应位于工程根目录，与 Dockerfile 同级）"
+    exit 1
+fi
+cp .env.example "$DIST/.env.example"
 
 cat > "$DIST/部署说明.md" <<'EOF'
 # 智能计价·大模型智能体服务 离线部署说明
@@ -81,7 +66,7 @@ docker load -i pricing-llm-agent_*.tar
 
 # 4) 配置
 cp .env.example .env
-vi .env      # 必改：AGENT_API_TOKEN、LLM_BASE_URL、LLM_MODEL（内网模型服务）
+  vi .env      # 必改：AGENT_API_TOKEN、LLM_MODEL、LLM_BASE_URL、LLM_API_KEY（内网模型服务）
 
 # 5) 启动（数据存 Docker 命名卷 pricing-agent-task-data：首次挂载自动继承镜像内目录属主，
 #    无宿主机权限配置，无需 chown）

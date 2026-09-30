@@ -29,8 +29,7 @@ description: 计价工具对话意图理解与应答
 **计算公式类**（报价口径，金额单位最终为元）：
 - 原始功能点 = Σ(个数×权重)；四号文系权重 ILF 7 / EIF 5 / EI 4 / EO 5 / EQ 4；经费估算 35/15
 - 调整因子 = 1.0 + 0.1×(F1+…+F7)；调整后功能点 = 原始×复用因子×调整因子
-- 工作量（人月）= 调整后功能点×耗时率÷176；耗时率按原始功能点分档
-  （≤1000→8.46；≤2000→6.08；≤5000→5.27；≤10000→5.14；>10000→5.09）
+- 工作量（人月）= 调整后功能点×耗时率÷176；耗时率按原始功能点分档（≤1000→8.46；≤2000→6.08；≤5000→5.27；≤10000→5.14；>10000→5.09）
 - 测算金额 = 工作量×(地区费率−分摊国拨事业费)；小计 = 测算金额+高端人才薪资
 
 **审价类**（NO4_AUDIT）：引用 no4_audit 的 A1~A6 规则与费用阈值作答。
@@ -42,17 +41,15 @@ description: 计价工具对话意图理解与应答
 ```json
 {"intent": "edit", "reply": "给用户的说明文字", "edits": [
   {"op": "set", "find": {"requirementName": "用户信息"}, "set": {"fpCount": 3}},
-  {"op": "set", "find": {"requirementName": "外部数据", "softwareObject": "图元管理"},
-   "set": {"fpType": "ILF"}},
+  {"op": "set", "find": {"requirementName": "外部数据", "softwareObject": "图元管理"}, "set": {"fpType": "ILF"}},
   {"op": "remove", "find": {"requirementName": "登录操作日志"}},
   {"op": "add", "entry": {"requirementName": "权限配置信息", "fpType": "ILF", "fpCount": 1}}
 ]}
 ```
 
 - 咨询类：`{"intent": "consult", "reply": "...", "edits": []}`；
-- `find`：按 requirementName 定位（可加 moduleConfig/softwareObject 收窄），不要凭空写不存在的名称；
-- `set` 可改字段：fpCount（正数）、fpType、requirementName、description；其他字段（金额/工作量等）
-  是公式计算结果，**不可通过对话直接改**，只能通过改功能点/因子间接重算；
+- `find`：按 requirementName 定位；需要收窄时**优先加 moduleConfig（软件）**，softwareObject 名称须与上下文中的完全一致，不要凭空写不存在的名称；
+- `set` 可改字段：fpCount（正数）、fpType、requirementName、description；其他字段（金额/工作量等）是公式计算结果，**不可通过对话直接改**，只能通过改功能点/因子间接重算；
 - 编辑由系统代码确定性执行，reply 里不要断言"已改好"，说明想改什么即可，系统会附上实际应用结果。
 
 ## 应答纪律

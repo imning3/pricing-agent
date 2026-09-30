@@ -1,0 +1,3090 @@
+{
+ "file": "二期02测发指挥显示软件需求规格说明.docx",
+ "model": "anthropic/deepseek-v4-flash",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 67,
+ "elapsed_s": 478.1,
+ "fpList": [
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "外部时序测试数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "系统概述节；R3穿越判断（外部信息源按协议传入，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "读取外部时序测试数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R4绑定规则（仅支持读取操作）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "可视化时序测试态势",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "系统概述节；R6/R14判定（实现发射任务相关态势显示，涉及图表/动画呈现）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "音视频信源与点位数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "系统概述节；R3穿越判断（由音视频综合管理平台维护，本系统拉流浏览）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "读取音视频信源数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R4绑定规则（仅支持读取操作）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "可视化音视频监控画面",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "系统概述节；R6/R14判定（从信源地址拉流解析并浏览，涉及实时视频渲染）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "设备运行状态数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "系统概述节；R3穿越判断（由数据中台运维管理功能采集存储，本系统读取）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "读取设备运行状态数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R4绑定规则（仅支持读取操作）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "可视化设备运行状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "系统概述节；R6/R14判定（展示计算存储类设备及软件服务高可靠状态，涉及状态图表呈现）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "发射场基础信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "系统概述节；R3穿越判断（由设备设施健康管理软件录入，本系统同步读取）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "读取发射场基础信息数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R4绑定规则（仅支持读取操作）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "测发指挥指令数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "系统概述节；R3穿越判断（本系统内部生成并维护，用于对外指挥时效性下达）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "新增测发指挥指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护测发指挥指令数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "修改测发指挥指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护测发指挥指令数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "删除测发指挥指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护测发指挥指令数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "查询测发指挥指令",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（无改变内部数据，仅读取列表）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "可视化测发指挥态势",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "系统概述节；R6/R14判定（指挥显示涉及三维模型渲染或统计图表生成）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "页面组态与发布配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "系统概述节；R3穿越判断（一体化指显/数字孪生软件内部维护的页面布局与发布模板）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "新增页面组态配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护页面组态配置数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "修改页面组态配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护页面组态配置数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "删除页面组态配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（维护页面组态配置数据，完整动宾短语）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "查询页面组态配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "系统概述节；R10套路（无改变内部数据，仅读取列表）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "系统概述",
+   "softwareObject": "系统概述",
+   "requirementName": "发布页面组态配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "系统概述节；R6判定（执行页面发布管理，改变应用行为并创建衍生显示内容）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "指令数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘指令下达’；R3穿越判断；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "新增指令数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘指令下达’；R10套路；维护指令数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "修改指令数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘指令下达’；R10套路；维护指令数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "删除指令数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘指令下达’；R10套路；维护指令数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "查询指令数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘指挥信息显示’；R6无改变；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "可视化指令下发态势",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘指挥信息显示’；R6含渲染计算；R14三维/图表可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "任务流程数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘任务流程指挥’；R3穿越判断；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "新增任务流程数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务流程指挥’；R10套路；维护任务流程数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "修改任务流程数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务流程指挥’；R10套路；维护任务流程数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "删除任务流程数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务流程指挥’；R10套路；维护任务流程数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "查询任务流程数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘任务流程指挥’；R6无改变；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "可视化任务流程进度",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘任务流程指挥’；R6含状态计算与动画呈现；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "任务模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘任务模板管理’；R3穿越判断；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "新增任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务模板管理’；R10套路；维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "修改任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务模板管理’；R10套路；维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "删除任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘任务模板管理’；R10套路；维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "查询任务模板数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘任务模板管理’；R6无改变；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "导出任务模板数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘任务模板管理’；R6含衍生数据创建；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "指挥状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘要求的状态’；R3穿越判断；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "新增指挥状态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘要求的状态’；R10套路；维护指挥状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "修改指挥状态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘要求的状态’；R10套路；维护指挥状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "删除指挥状态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘要求的状态’；R10套路；维护指挥状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "查询指挥状态数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘要求的状态’；R6无改变；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "可视化指挥状态全景",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘要求的状态’；R6含多源状态聚合计算；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "时间基准数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘时间信息处理’；R3穿越判断；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "处理时间信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘时间信息处理’；R6含时间同步计算与状态更新；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "外部任务计划数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据‘服务于C3I系统一岗’；R3外部维护本系统只读；R5必然性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "要求的状态和方法",
+   "softwareObject": "要求的状态和方法",
+   "requirementName": "读取外部任务计划数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘服务于C3I系统一岗’；R4EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "任务模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R1命名规范；维护任务模板核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "任务信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R1命名规范；维护加载的任务基础信息数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "新增任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板配置；R10套路；创建新模板并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "修改任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板配置；R10套路；更新模板参数并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "删除任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板配置；R10套路；移除无效模板并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "查询任务模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板配置；R6判定标准；无状态改变仅读取模板列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "加载任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节任务信息加载；R6判定标准；读取任务基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "复制任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板迁移复制；R10套路；基于原模板生成副本并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "迁移任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节任务模板迁移复制；R10套路；转移模板归属并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "关联指挥任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节指挥任务模板关联；R10套路；建立模板与指挥任务绑定关系并维护任务模板数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "可视化任务流程",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节生成指挥信息显示与任务流程指挥界面；R6判定标准；涉及流程动画呈现与图表渲染",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1）",
+   "requirementName": "导出任务模板",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节任务模板配置；R6判定标准；将模板数据转换为外部格式输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "试验任务信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1节；R3穿越判断（由数据中台维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "型号信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1节；R3穿越判断（由数据中台维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "参数定义信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1节；R3穿越判断（由数据中台维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "型号-系统-参数定义关系信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1节；R3穿越判断（由数据中台维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "读取试验任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1节；R4/R9绑定（通过接口从数据中台读取试验任务信息）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "读取型号信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1节；R4/R9绑定（通过接口从数据中台读取型号信息）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "读取参数定义信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1节；R4/R9绑定（通过接口从数据中台读取参数定义信息）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务信息加载功能（FR_1.1）",
+   "requirementName": "读取型号-系统-参数定义关系信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1节；R4/R9绑定（通过接口从数据中台读取型号-系统-参数定义关系信息）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "任务模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2节；R1/R3内部维护的主备指挥模板核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "型号列表数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_1.2节；R3穿越判断由数据中台提供、本系统只读的外部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "新增任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R10套路创建模板记录并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "修改任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R10套路更新模板属性并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "删除任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R10套路移除模板记录并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "激活任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R10套路更新模板激活状态并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "查询任务模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R10套路按型号层级无改变地读取任务模板数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板配置功能（FR_1.2）",
+   "requirementName": "读取型号列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2节；R9/R4从数据中台接口读取外部型号数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "任务模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2.1节；R3穿越判断；系统内部维护模板名称、描述及激活状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "创建任务模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.1节；R10套路；输入型号信息并新增主/备任务模板记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "修改任务模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.1节；R10套路；更新模板属性及激活状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "删除任务模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.1节；R10套路；移除无效或废弃的任务模板记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "查询任务模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.1节；R10套路；读取并输出测发任务模板列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板创建功能（FR_1.2.1）",
+   "requirementName": "导出任务模板信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.2.1节；R10套路；将模板数据生成外部文件进行归档",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "指挥指令配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2节；R3穿越判断（本系统内部维护）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "参数表数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.2.2节“绑定参数表号编码”；R3穿越判断（外部维护本系统只读）；R5/R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "新增指挥指令配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2节“创建流程指挥指令...保存”；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "修改指挥指令配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2节“支持组态化配置”隐含编辑能力；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "删除指挥指令配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2节配置管理常规操作；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "查询指挥指令配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2节“输出配置好的指挥指令列表”；R6无内部数据或状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "流程指挥指令配置功能（FR_1.2.2）",
+   "requirementName": "读取参数表数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2节“绑定参数表号编码”；R4 EIF仅匹配EQ/EO；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "信息交互通道配置功能（FR_1.2.3）",
+   "requirementName": "信息交互通道配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2.3节；R-ENHANCE-6网络通信相关数据识别；本系统内部维护的通道参数、协议格式及外发频率等持久化数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "信息交互通道配置功能（FR_1.2.3）",
+   "requirementName": "新增信息交互通道配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.3节；R10套路；处理手动输入并添加数据接收/外发通道及基础连接参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "信息交互通道配置功能（FR_1.2.3）",
+   "requirementName": "修改信息交互通道配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.3节；R10套路；处理配置接收模式（单播/组播）、目标地址端口、发送内容、协议格式与外发频率",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "信息交互通道配置功能（FR_1.2.3）",
+   "requirementName": "删除信息交互通道配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.3节；R10套路；处理移除已配置的接收或外发通道记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "信息交互通道配置功能（FR_1.2.3）",
+   "requirementName": "查询信息交互通道配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.3节；R6判定标准；无内部数据或状态改变，仅读取并输出数据接收/外发通道列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板迁移功能（FR_1.3）",
+   "requirementName": "任务模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.3节；R3穿越判断；本系统内部维护的任务模板核心业务数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板迁移功能（FR_1.3）",
+   "requirementName": "复制任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3节；R10套路；选择模板输入新名称确认复制，新增任务模板数据ILF实例",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板迁移功能（FR_1.3）",
+   "requirementName": "迁移任务模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3节；R10套路；批量选择模板指定目标型号确认迁移，修改任务模板数据ILF及关联状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板迁移功能（FR_1.3）",
+   "requirementName": "查询任务模板列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.3节；R10套路；支持选择模板进行后续操作，仅读取不改变内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板迁移功能（FR_1.3）",
+   "requirementName": "查看任务模板分类状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.3节；R6判定标准；输出迁移后的模板分类状态，涉及状态聚合与界面展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "外部任务信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.4节；R3穿越判断；由数据中台维护，本系统仅只读引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "读取外部任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.4节；R4/R9绑定；从数据中台获取火箭发射任务信息用于关联",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "任务模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.4节；R3穿越判断；本系统内部维护的模板配置、主备关系及关联规则数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "查询已激活模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.4节；R6判定；绑定同型号下已激活模板时的无状态数据读取",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "测发指挥任务信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.4节；R3穿越判断；本系统创建、保存并维护全生命周期的指挥任务核心数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "创建测发指挥任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.4节；R10套路；选择特定任务并绑定模板生成新的指挥任务记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "保存测发指挥任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.4节；R10套路；将关联后的任务参数持久化更新至内部逻辑文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "启用测发指挥任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.4节；R10套路；改变任务运行状态以触发后续流程执行",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "查询测发指挥任务",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.4节；R6判定；管理页面检索与列表展示的基础读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务模板配置功能（FR_1）",
+   "softwareObject": "任务模板关联功能（FR_1.4）",
+   "requirementName": "可视化指挥信息看板",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.4节；R14/R6判定；基于任务与模板数据执行多维渲染与统计图表生成的看板构建",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "指挥信息显示功能（FR_2）",
+   "requirementName": "测发指挥任务数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_2节；R3穿越判断；系统内部维护的测发指挥任务基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "指挥信息显示功能（FR_2）",
+   "requirementName": "外部指令与状态数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_2节；R3穿越判断；外部系统提供的指挥指令、回令状态、监测参数及T0接收状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "指挥信息显示功能（FR_2）",
+   "requirementName": "查询测发指挥任务",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_2节；R6无改变；支持用户选择已创建的测发指挥任务",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "指挥信息显示功能（FR_2）",
+   "requirementName": "读取任务模板配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_2节；R6无改变；默认读取主指挥任务模板配置用于界面生成",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "指挥信息显示功能（FR_2）",
+   "requirementName": "可视化指挥显示看板",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_2节；R6有改变/渲染；综合展示时间、指令、状态等多维信息的看板可视化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "时间信息区域功能（FR_2.1）",
+   "requirementName": "测发时序数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_2.1节；R3穿越判断（外部端口接收的北京时间、发射窗口、T0等只读数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "时间信息区域功能（FR_2.1）",
+   "requirementName": "倒计时补偿配置",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.1节；R3穿越判断（系统内部维护的倒计时补偿参数）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "时间信息区域功能（FR_2.1）",
+   "requirementName": "读取测发时序数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.1节；R9典型配置（读取外部输入的时序数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "时间信息区域功能（FR_2.1）",
+   "requirementName": "计算倒计时参数",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_2.1节；R6判定标准（执行预计点火时间与北京时间差值计算及补偿逻辑）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "时间信息区域功能（FR_2.1）",
+   "requirementName": "显示时间信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_2.1节；R6判定标准（按秒高刷新率输出处理后数据，改变应用显示状态）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程阶段指令按钮区域功能（FR_2.2）",
+   "requirementName": "流程阶段指令数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.2节；R3穿越判断（本系统维护）；R-ENHANCE-2业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程阶段指令按钮区域功能（FR_2.2）",
+   "requirementName": "查询流程阶段指令数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.2节；R6无改变仅读取；对应'显示当前流程阶段'",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程阶段指令按钮区域功能（FR_2.2）",
+   "requirementName": "修改流程阶段指令数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.2节；R6改变内部状态；对应'收到下一阶段参数切换流程阶段'",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "普通指令按钮区域功能（FR_2.3）",
+   "requirementName": "普通指令信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_2.3节输入描述‘流程指挥指令配置的普通指令’；R1/R8命名规范；系统内部维护的核心业务数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "普通指令按钮区域功能（FR_2.3）",
+   "requirementName": "查询普通指令信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_2.3节处理描述‘普通指令显示’及输出‘普通指令按钮显示’；R6无内部数据或状态改变仅读取展示；R8动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "普通指令按钮区域功能（FR_2.3）",
+   "requirementName": "发送普通指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_2.3节处理描述‘允许发送指令’及席位IP校验逻辑；R6触发业务动作与状态流转；R8完整动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "流程指令配置数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_2.4节输入项；R3穿越判断，外部配置数据本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "回令指示状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.4节处理项；R3穿越判断，本系统内部维护的指示灯状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "读取流程指令配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.4节输入项；R4绑定EIF，仅读取无改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "更新回令指示状态",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.4节处理项；R1命名规范，动宾短语，维护回令指示状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "查询回令指示状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.4节输出项；R4绑定ILF，仅读取显示无改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "回令指示灯区域功能（FR_2.4）",
+   "requirementName": "执行阶段切换与自动清空",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_2.4节处理项；R6判定标准，改变应用行为并清空内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "参数监测功能（FR_2.5）",
+   "requirementName": "参数监测数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_2.5节；R-ENHANCE-2识别业务数据；维护起飞必保条件及实时参数值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "参数监测功能（FR_2.5）",
+   "requirementName": "流程指令配置数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_2.5节输入项；R3穿越判断；由外部流程指挥系统维护，本系统只读获取配置参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "参数监测功能（FR_2.5）",
+   "requirementName": "读取流程指令配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_2.5节输入项；R4/R9绑定；读取外部指令配置参数用于显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "参数监测功能（FR_2.5）",
+   "requirementName": "更新参数监测数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_2.5节处理项；R10套路；实时接收参数值并维护参数监测数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "参数监测功能（FR_2.5）",
+   "requirementName": "查询参数监测列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_2.5节输出项；R10套路；按条件检索并返回参数列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "事件信息区域功能（FR_2.6）",
+   "requirementName": "事件信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.6节；R-ENHANCE-1模块数据实体识别；R3穿越判断(本系统内部维护)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "事件信息区域功能（FR_2.6）",
+   "requirementName": "记录指令下达事件",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.6节输入与处理；R1五元素定义；R10内部管理报价套路；维护事件信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "事件信息区域功能（FR_2.6）",
+   "requirementName": "记录T0接收事件",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.6节输入与处理；R1五元素定义；R10内部管理报价套路；维护事件信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "事件信息区域功能（FR_2.6）",
+   "requirementName": "查询事件列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.6节输出；R1五元素定义；R6判定标准(仅读取无改变)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "流程控制参数数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.7节；R3穿越判断；本系统内部维护的流程运行状态、倒计时、T0、发射窗口及阶段指令等综合业务参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "清除T0及飞行时间",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；修改流程控制参数数据，重置时间基准与飞行计时状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "清除阶段信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；修改流程控制参数数据，删除指定阶段的指令记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "暂停流程控制",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；修改流程控制参数数据，冻结倒计时并置位禁止下发标志",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "恢复流程控制",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；修改流程控制参数数据，解除倒计时冻结并恢复指令下发权限",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "调整预计点火时间",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；执行时间计算并修改流程控制参数数据中的点火基准值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "指挥信息显示功能（FR_2）",
+   "softwareObject": "流程控制按钮区域功能（FR_2.7）",
+   "requirementName": "调整发射窗口",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.7节；R10套路；基于新点火时间执行偏移计算并修改流程控制参数数据中的窗口范围",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "时间基准数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3节；R3穿越判断；本系统内部维护高精度时间基准",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "发射窗口参数",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3节；R3穿越判断；本系统内部维护发射窗口配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "T0控制配置",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3节；R3穿越判断；本系统内部维护T0接收控制配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "倒计时补偿参数",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3节；R3穿越判断；本系统内部维护倒计时补偿逻辑参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "设置发射窗口参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3节；R10套路；维护发射窗口参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "配置T0接收控制参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3节；R10套路；维护T0控制配置ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "清除时间基准数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3节；R10套路；维护时间基准数据ILF，对应时间信息清除",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "设置倒计时补偿参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3节；R10套路；维护倒计时补偿参数ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "查询发射窗口参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3节；R6判定；无状态改变，仅读取发射窗口参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "读取T0控制配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3节；R6判定；无状态改变，仅读取T0控制配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "查询时间基准数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3节；R6判定；无状态改变，仅读取时间基准数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "查询倒计时补偿参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3节；R6判定；无状态改变，仅读取倒计时补偿参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "执行时间信息计算",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3节；R6判定；含时间信息计算频率，执行数据计算",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "执行T0补发与模拟",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3节；R6判定；触发T0自动补发与手动模拟，改变系统时序状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "执行倒计时补偿计算",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3节；R6判定；执行倒计时补偿逻辑，生成修正时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息处理功能（FR_3）",
+   "requirementName": "可视化发射窗口参数",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3节；R14/R6判定；涉及图表或三维呈现，改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "预计点火时间数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.1节；R10套路；本系统内部维护的任务预计点火时间配置集合",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "新增预计点火时间数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.1节；R10套路；手动输入并保存多组预计点火时间，校验格式与大小关系后写入ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "修改预计点火时间数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.1节；R10套路；更新已保存的预计点火时间设置值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "删除预计点火时间数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.1节；R10套路；移除不再需要的预计点火时间配置组",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "查询预计点火时间组",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.1节；R6判定；读取并返回当前配置的预计点火时间列表供应急切换使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "预计点火时间设置功能（FR_3.1）",
+   "requirementName": "执行倒计时计算",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.1节；R6判定；基于设置的预计点火时间与当前服务器时间进行差值计算，驱动倒计时状态更新",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "发射窗口数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.2节；R3穿越判断（本系统内部维护）；R10报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "新增发射窗口数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2节；R10套路；手动输入起止时间并保存设置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "修改发射窗口数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2节；R10套路；校验有效性并更新配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "切换发射窗口数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2节；R10套路；支持动态切换当前生效窗口",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "查询发射窗口数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.2节；R10套路；读取已配置的窗口列表及详情",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "发射窗口设置功能（FR_3.2）",
+   "requirementName": "发送发射窗口数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.2节；R6判定标准（对外发送改变外部系统状态）；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "T0接收配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.3节；R3穿越判断/内部维护；R23关联数据合并；包含端口信息与时间区间参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "新增T0接收配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.3节；R10套路；创建T0端口并录入接收开始/结束时间",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "修改T0接收配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.3节；R10套路；修改端口号、时间区间及执行端口冲突检验",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "删除T0接收配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.3节；R10套路；移除已配置的T0端口记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "启停T0接收端口",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.3节；R10套路；控制端口运行状态（启/停）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0接收控制配置功能（FR_3.3）",
+   "requirementName": "查询T0接收配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.3节；R10套路；读取配置参数及实时端口状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0自动补发功能（FR_3.4）",
+   "requirementName": "T0自动补发配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.4节；R3穿越判断；R10套路；本系统内部维护的补发条件与时间差值参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0自动补发功能（FR_3.4）",
+   "requirementName": "新增T0自动补发配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.4节；R10套路；通过配置弹窗手动录入补发条件与预计点火时间差值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0自动补发功能（FR_3.4）",
+   "requirementName": "修改T0自动补发配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.4节；R10套路；更新已保存的T0自动补发条件及时间参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0自动补发功能（FR_3.4）",
+   "requirementName": "查询T0自动补发配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.4节；R10套路；读取并展示当前生效的T0补发配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0自动补发功能（FR_3.4）",
+   "requirementName": "计算并发送T0时间",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.4节；R6判定标准；满足补发条件时执行预计点火时间加X的计算并触发T0信号发送",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0手动模拟功能（FR_3.5）",
+   "requirementName": "任务T0时间数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.5节；R3穿越判断（本系统独立配置维护）；R1命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0手动模拟功能（FR_3.5）",
+   "requirementName": "设置T0补发时间",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.5节；R1命名规范；维护任务T0时间数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "T0手动模拟功能（FR_3.5）",
+   "requirementName": "发送T0时间指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.5节；R1命名规范；执行T0发送操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息清除功能（FR_3.6）",
+   "requirementName": "任务时间信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.6节；R3穿越判断（本系统内部维护各测发任务的T0、飞行时间、点火时间及发射窗口等核心业务参数）；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息清除功能（FR_3.6）",
+   "requirementName": "清除任务时间信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.6节；R10删除套路；R4权限绑定（关联任务时间信息数据ILF）；执行清除操作并对外发送标记",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息计算频率功能（FR_3.7）",
+   "requirementName": "时间计算频率配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.7节；R3穿越判断(本系统内部维护全局配置)；R-ENHANCE-3",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息计算频率功能（FR_3.7）",
+   "requirementName": "设置时间计算频率",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.7节；R10套路；绑定ILF进行参数配置与持久化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "时间信息计算频率功能（FR_3.7）",
+   "requirementName": "查询时间计算频率配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.7节；R10套路；无状态改变，仅读取已配置频率值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "倒计时补偿逻辑功能（FR_3.8）",
+   "requirementName": "倒计时补偿阈值配置",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.8节；R3穿越判断；R10套路；维护倒计时补偿阈值配置ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "倒计时补偿逻辑功能（FR_3.8）",
+   "requirementName": "设置倒计时补偿阈值",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.8节输入项；R1命名规范；R10套路；新增/修改阈值配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "倒计时补偿逻辑功能（FR_3.8）",
+   "requirementName": "查询倒计时补偿阈值",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.8节；R1命名规范；R10套路；无状态改变的读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "时间信息处理功能（FR_3）",
+   "softwareObject": "倒计时补偿逻辑功能（FR_3.8）",
+   "requirementName": "执行倒计时补偿计算",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3.8节处理项；R6判定标准（含毫秒取舍计算与整秒修正）；R1命名规范；改变应用状态并输出结果",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "流程指挥指令数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4节；R1/R8命名规范；维护多模式指令下达记录及关联业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "任务流程状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4节；R1/R8命名规范；维护倒计时、暂停恢复状态、预计点火时间及发射窗口等过程与结果数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "下发流程指挥指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4节；R1/R8命名规范；支持自动/手动/虚流程模式生成并转发指令，维护流程指挥指令数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "切换指令下达模式",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4节；R1/R8命名规范；修改任务流程状态数据ILF中的模式配置与权限标识",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "暂停任务流程",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4节；R1/R8命名规范；触发状态变更并冻结倒计时，更新任务流程状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "恢复任务流程",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4节；R1/R8命名规范；重新计算时间窗口并恢复权限，更新任务流程状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "查询流程状态信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4节；R1/R8命名规范；无内部状态改变，仅读取任务流程状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "任务流程指挥功能（FR_4）",
+   "requirementName": "可视化流程执行进度",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4节；R1/R8/R14命名规范；涉及倒计时动画呈现与时间窗口图表渲染，属于可视化输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "自动模式指令下达功能（FR_4.1）",
+   "requirementName": "指令配置与状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.1节；R1命名规范；R23关联数据合并；维护指令绑定关系及发送状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "自动模式指令下达功能（FR_4.1）",
+   "requirementName": "外部通信端口配置",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_4.1节；R3穿越判断；R4仅读引用；系统依赖的外部端口参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "自动模式指令下达功能（FR_4.1）",
+   "requirementName": "自动触发指令下达",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.1节；R1动宾命名；R6改变内部状态；监听倒计时并触发外发，更新发送状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "自动模式指令下达功能（FR_4.1）",
+   "requirementName": "读取指令配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.1节；R1动宾命名；R6无状态改变；获取表号编码与端口配置以准备下发",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "指挥模式数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.2节；R3穿越判断；内部维护指挥模式状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "切换手动模式",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；修改指挥模式数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "查询指挥模式",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；读取指挥模式数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "恢复指挥模式",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；软件重启后维持原模式，更新指挥模式数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "指令模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.2节；R3穿越判断；内部维护指令定义及绑定参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "执行指令下发",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；解析绑定参数并触发外发，修改指令模板数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "修改指令参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；修改指令模板数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "查询指令列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；读取指令模板数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "导出指令配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.2节；R6判定；归档指令模板数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "发射窗口数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.2节；R3穿越判断；内部维护发射窗口配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "切换发射窗口",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；修改发射窗口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "查询发射窗口",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；读取发射窗口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "任务流程状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.2节；R3穿越判断；内部维护流程节点运行状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "生成备用流程",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；异常时切换备用模板，更新任务流程状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "查询流程状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R10套路；读取任务流程状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "手动模式指令下达功能（FR_4.2）",
+   "requirementName": "归档流程状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.2节；R6判定；创建衍生执行记录，维护任务流程状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "指挥模式数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.3节；R3穿越判断；维护系统当前指挥模式状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "预计点火时间数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.3节；R3穿越判断；维护计算与更新的预计点火时间",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "发射窗口时间数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.3节；R3穿越判断；维护发射窗口时间范围",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "指令参数配置",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.3节；R3穿越判断；维护表号编码与对外端口配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "切换虚流程模式",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；修改指挥模式数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "下达流程指令",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；触发倒计时更新及维护预计点火时间、发射窗口时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "确认预计点火时间",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；人工干预修改预计点火时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "查询指挥模式",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；读取指挥模式数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "查询预计点火时间",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；读取预计点火时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "查询发射窗口时间",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；读取发射窗口时间数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "计算预计点火时间",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.3节；R6判定标准；执行本地时间+倒计时及窗口逻辑计算，创建衍生数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "虚流程模式指令下达功能（FR_4.3）",
+   "requirementName": "下发指令",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.3节；R6判定标准；根据参数配置生成并外发指令数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "流程控制参数数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.4节；R3穿越判断；R7颗粒度；R23关联数据合并",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "暂停任务流程",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.4节；R10内部管理套路；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "恢复任务流程",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.4节；R10内部管理套路；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "计算更新预计点火时间",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.4节；R6判定标准（含数据计算）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "计算更新发射窗口",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_4.4节；R6判定标准（含数据计算）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "任务流程指挥功能（FR_4）",
+   "softwareObject": "流程暂停与恢复功能（FR_4.4）",
+   "requirementName": "查询流程控制状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.4节及任务显示页面；R6判定标准（无改变仅读取）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "日志管理（FR_5）",
+   "requirementName": "系统日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5节；整合错误、服务、用户操作三类日志，按R23关联数据不拆分原则合并；R22明确日志功能全系统仅计一次",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "日志管理（FR_5）",
+   "requirementName": "传输错误日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5节；将错误日志传递至基础支持平台，涉及数据跨边界输出与系统状态改变，按R6判定为EO",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "错误日志功能（FR_5.1）",
+   "requirementName": "错误日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5.1节；R3穿越判断；本系统内部维护的日志记录实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "错误日志功能（FR_5.1）",
+   "requirementName": "记录错误日志信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.1节；R10套路；接收任务失败及微服务异常输入并持久化至数据库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "错误日志功能（FR_5.1）",
+   "requirementName": "解析错误日志信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.1节；R10套路；执行时间戳转换与日志详情格式化解析",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "错误日志功能（FR_5.1）",
+   "requirementName": "查询错误日志信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.1节；R10套路；支持按条件检索日志，仅读取不改变系统状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "错误日志功能（FR_5.1）",
+   "requirementName": "导出错误日志信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.1节；R10套路；将日志数据打包输出至本地，涉及衍生数据创建",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "服务日志功能（FR_5.2）",
+   "requirementName": "服务日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5.2节‘记录日志到数据库’；R1/R8逻辑文件命名；R2报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "服务日志功能（FR_5.2）",
+   "requirementName": "记录服务日志",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.2节‘记录日志到数据库’；R10内部管理CRUD套路；R8动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "服务日志功能（FR_5.2）",
+   "requirementName": "查询服务日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.2节‘日志查询，支持按条件查询日志’；R6无内部数据/状态改变；R8动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "服务日志功能（FR_5.2）",
+   "requirementName": "导出服务日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.2节‘日志导出，支持导出日志到本地’；R6导出操作；R8动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "服务日志功能（FR_5.2）",
+   "requirementName": "解析服务日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.2节‘日志解析，解析日志为可读格式’；R6数据计算与格式转换；R8动宾短语",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "操作日志功能（FR_5.3）",
+   "requirementName": "操作日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5.3节；R10套路；本系统内部维护席位IP、操作人、时间戳、指令详情等业务属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "操作日志功能（FR_5.3）",
+   "requirementName": "记录操作日志数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.3节；R10套路；响应指令发送、任务启停等输入，执行新增操作并持久化至操作日志数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "操作日志功能（FR_5.3）",
+   "requirementName": "查询操作日志数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.3节；R10套路；支持按条件读取操作日志数据ILF，仅展示不改变内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "操作日志功能（FR_5.3）",
+   "requirementName": "导出操作日志数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.3节；R10套路；将操作日志数据ILF打包输出至本地，涉及数据流转与格式固化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "日志管理（FR_5）",
+   "softwareObject": "操作日志功能（FR_5.3）",
+   "requirementName": "解析操作日志数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.3节；R6规则；将原始日志转为可读时间格式及结构化详情，属于创建衍生数据与改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "任务模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据“支持不少于200个任务模板的管理”；R1命名规范；R10内部管理报价套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "新增任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“支持不少于200个任务模板的管理”；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "修改任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“支持不少于200个任务模板的管理”；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "删除任务模板数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“支持不少于200个任务模板的管理”；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "查询任务模板数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据“支持不少于200个任务模板的管理”；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "可视化任务模板数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据“支持不少于200个任务模板的管理”；R10内部管理CRUD+V套路；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "其他性能指标（XN_4）",
+   "softwareObject": "其他性能指标（XN_4）",
+   "requirementName": "配置任务指挥模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“能够为不少于6发任务配置任务指挥模板”；R1动宾短语；R10套路扩展",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "T0时间数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第1行；R-ENHANCE-4外部输入观察数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取T0时间数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据表第1行；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "时间与指令数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第2行；R-ENHANCE-4外部输出指令数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "发送时间与指令数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据表第2行；R6改变应用行为/导出数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "音视频时间数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第3行；R-ENHANCE-4外部输出指令数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "发送音视频时间数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据表第3行；R6改变应用行为/导出数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "发射场元数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第4行；R-ENHANCE-4外部输入观察数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取发射场元数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据表第4行；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "发射场测试数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第5行；R-ENHANCE-4外部输入观察数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取发射场测试数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据表第5行；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "权限校验数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据表第6行；R-ENHANCE-4外部查询资源状态/接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "外部接口需求",
+   "softwareObject": "外部接口需求",
+   "requirementName": "读取权限校验数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据表第6行；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "用户权限数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "安全性需求节；R3穿越判断；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "新增用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护用户权限数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "修改用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护用户权限数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "删除用户权限",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护用户权限数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "查询用户权限列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "关键字查询用户权限",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "安全性需求节；R12拆分规则；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "导出用户权限数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "安全性需求节；R10内部管理套路；创建衍生数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "鉴权规则数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "安全性需求节；R3穿越判断；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "新增鉴权规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护鉴权规则数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "修改鉴权规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护鉴权规则数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "删除鉴权规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护鉴权规则数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "查询鉴权规则",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "导出鉴权规则数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "安全性需求节；R10内部管理套路；创建衍生数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "安全日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "安全性需求节；R3穿越判断；R22全系统只报一次",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "采集安全日志",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；维护安全日志数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "查询安全日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "安全性需求节；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "安全性需求",
+   "softwareObject": "安全性需求",
+   "requirementName": "归档安全日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "安全性需求节；R10内部管理套路；改变应用行为/持久化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "软件修改报告数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "软件保障需求节；R-ENHANCE-1模块数据实体识别；R3穿越判断（本系统内部维护）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "新增软件修改报告",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "软件保障需求节；R10内部管理CRUD+V套路；对应填写软件修改报告单操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "查询软件修改报告",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "软件保障需求节；R10内部管理CRUD+V套路；对应问题核实与状态跟踪操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "维修规划数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "软件保障需求节；R-ENHANCE-1模块数据实体识别；R3穿越判断（本系统内部维护）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "维护维修规划",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "软件保障需求节；R10内部管理CRUD+V套路；对应维修规划编制与维护操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "培训计划数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "软件保障需求节；R-ENHANCE-1模块数据实体识别；R3穿越判断（本系统内部维护）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期02测发指挥显示软件需求规格说明",
+   "moduleConfig": "软件保障需求",
+   "softwareObject": "软件保障需求",
+   "requirementName": "制定培训计划",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "软件保障需求节；R10内部管理CRUD+V套路；对应移交后使用培训开展操作",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 307,
+  "types": {
+   "EIF": 23,
+   "EQ": 70,
+   "EO": 46,
+   "ILF": 59,
+   "EI": 109
+  },
+  "totalYuan": 1983869.99
+ }
+}

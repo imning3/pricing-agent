@@ -30,18 +30,20 @@ from app.schemas.contract import ToolCode
 
 def find_file(kw: str) -> Path:
     root = SRC_ROOT.parent / "测试文件"
-    hits = sorted(p for p in root.rglob("*.docx") if kw in p.name)
+    # 跳过 Word 锁文件（~$xxx.docx，文档被打开时的临时产物，非 OOXML 会让归一化拒绝）
+    hits = sorted(p for p in root.rglob("*.docx")
+                  if kw in p.name and not p.name.startswith("~$"))
     if not hits:
         raise SystemExit(f"找不到匹配 '{kw}' 的 .docx 文档（目录 {root}）")
     return hits[0]
 
 
-async def extract_one(extractor: LlmExtractor, seg, tool: str, sem: asyncio.Semaphore):
+async def extract_one(extractor: LlmExtractor, seg, tool: str, sem: asyncio.Semaphore, mode: str):
     """单段抽取；限速错误长退避（MiniMax Token Plan 有 RPM 限制），其他错误短重试一次。"""
     async with sem:
         for attempt in (1, 2, 3):
             try:
-                return await extractor.extract([seg], tool)
+                return await extractor.extract([seg], tool, mode)
             except Exception as exc:
                 rate_limited = "rate_limit" in str(exc).lower() or "速率限制" in str(exc)
                 if attempt == 3:
@@ -58,10 +60,23 @@ async def run(kw: str, filter_re: str | None, limit: int | None, conc: int, tool
     print(f"模型：{settings.llm_model}")
 
     t0 = time.time()
+    skills_dir = str(SRC_ROOT / "app" / "skills")
+    client = LiteLLMClient(settings.llm_model, settings.llm_base_url,
+                           settings.llm_api_key, settings.llm_timeout_seconds,
+                           max_tokens=settings.llm_max_tokens)
     doc = normalizer.normalize(path.read_bytes(), path.name, path.suffix.lstrip("."))
     ir = markdown_ir.build_ir(doc)
     kept = locator.locate(ir)
     segs = segmenter.segment(ir, kept, project_name=path.stem)
+    # 拆分模式与生产管线一致（toolCode 硬映射：①-④系统/⑤软件；失败自动回退规则初分）
+    from app.pipeline.splitter import MODE_BY_TOOL, split_spec, split_system
+    mode = MODE_BY_TOOL.get(tool.value, "spec")
+    n_rule = len(segs)
+    if mode == "system":
+        segs, split_ok = await split_system(client, ir, kept, segs, skills_dir)
+    else:
+        segs, split_ok = await split_spec(client, ir, kept, segs, skills_dir)
+    print(f"拆分（{mode}）：{'成功' if split_ok else '降级回退'}（{n_rule} → {len(segs)} 段）")
     if filter_re:
         pat = re.compile(filter_re)
         segs = [s for s in segs if pat.search(s.path)]
@@ -69,13 +84,11 @@ async def run(kw: str, filter_re: str | None, limit: int | None, conc: int, tool
         segs = segs[:limit]
     print(f"S0-S3 完成：候选段 {len(segs)} 个（耗时 {time.time()-t0:.1f}s）")
 
-    client = LiteLLMClient(settings.llm_model, settings.llm_base_url,
-                           settings.llm_api_key, settings.llm_timeout_seconds)
-    extractor = LlmExtractor(client, skills_dir=str(SRC_ROOT / "app" / "skills"))
+    extractor = LlmExtractor(client, skills_dir=skills_dir)
     sem = asyncio.Semaphore(conc)
 
     t1 = time.time()
-    results = await asyncio.gather(*[extract_one(extractor, s, tool.value, sem) for s in segs])
+    results = await asyncio.gather(*[extract_one(extractor, s, tool.value, sem, mode) for s in segs])
     entries: list[RawFpEntry] = [e for chunk in results for e in chunk]
     print(f"S4 完成：{len(entries)} 条原始条目（{time.time()-t1:.1f}s，并发 {conc}）")
 
@@ -112,7 +125,7 @@ def main() -> None:
     kw = args[0]
     filter_re = args[args.index("--filter") + 1] if "--filter" in args else None
     limit = int(args[args.index("--limit") + 1]) if "--limit" in args else None
-    conc = int(args[args.index("--concurrency") + 1]) if "--concurrency" in args else 3
+    conc = int(args[args.index("--concurrency") + 1]) if "--concurrency" in args else settings.llm_concurrency
     tool = ToolCode(args[args.index("--tool") + 1]) if "--tool" in args else ToolCode.NO4_QUOTATION_REVIEW
     asyncio.run(run(kw, filter_re, limit, conc, tool))
 

@@ -102,9 +102,9 @@ class LlmRequest(BaseModel):
 class OriginalFp(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    moduleSystem: str = Field(description="分系统")
-    moduleConfig: str = Field(description="配置项")
-    softwareObject: str = Field(description="软件估算对象")
+    moduleSystem: str = Field(description="子系统")
+    moduleConfig: str = Field(description="软件（配置项）")
+    softwareObject: str = Field(description="功能块（软件估算对象）")
     requirementName: str = Field(description="功能需求")
     fpType: FpType
     fpCount: Decimal = Field(description="功能点个数（权重折算在公式引擎）")
@@ -134,7 +134,7 @@ class FpScale(BaseModel):
 class CostItem(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    moduleConfig: str = Field(description="计价对象=配置项")
+    moduleConfig: str = Field(description="计价对象=软件（配置项）")
     fpScale: Decimal = Field(description="软件功能规模（该配置项调整后功能点合计）")
     workload: Decimal = Field(description="工作量（人月）")
     regionRate: Decimal = Field(description="地区费率（万元/人月，按原型默认 2.8）")

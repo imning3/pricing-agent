@@ -46,27 +46,34 @@ def make_executor(settings: Settings):
     return execute
 
 
-async def _extract_parallel(extractor, segs, tool_code: str, conc: int = 3):
-    """并行分段抽取：信号量限流（MiniMax 等有 RPM 限制），限速错误长退避重试。"""
+async def _extract_parallel(extractor, segs, tool_code: str, mode: str = "spec", conc: int = 6):
+    """并行分段抽取：信号量限流（MiniMax 等有 RPM 限制），限速错误长退避重试。
+
+    返回 (entries, failures)：failures 为最终仍失败的 (path, 异常) 列表——
+    零条目且存在失败时，编排层据此如实上报 LLM 故障根因（勿误报为文档问题）。
+    """
     sem = asyncio.Semaphore(conc)
 
     async def one(seg):
         async with sem:
             for attempt in (1, 2, 3):
                 try:
-                    return await extractor.extract([seg], tool_code)
+                    return await extractor.extract([seg], tool_code, mode), None
                 except Exception as exc:  # noqa: BLE001 —— 单段失败不拖垮整任务
                     rate_limited = "rate_limit" in str(exc).lower() or "速率限制" in str(exc)
                     if attempt == 3:
                         logger.warning("段落抽取失败 %s: %s", seg.path, exc)
-                        return []
+                        return [], (seg.path, exc)
                     await asyncio.sleep(20 if rate_limited else 2)
 
     results = await asyncio.gather(*[one(s) for s in segs])
-    return [e for chunk in results for e in chunk]
+    entries = [e for chunk, _ in results for e in chunk]
+    failures = [f for _, f in results if f]
+    return entries, failures
 
 
 async def _run_analysis(req: LlmRequest, settings: Settings, mock_extractor) -> LlmResponse:
+    failures: list = []  # 模型调用失败的段落（仅 litellm 分支填充）
     if settings.llm_backend == "mock":
         # mock 模式：不联网，从文件名合成确定性分段
         segs = [
@@ -81,27 +88,51 @@ async def _run_analysis(req: LlmRequest, settings: Settings, mock_extractor) -> 
         ] or [segmenter.Segment(req.projectName or "未命名系统", "默认配置项", "默认估算对象", "(mock)", "(正文)")]
         entries = await mock_extractor.extract(segs, req.toolCode.value)
     else:
+        from pathlib import Path
+
+        from app.llm.client import LiteLLMClient
+        from app.pipeline.extractor import LlmExtractor
+        from app.pipeline.splitter import MODE_BY_TOOL, split_spec, split_system
+        # 绝对路径定位 skills（原 cwd 相对路径在非 src/ 工作目录下会静默丢失 skill）
+        skills_dir = str(Path(__file__).resolve().parent.parent / "skills")
+        # 拆分模式硬映射：①-④建设方案类→系统模式（拆到软件级）；⑤需规类→软件模式（拆到功能块级）
+        mode = MODE_BY_TOOL.get(req.toolCode.value, "spec")
+        client = LiteLLMClient(settings.llm_model, settings.llm_base_url,
+                               settings.llm_api_key, settings.llm_timeout_seconds,
+                               max_tokens=settings.llm_max_tokens)
+        extractor = LlmExtractor(client, skills_dir=skills_dir)
         segs = []
         for f in req.files:
             data = await fetcher.download(f.url, settings.max_file_mb)
             doc = normalizer.normalize(data, f.fileName, f.fileType)
             ir = markdown_ir.build_ir(doc)
             sections = locator.locate(ir)
-            segs.extend(segmenter.segment(ir, sections, project_name=req.projectName or "未命名系统"))
-        # 功能章节聚焦；无命中时回退全部段落（穷举原则，宁多勿漏）
-        focused = [s for s in segs if _FUNCTIONAL_RE.search(s.path)]
-        segs = focused or segs
-        logger.info("[%s] 抽取段落 %d 个（聚焦后）", req.calculationId, len(segs))
-        from app.llm.client import LiteLLMClient
-        from app.pipeline.extractor import LlmExtractor
-        client = LiteLLMClient(settings.llm_model, settings.llm_base_url,
-                               settings.llm_api_key, settings.llm_timeout_seconds)
-        extractor = LlmExtractor(client, skills_dir="app/skills")
-        entries = await _extract_parallel(extractor, segs, req.toolCode.value)
+            rule_segs = segmenter.segment(ir, sections, project_name=req.projectName or "未命名系统")
+            if mode == "system":
+                file_segs, split_ok = await split_system(client, ir, sections, rule_segs, skills_dir)
+            else:
+                file_segs, split_ok = await split_spec(client, ir, sections, rule_segs, skills_dir)
+            if not split_ok:
+                logger.info("[%s] 文件 %s LLM 拆分降级，沿用规则初分 %d 段",
+                            req.calculationId, f.fileName, len(file_segs))
+            # 功能章节聚焦仅在软件模式/拆分降级时使用（关键词粗筛兜底）；
+            # 系统模式拆分成功时 LLM 已做语义级 skip，再按路径关键词过滤反而误伤
+            if mode == "spec" or not split_ok:
+                focused = [s for s in file_segs if _FUNCTIONAL_RE.search(s.path)]
+                file_segs = focused or file_segs
+            segs.extend(file_segs)
+        logger.info("[%s] 抽取段落 %d 个（模式=%s，聚焦后）", req.calculationId, len(segs), mode)
+        entries, failures = await _extract_parallel(extractor, segs, req.toolCode.value, mode,
+                                                    conc=settings.llm_concurrency)
 
     fp_list = validator.validate_and_merge(entries, req.toolCode)
     if not fp_list:
-        from app.core.errors import ValidationError
+        from app.core.errors import LLMError, ValidationError
+        if failures and not entries:
+            # 全部段落模型调用失败（如模型名/网关配置错）——上报真实根因，勿误报为文档问题
+            last_path, last_exc = failures[-1]
+            raise LLMError(f"全部 {len(segs)} 个段落的模型抽取均失败"
+                           f"（示例 {last_path}: {str(last_exc)[:160]}），请检查 LLM_MODEL/LLM_BASE_URL/LLM_API_KEY 配置")
         raise ValidationError("未能从文档中识别出任何功能点，请检查文件内容与类型")
 
     scales = assembler.build_fp_scale(fp_list, req.toolCode)
@@ -133,8 +164,9 @@ async def _run_conversation(req: LlmRequest, settings: Settings, mock_extractor)
         from app.llm.client import LiteLLMClient
         from app.pipeline.editor import apply_edits
         client = LiteLLMClient(settings.llm_model, settings.llm_base_url,
-                               settings.llm_api_key, settings.llm_timeout_seconds)
-        skill = Path("app/skills/dialog_intents/SKILL.md")
+                               settings.llm_api_key, settings.llm_timeout_seconds,
+                               max_tokens=settings.llm_max_tokens)
+        skill = Path(__file__).resolve().parent.parent / "skills" / "dialog_intents" / "SKILL.md"
         system = (skill.read_text(encoding="utf-8") if skill.exists() else "你是军用软件计价助手。")
         system += ("\n\n只输出一个 JSON 对象，不得输出任何其他文字。"
                    "用户请求任何修改时，必须以 edits 数组表达每处修改，禁止只在 reply 里描述。")

@@ -34,6 +34,8 @@ class Settings:
     llm_base_url: str = ""
     llm_api_key: str = ""
     llm_timeout_seconds: int = 120
+    llm_max_tokens: int = 8192  # 网关普遍要求显式上限（本网关校验 [1, 65536]）
+    llm_concurrency: int = 6    # 分段抽取并发（网关限速时调低）
     max_file_mb: int = 50
 
 
@@ -56,5 +58,7 @@ def load_settings() -> Settings:
         llm_base_url=os.environ.get("LLM_BASE_URL", "").strip(),
         llm_api_key=os.environ.get("LLM_API_KEY", "").strip(),
         llm_timeout_seconds=int(s("LLM_TIMEOUT_SECONDS", "120")),
+        llm_max_tokens=int(s("LLM_MAX_TOKENS", "8192")),
+        llm_concurrency=int(s("LLM_CONCURRENCY", "6")),
         max_file_mb=int(s("AGENT_MAX_FILE_MB", "50")),
     )

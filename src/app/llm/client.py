@@ -28,20 +28,25 @@ class MockClient:
 
 
 class LiteLLMClient:
-    def __init__(self, model: str, base_url: str, api_key: str, timeout: int):
+    def __init__(self, model: str, base_url: str, api_key: str, timeout: int,
+                 max_tokens: int = 8192):
+        # 内网适配：该开关在 import litellm 时固化，必须先于 import 设置，
+        # 否则 litellm 会拉取外网价格表 raw.githubusercontent.com（内网必失，重试拖慢约 30s）
+        os.environ.setdefault("LITELLM_LOCAL_MODEL_COST_MAP", "True")
         try:
             import litellm  # 延迟导入：mock 模式无需安装
         except ImportError as exc:
             raise LLMError("LLM_BACKEND=litellm 但未安装 litellm（pip install litellm）", retryable=False) from exc
-        # 内网适配：关闭遥测上报与外网价格表拉取（服务器无外网，避免静默重试拖慢调用）
+        # 内网适配：关闭遥测上报与调试信息打印（均无外网行为）
         litellm.telemetry = False
         litellm.suppress_debug_info = True
-        os.environ.setdefault("LITELLM_LOCAL_MODEL_COST_MAP", "True")
         self._litellm = litellm
         self._model = model
         self._base_url = base_url
         self._api_key = api_key
         self._timeout = timeout
+        # 网关普遍要求显式 max_tokens（如本网关校验 [1, 65536]，缺省会被判参数越界）
+        self._max_tokens = max_tokens
 
     async def _acompletion(self, system: str, user: str, temperature: float = 0.1):
         messages = [{"role": "system", "content": system}, {"role": "user", "content": user}]
@@ -49,7 +54,7 @@ class LiteLLMClient:
         # anthropic 等原生方取 api_base，litellm 按模型前缀路由
         resp = await self._litellm.acompletion(
             model=self._model, messages=messages, temperature=temperature,
-            timeout=self._timeout,
+            timeout=self._timeout, max_tokens=self._max_tokens,
             base_url=self._base_url or None, api_base=self._base_url or None,
             api_key=self._api_key or None,
         )

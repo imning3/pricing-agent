@@ -4,6 +4,8 @@ data/
 src/data/
 src/evals/api_smoke/
 .uploads/
+.venv/
+.zcode/
 node_modules/
 __pycache__/
 *.pyc

@@ -1,0 +1,2110 @@
+{
+ "file": "二期03接口转发软件需求规格说明.docx",
+ "model": "anthropic/deepseek-v4-flash",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 54,
+ "elapsed_s": 342.9,
+ "fpList": [
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "接口转发任务信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节‘接口转发任务管理’；R3穿越判断（本系统内部维护）；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "新增接口转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节‘接口转发任务管理’；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "修改接口转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节‘接口转发任务管理’；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "删除接口转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节‘接口转发任务管理’；R10内部管理CRUD+V套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "查询接口转发任务",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节‘接口转发任务管理’；R6无改变内部数据操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接口转发任务管理功能（FR_1）",
+   "requirementName": "读取任务状态监测数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节‘任务状态监测功能’；R6无改变内部数据操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "转发任务配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘接收转发任务配置’；R-ENHANCE-1模块数据实体；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "新增转发任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘接收转发任务配置’；R10内部管理套路；维护转发任务配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "修改转发任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘接收转发任务配置’；R10内部管理套路；维护转发任务配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "删除转发任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘接收转发任务配置’；R10内部管理套路；维护转发任务配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询转发任务配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘接收转发任务配置’；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "接收通道配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘数据接收通道配置’；R-ENHANCE-1模块数据实体；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "新增接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘数据接收通道配置’；R10内部管理套路；维护接收通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "修改接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘数据接收通道配置’；R10内部管理套路；维护接收通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "删除接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据‘数据接收通道配置’；R10内部管理套路；维护接收通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询接收通道配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘数据接收通道配置’；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "生成通信端口及组播地址",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘生成对应端口号的通道，或访问对应IP地址的组播地址’；R6执行数据计算/改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "数据中台任务信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据‘关联的数据中台任务信息’；R3穿越判断（外部维护本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "读取数据中台任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘加载对应的参数定义’；R4EIF绑定；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "外部数据源",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据‘输入：数据源码’；R3穿越判断（外部维护本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "读取外部数据源",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘输入：数据源码’；R4EIF绑定；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "执行协议解析",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘根据协议配置完成数据解析’；R6创建衍生数据/改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "数据解析结果",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据‘输出：数据解析结果’；R-ENHANCE-2结果数据；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "查询数据解析结果",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据‘输出：数据解析结果’；R10内部管理套路；无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据引接解析功能（FR_2）",
+   "softwareObject": "数据引接解析功能（FR_2）",
+   "requirementName": "导出数据解析结果",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据‘输出：数据解析结果’；R10内部管理套路；涉及数据导出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "转发通道配置",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3节；R-ENHANCE-3配置库识别；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "中台任务信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_3节；R-ENHANCE-4外部接口数据；R3外部维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "新增转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3节；R10内部管理套路；R8动宾命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "修改转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3节；R10内部管理套路；R8动宾命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "删除转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3节；R10内部管理套路；R8动宾命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "查询转发通道配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3节；R6无状态改变仅读取；R8动宾命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "读取中台任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3节；R9 EIF典型配置；R8动宾命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "数据转发重组功能（FR_3）",
+   "softwareObject": "数据转发重组功能（FR_3）",
+   "requirementName": "执行数据转发重组",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3节；R1核心业务输入操作；R8动宾命名规范；含挑点降频及协议转换逻辑",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "日志记录功能（FR_4）",
+   "requirementName": "写入日志记录",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4节；R22日志去重规则，全系统仅计1次",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "协议管理功能（FR_5）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "协议信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5节；R3穿越判断（本系统内部维护）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "协议管理功能（FR_5）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "查询协议信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5节；R6判定标准（仅读取无改变）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "协议管理功能（FR_5）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "修改协议状态",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5节；R6判定标准（改变内部状态）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "协议管理功能（FR_5）",
+   "softwareObject": "协议管理功能（FR_5）",
+   "requirementName": "导入协议插件",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5节；R8命名规范；支持新增协议配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "火箭测试信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据《二期03接口转发软件需求规格说明》“外系统-接口转发软件输入信息”节；R3穿越判断（由火箭测发控分系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取火箭测试信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "卫星测试信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据同上；R3穿越判断（由卫星系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取卫星测试信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "海上回收测试信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据同上；R3穿越判断（由海上回收系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取海上回收测试信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "测控信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据同上；R3穿越判断（由发射场测控系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取测控信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "地勤信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据同上；R3穿越判断（由地勤各子系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取地勤信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "气象信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据同上；R3穿越判断（由发射场气象系统维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "外系统-接口转发软件输入信息",
+   "softwareObject": "外系统-接口转发软件输入信息",
+   "requirementName": "读取气象信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据同上；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "T0信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据文档输入部分描述；R3穿越判断（外部提供本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "读取T0信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文档输入部分描述；R4权限绑定（EIF仅配EQ）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "网络监控信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据文档输入部分描述；R3穿越判断（外部提供本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "读取网络监控信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文档输入部分描述；R4权限绑定（EIF仅配EQ）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "分系统状态信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据文档输入部分描述；R3穿越判断（外部提供本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "C3I及试验通信系统内部接口转发软件输入",
+   "softwareObject": "C3I及试验通信系统内部接口转发软件输入",
+   "requirementName": "读取分系统状态信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文档输入部分描述；R4权限绑定（EIF仅配EQ）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "转发通道配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据接口转发软件输出节；R3穿越判断（内部维护）；R-ENHANCE-3（配置类数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "新增转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据接口转发软件输出节；R10内部管理套路；维护转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "修改转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据接口转发软件输出节；R10内部管理套路；维护转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "删除转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据接口转发软件输出节；R10内部管理套路；维护转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "查询转发通道配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据接口转发软件输出节；R6无改变仅读取；匹配转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "导出转发通道配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据接口转发软件输出节；R6有改变（创建衍生配置文件）；匹配转发通道配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "任务信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据接口转发软件对外接口表序号5；R3穿越判断（外部维护本系统只读）；R-ENHANCE-4（接口数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "指挥指令数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据接口转发软件对外接口表序号8；R3穿越判断（外部维护本系统只读）；R-ENHANCE-4（接口数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "状态信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据接口转发软件对外接口表序号9/10/11/12；R3穿越判断（外部维护本系统只读）；R-ENHANCE-4（接口数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "权限校验数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据接口转发软件对外接口表序号7；R3穿越判断（外部维护本系统只读）；R-ENHANCE-4（接口数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "读取任务信息数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据接口转发软件对外接口表序号5；R4EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "读取指挥指令数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据接口转发软件对外接口表序号8；R4EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "读取状态信息数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据接口转发软件对外接口表序号9/10/11/12；R4EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "读取权限校验数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据接口转发软件对外接口表序号7；R4EIF仅配EQ；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "解析生成重组后数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据接口转发软件输出节及接口表；R11外部导入套路；接收外部数据并解析重组为内部处理数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发软件输出",
+   "softwareObject": "接口转发软件输出",
+   "requirementName": "输出重组后数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据接口转发软件输出节及接口表；R6有改变（执行数据转发/改变应用行为）；按配置通过UDP/HTTP协议向外系统输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "转发任务配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1节；维护接收转发任务、通道配置及启用状态的内部业务数据实体；R10套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "新增转发任务配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节‘接收转发任务创建’；执行任务创建并持久化至ILF；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "修改转发任务配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节‘任务配置、接收通道配置、转发通道配置’；更新ILF中通道与参数信息；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "删除转发任务配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节任务管理隐含的清理能力；从ILF中移除无效任务配置；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "查询转发任务配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1节任务管理隐含的检索需求；仅读取ILF数据不改变状态；R6判定标准",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务管理功能（FR_1.1）",
+   "requirementName": "导出转发任务配置数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.1节配置管理需求；将ILF数据转换为外部格式输出；R6判定标准",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "接收转发任务信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.1节；R1/R7命名规范；本系统内部维护的任务核心数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "任务信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.1节；R3穿越判断；由数据中台维护，本系统只读的外部输入数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.1节；R3穿越判断；由数据中台维护，本系统只读的外部输入数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "新增接收转发任务信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R10内部管理套路；创建文件夹及任务，输入名称描述并保存",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "修改接收转发任务信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R10内部管理套路；同步已有配置并在其上修改实现快速配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "删除接收转发任务信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R10内部管理套路；支持批量删除接收转发任务",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "查询接收转发任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R10内部管理套路；任务管理页面列表展示与条件检索",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "读取任务信息数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R9典型配置；从数据中台获取任务信息供任务绑定使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "创建任务功能（FR_1.1.1）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；R9典型配置；从数据中台获取参数定义供任务关联使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "转发任务配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.2节；R10套路；维护转发任务信息、服务日志记录等级及源地址编码等内部配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "配置转发任务信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2节；R10套路；接收服务日志记录等级与源地址编码，执行关联设置与存储操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置任务功能（FR_1.1.2）",
+   "requirementName": "查询转发任务配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2节；R6判定；读取已存储的转发任务配置信息，仅展示不改变系统状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "接收通道配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.3节；R3穿越判断与R10套路；本系统内部维护的通道名称、端口、模式、协议及流量阈值等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "新增接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；创建新通道并校验端口/地址唯一性，持久化至接收通道配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "修改接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；更新通道名称、端口、单播/组播模式、协议格式、源IP组及流量阈值等参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "删除接收通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；支持单个或批量删除已配置的接收通道",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "查询接收通道列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R6无改变判定；读取并返回接收通道列表信息，不改变内部数据或状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置接收通道功能（FR_1.1.3）",
+   "requirementName": "启停接收通道配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.3节；R6有改变判定；执行批量启动或关闭操作，改变通道运行状态与应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "转发通道配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4节；R3穿越判断（本系统内部维护）；R10内部管理套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "新增转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；创建通道并配置名称、端口、模式、挑点、降频、协议转换等参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "修改转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；调整已存通道的各项逻辑参数定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "删除转发通道配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；批量删除已配置的转发通道",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "查询转发通道列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；无状态改变，仅输出转发通道列表信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "启停转发通道配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4节；R6判定标准；批量启动或关闭通道，改变系统转发状态与应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "转发任务信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.4节；R3穿越判断（外部系统维护，本系统只读）；R5典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "配置转发通道功能（FR_1.1.4）",
+   "requirementName": "读取转发任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R4绑定规则；作为通道创建的输入依据，不配EI",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "透传任务配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4.1节；R3穿越判断（内部维护目标地址、端口、信源编码等配置）；R10报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "新增透传任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R10套路；维护透传任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "修改透传任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R10套路；维护透传任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "删除透传任务配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R10套路；维护透传任务配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "查询透传任务配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R10套路；无改变内部数据仅读取配置列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "导出透传任务配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4.1节；R10套路；生成配置报表文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "外部源数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.4.1节；R3穿越判断（由外部系统提供，本系统只读转发）；R5软件通常含EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "读取外部源数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R4规则（EIF仅配EQ/EO）；R9典型配置；接收源数据进行协议兼容性校验",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "启动透传任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R1规则；动宾短语；触发建立直连通道及初始化传输线程操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "透传功能（FR_1.1.4.1）",
+   "requirementName": "查询协议兼容性校验结果",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.1节；R6规则（无改变内部数据）；读取校验状态与错误日志提示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "挑点规则数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4.2节；R-ENHANCE-1；系统内部持久化维护的挑点筛选规则配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "新增挑点规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.2节；R10套路；接收通道与表号编码等输入，解析生成挑点规则并写入ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "修改挑点规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.2节；R10套路；更新挑点规则参数并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "删除挑点规则",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.2节；R10套路；移除挑点规则并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "查询挑点规则",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.2节；R10套路；读取并展示挑点规则配置列表，不改变内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "挑点功能（FR_1.1.4.2）",
+   "requirementName": "可视化挑点规则",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4.2节；R10套路；将挑点规则以配置视图形式输出，涉及数据格式化与界面渲染",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "协议转换配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4.3节；R3穿越判断；系统内部维护的协议转换参数与规则集合",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "新增协议转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.3节；R10套路；向协议转换配置数据ILF写入新配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "修改协议转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.3节；R10套路；更新协议转换配置数据ILF中的现有配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "删除协议转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.3节；R10套路；从协议转换配置数据ILF中移除配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "查询协议转换配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.3节；R6判定标准；无状态改变的读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "协议转换功能（FR_1.1.4.3）",
+   "requirementName": "导出协议转换规则",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4.3节；R6判定标准；生成并输出配置好的协议转换规则",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "参数定义转换配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4.4节；R3穿越判断（本系统内部维护）；R10报价套路根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "原参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.4.4节；R3穿越判断（外部提供，本系统只读）；R5/R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "新增参数定义转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.4节；R10套路；绑定ILF的增删改操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "修改参数定义转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.4节；R10套路；绑定ILF的增删改操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "删除参数定义转换配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4.4节；R10套路；绑定ILF的增删改操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "查询参数定义转换配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.4节；R6判定（仅读取无状态改变）；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "导出参数定义转换配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4.4节；R6判定（创建衍生数据文件）；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "参数定义转换功能（FR_1.1.4.4）",
+   "requirementName": "读取原参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4.4节；R4绑定（EIF仅配EQ）；R11套路前置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "降频配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.4.5节；维护降频系数、目标频率、目的端口及算法等核心业务参数，符合R1/R3内部维护特征",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "新增降频配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.4.5节；创建降频配置与规则数据，符合R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "修改降频配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.4.5节；更新已启用的降频参数列表、频率系数或发送端口，符合R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "删除降频配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.4.5节；移除不再需要的降频转发通道配置，符合R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "降频功能（FR_1.1.4.5）",
+   "requirementName": "查询降频配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.4.5节；读取原参数定义并展示当前降频配置状态，无内部数据改变，符合R6判定标准",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "接收转发任务信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.5节；R3穿越判断，本系统内部维护任务配置及运行状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "启用接收转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.5节；R10套路，修改任务状态为启用并执行端口冲突检查",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "停用接收转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.5节；R10套路，修改任务状态为停用并处理运行中二次确认提示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "查询接收转发任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.5节；R6判定，无内部状态改变，仅返回列表供用户选择",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "控制任务功能（FR_1.1.5）",
+   "requirementName": "读取接收转发任务状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.5节；R6判定，无内部状态改变，仅输出当前任务状态信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "服务运行状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2节；R-ENHANCE-2基础业务数据；R3穿越判断（本系统内部维护）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "接收转发任务数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2节；R-ENHANCE-2业务过程数据；R3穿越判断（本系统内部维护）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "查询服务运行状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2节；R10配套操作；对应服务状态总览，仅读取无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "查询接收转发任务状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2节；R10配套操作；对应接收转发任务状态监测，仅读取无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2）",
+   "requirementName": "浏览系统运行日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2节；R10配套操作；对应数据日志浏览工具，仅读取无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "服务状态总览功能（FR_1.2.1）",
+   "requirementName": "接口转发任务状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1节；R3穿越判断；本系统内部维护的多任务接收转发状态数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "服务状态总览功能（FR_1.2.1）",
+   "requirementName": "查询服务状态数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R6判定标准；仅读取状态数据用于显示总览与概览，不改变内部数据或状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "资源总览功能（FR_1.2.1.1）",
+   "requirementName": "系统运行状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1.1节；R-ENHANCE-2业务数据；本系统内部维护的CPU/内存/硬盘使用率及错误日志等状态指标",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "资源总览功能（FR_1.2.1.1）",
+   "requirementName": "日志配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1.1节；R-ENHANCE-2基础数据；本系统内部维护的日志最大保留时间/容量等配置参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "资源总览功能（FR_1.2.1.1）",
+   "requirementName": "查询日志配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1.1节；R6无改变仅读取；匹配日志配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "资源总览功能（FR_1.2.1.1）",
+   "requirementName": "可视化系统运行状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.1.1节；R6含统计计算与图表渲染；R14图形化总览页面；匹配系统运行状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "接收转发任务数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1.2节；R3穿越判断；本系统维护接收转发任务的配置、启停状态及关联信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "发射任务基础数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.2.1.2节；R3穿越判断；外部系统维护的火箭型号、发次等只读参考数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "查询接收转发任务列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1.2节；R6判定标准；无内部状态改变，仅读取并返回当前启用的任务列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "可视化任务运行状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.1.2节；R6判定标准；框图/卡片渲染通道统计与线程占用情况，涉及数据聚合与衍生展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "启动接收转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.1.2节；R1命名规范；完整动宾短语，触发任务内部运行状态变更",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "关闭接收转发任务",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.1.2节；R1命名规范；完整动宾短语，触发任务内部运行状态变更",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态概览功能（FR_1.2.1.2）",
+   "requirementName": "读取发射任务关联数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1.2节；R4绑定规则；EIF仅配EQ，获取关联发射任务名称及发次信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "错误日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1.3节；R3穿越判断；本系统内部维护的持久化日志实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "告警设置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1.3节；R3穿越判断；本系统内部维护的告警等级与提示规则配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "查询错误日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1.3节；R6无改变仅读取显示；对应实时显示错误日志信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.1.3）",
+   "requirementName": "读取告警设置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1.3节；R6无改变仅读取；对应获取告警设置用于提示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "任务状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2节；R-ENHANCE-2层级数据；维护端口信息、帧计数、流量及告警等内部运行状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "查询任务状态数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2节；R6无改变仅读取；展示端口参数、实时流量、帧计数与异常告警内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "任务状态监测功能（FR_1.2.2）",
+   "requirementName": "控制任务端口启停",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2节；R6有改变维护状态；执行端口启停指令并更新任务状态数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "接收通道信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.1节；R3穿越判断（本系统内部维护）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "查询接收通道信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.1节；R6无改变仅列表读取；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "修改通道状态",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2.1节；R6改变应用行为（手动启动/关闭）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "接收通道监测功能（FR_1.2.2.1）",
+   "requirementName": "可视化通道监测数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.2.1节；R6含统计计算与图表呈现；R14可视化定义；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "接收转发任务数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.2节；R3穿越判断；本系统内部维护的接收转发任务基础信息与关联关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "转发通道信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.2节；R3穿越判断；本系统内部维护的通道配置、地址、协议格式及启停状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "外部发射任务参考数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.2.2.2节；R3穿越判断；外部系统维护的本系统只读的发射任务名称、火箭型号及发次信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "查询接收转发任务信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.2节；R6无改变；读取并展示任务名称、任务描述及关联基础信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "可视化转发任务框图",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.2.2节；R14/R6有改变；以框图形式渲染显示当前启用的各接收转发任务拓扑结构",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "查询转发通道列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.2节；R6无改变；以列表形式展示通道名称、地址、接收模式、协议格式及基础计数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "控制转发通道启停",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.2.2节；R6有改变；用户手动触发通道状态的启动或关闭操作，直接维护转发通道信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "统计通道运行指标",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.2.2节；R6有改变；执行数据计算与衍生处理，统计正确/错误包计数、近1分钟包量、占用线程数及丢包/队列监测结果",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "转发通道监测功能（FR_1.2.2.2）",
+   "requirementName": "读取外部发射任务数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.2节；R4/R9绑定；读取外部发射任务参考数据EIF以满足关联信息显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "错误日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.3节；R-ENHANCE-2过程数据持久化；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "告警设置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.3节；R-ENHANCE-2基础配置数据；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "查询错误日志列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.3节；R10CRUD+V套路配套；仅读取不改变内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "读取错误日志详情",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.3节；R12详情与列表可拆分；仅读取不改变内部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误日志显示功能（FR_1.2.2.3）",
+   "requirementName": "查询告警设置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.3节；R10CRUD+V套路配套；获取告警等级配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误帧显示功能（FR_1.2.2.5）",
+   "requirementName": "错误帧数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2.2.5节；R-ENHANCE-6通信相关数据；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误帧显示功能（FR_1.2.2.5）",
+   "requirementName": "通道信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_1.2.2.5节输入项；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误帧显示功能（FR_1.2.2.5）",
+   "requirementName": "解析错误帧信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2.5节处理项；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误帧显示功能（FR_1.2.2.5）",
+   "requirementName": "查询错误帧列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2.5节展示要求；R6判定标准",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "错误帧显示功能（FR_1.2.2.5）",
+   "requirementName": "可视化错误帧详情",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.2.2.5节处理项；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "数据日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.2.6节；R3穿越判断；本系统持久化维护日志记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "按条件查询数据日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.2.6节；R6判定标准；仅按通道与时间戳筛选读取无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "接口转发任务管理功能（FR_1）",
+   "softwareObject": "数据日志浏览工具功能（FR_1.2.2.6）",
+   "requirementName": "解析并转换显示日志内容",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.2.6节；R6判定标准；含16进制转换、协议字段解析及十进制数值计算",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "服务运行日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.1节；R3穿越判断（本系统维护）；R10套路基础；持久化存储日志信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "记录服务运行日志",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.1节输入与处理要求；R10套路；接收任务、端口状态、帧情况及时间戳并写入数据库ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "查询服务运行日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.1节隐含查询需求；R10套路；读取日志数据无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志记录功能（FR_4.1）",
+   "requirementName": "导出服务运行日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_4.1节输出要求；R10套路；生成独立日志文件，涉及衍生数据创建",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "服务运行日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.2节；R2报价根基；R22日志功能全系统仅计1次；持久化存储日志列表与内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "查询服务运行日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R6无内部数据/状态改变；R8动宾短语；支持按关键字、等级、时间检索日志列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "服务运行日志查看功能（FR_4.2）",
+   "requirementName": "查看日志详细内容",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.2节；R6纯读取操作；R8动宾短语；点击日志条目展示完整内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "错误日志记录功能（FR_4.3）",
+   "requirementName": "错误日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.3节；R10套路；本系统内部维护的异常运行日志实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "错误日志记录功能（FR_4.3）",
+   "requirementName": "记录错误日志",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；接收任务失败及微服务异常信息，设置等级并持久化至ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "错误日志记录功能（FR_4.3）",
+   "requirementName": "查询错误日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_4.3节；R10套路；在状态总览页面读取并展示日志列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "数据源码日志记录功能（FR_4.5）",
+   "requirementName": "接口转发日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_4.5节；R22日志去重规则；R18持久化至数据库；R16具备业务审计价值",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "数据源码日志记录功能（FR_4.5）",
+   "requirementName": "新增接口转发日志数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_4.5节；R10内部管理套路；接收通道解析前与转发通道重组后数据源码及时间戳写入数据库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "数据源码日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.6节；R1命名规范；系统内部维护的持久化日志数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期03接口转发软件需求规格说明",
+   "moduleConfig": "日志记录功能（FR_4）",
+   "softwareObject": "数据源码日志查看功能（FR_4.6）",
+   "requirementName": "查询数据源码日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.6节；R6判定标准；按条件检索并展示列表与详情，无内部状态改变；R22日志功能全系统仅计1次",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 209,
+  "types": {
+   "ILF": 39,
+   "EI": 60,
+   "EQ": 66,
+   "EO": 20,
+   "EIF": 24
+  },
+  "totalYuan": 1341871.36
+ }
+}

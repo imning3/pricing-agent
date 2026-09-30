@@ -89,7 +89,9 @@ def build_cost_details(entries: list[OriginalFp], scales: list[FpScale],
             continue
         for s in group:
             obj_cost = F.q2(config_subtotal * (s.originalFp / config_fp))
-            obj_entries = [e for e in entries if e.softwareObject == s.softwareObject]
+            # mc+so 联合匹配：不同软件下同名功能块不得互相吸收（条目重复/金额错配）
+            obj_entries = [e for e in entries
+                           if e.moduleConfig == s.moduleConfig and e.softwareObject == s.softwareObject]
             if not obj_entries:
                 continue
             per = F.q2(obj_cost / len(obj_entries))

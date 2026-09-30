@@ -1,0 +1,4090 @@
+{
+ "file": "二期01一体化指显软件需求规格说明.docx",
+ "model": "anthropic/deepseek-v4-flash",
+ "tool": "NO4_QUOTATION_REVIEW",
+ "segments": 57,
+ "elapsed_s": 536.6,
+ "fpList": [
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "页面信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R3穿越判断；R10套路；本系统内部维护的页面基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "图元信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R3穿越判断；R10套路；本系统内部维护的图元基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "新增页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护页面信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "修改页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护页面信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "删除页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护页面信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "查询页面信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节；R6判定标准；无改变，仅读取页面列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "可视化页面布局设计",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节；R14可视化定义；涉及UI布局渲染与实时预览",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "新增图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护图元信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "修改图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护图元信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "删除图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；维护图元信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "查询图元信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节；R6判定标准；无改变，仅读取图元列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "组态化页面配置功能（FR_1）",
+   "requirementName": "可视化图元配置效果",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节；R14可视化定义；涉及图元属性渲染与拖拽交互预览",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "数据监测功能（FR_2）",
+   "requirementName": "监测模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2节；R3穿越判断（本系统内部维护）；R7颗粒度控制",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "数据监测功能（FR_2）",
+   "requirementName": "新增监测模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2节；R10内部管理报价套路；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "数据监测功能（FR_2）",
+   "requirementName": "修改监测模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2节；R10内部管理报价套路；对应快速布局配置操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "数据监测功能（FR_2）",
+   "requirementName": "查询监测模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2节；R10内部管理报价套路；对应按型号调取模板",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "数据监测功能（FR_2）",
+   "requirementName": "可视化监测看板",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_2节；R10内部管理报价套路；R14可视化定义（曲线表格渲染）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "组态页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据'依托组态化页面配置构建显示要素丰富的页面'；R-ENHANCE-3库池中心识别，R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "新增组态页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据'构建显示要素丰富的页面'；R10内部管理CRUD套路，维护组态页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "修改组态页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据'组态化页面配置'隐含维护需求；R10套路，维护组态页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "删除组态页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据'组态化页面配置'隐含维护需求；R10套路，维护组态页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "查询组态页面配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据'依托组态化页面配置'；R10套路，R6无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "态势显示数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据'包含态势页面显示'；R-ENHANCE-2业务数据层级，R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "可视化态势页面",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据'态势页面显示'；R14可视化定义（图表/模型渲染），R6含衍生/改变行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "流程监测数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据'流程监测两部分功能'；R-ENHANCE-2过程/结果数据，R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程及态势监测功能（FR_3）",
+   "requirementName": "读取流程监测数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据'流程监测'；R6无内部数据改变，仅读取展示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警及预案推送功能（FR_4）",
+   "requirementName": "异常判读结果数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据需求规格说明；R3穿越判断（由外部健康管理软件维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警及预案推送功能（FR_4）",
+   "requirementName": "发射场知识库数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据需求规格说明；R3穿越判断（由外部知识库维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警及预案推送功能（FR_4）",
+   "requirementName": "读取异常判读结果",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据需求规格说明；R4绑定EIF，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警及预案推送功能（FR_4）",
+   "requirementName": "检索预案知识库",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据需求规格说明；R4绑定EIF，R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警及预案推送功能（FR_4）",
+   "requirementName": "推送告警及预案信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据需求规格说明；R6判定（涉及知识库匹配计算与推送行为改变），R8动宾命名",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "大屏布局配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据《二期01一体化指显软件需求规格说明》标题；R3穿越判断（本系统边界内维护）；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "新增大屏布局配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据标题；R10报价套路；维护大屏布局配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "修改大屏布局配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据标题；R10报价套路；维护大屏布局配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "删除大屏布局配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据标题；R10报价套路；维护大屏布局配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "查询大屏布局配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据标题；R10报价套路；R6判定标准（仅读取，无内部数据或状态改变）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "可视化大屏布局预览",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据标题；R10报价套路；R14定义（涉及三维模型渲染或统计图表生成，非单纯列表返回）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "外部态势数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据标题；R3穿越判断（由外部系统维护，本系统只读）；R5软件通常含EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "读取外部态势数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据标题；R9典型配置；R4绑定规则（EIF仅配EQ/EO）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能",
+   "softwareObject": "大屏显示控制功能",
+   "requirementName": "可视化外部态势数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据标题；R4绑定规则；R6判定标准（执行数据计算或创建衍生数据用于大屏呈现）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "文件信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据《二期01一体化指显软件需求规格说明》文件管理功能章节；R1命名规范；本系统内部维护的文件元数据与属性集合",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "新增文件信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据文件管理功能章节；R10内部管理套路；向文件信息数据ILF写入新记录并持久化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "修改文件信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据文件管理功能章节；R10内部管理套路；更新文件信息数据ILF中的已有属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "删除文件信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据文件管理功能章节；R10内部管理套路；从文件信息数据ILF中逻辑或物理移除记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "查询文件列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文件管理功能章节；R6无状态改变；仅读取并返回文件信息数据ILF的列表视图",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "读取文件详情",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文件管理功能章节；R6无状态改变；根据条件检索并展示单条文件信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "导出文件清单",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据文件管理功能章节；R6创建衍生数据；将文件信息数据ILF转换为外部格式文件供下载",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能",
+   "softwareObject": "文件管理功能",
+   "requirementName": "可视化文件目录树",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据文件管理功能章节；R14图形化渲染定义；基于文件信息数据ILF层级关系生成动态目录结构图",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "图元数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1节；构建图元库，内部维护图元及双维度分类属性；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "新增图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节；支持图元拓展与入库操作；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "修改图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节；支持图元属性及类别维度调整；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "删除图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1节；支持图元移除操作；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "查询图元信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1节；按图元类别与业务类别维度分类检索；R6无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元管理功能（FR_1.1）",
+   "requirementName": "导出图元配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.1节；生成并输出图元数据包；R6创建衍生数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "图元分类信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.1节；支持固有与自定义类别；R3穿越判断-本系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "新增图元分类信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；管理功能标准套路；R10内部数据管理CRUD+V",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "修改图元分类信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；管理功能标准套路；R10内部数据管理CRUD+V",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "删除图元分类信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；管理功能标准套路；R10内部数据管理CRUD+V",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "按类别维度查询图元分类",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；通过两个类别维度筛选定位；R6无改变内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "图元分类管理功能（FR_1.1.1）",
+   "requirementName": "按名称查询图元分类",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1节；通过名称筛选定位；R12查询条件可拆分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "固有图元分类管理功能（FR_1.1.1.1）",
+   "requirementName": "图元分类及图元数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.1.1节；R3穿越判断；R23关联合并；本系统内部维护的图元类别定义与图元实体属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "固有图元分类管理功能（FR_1.1.1.1）",
+   "requirementName": "新增图元分类及图元数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.1.1节；R10套路；admin创建新图元分类或新建图元并验证格式内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "固有图元分类管理功能（FR_1.1.1.1）",
+   "requirementName": "修改图元分类及图元数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.1.1节；R10套路；admin修改图元分类或图元名称、类型等属性并保存",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "固有图元分类管理功能（FR_1.1.1.1）",
+   "requirementName": "删除图元分类及图元数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.1.1节；R10套路；admin删除分类或图元，校验唯一性及页面引用状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "固有图元分类管理功能（FR_1.1.1.1）",
+   "requirementName": "查询图元分类及图元数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.1.1节；R6判定；输出最新图元及分类列表，无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "自定义图元分类及图元数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.1.2节；R3穿越判断；R23关联数据合并；本系统内部维护的私有图元库及分类结构",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "新增图元分类",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；支持用户创建自定义文件夹以管理图元库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "新增图元",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；将新建图元存储至指定分类中",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "修改图元分类名称",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；编辑分类时修改分类名称",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "修改图元属性",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；修改图元名称、类型等属性并保存",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "复制图元",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；复制图元并粘贴生成新图元",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "删除图元",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R10套路；确认后从库中移除，含使用状态检查逻辑",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "自定义图元分类管理功能（FR_1.1.1.2）",
+   "requirementName": "查询图元分类及图元信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.1.2节；R6无改变；读取并展示最新图元分类与图元数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "数据驱动图元配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2节；R3穿越判断；R7颗粒度；本系统内部维护的图元类型及属性配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "新增数据驱动图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2节；R10套路；维护数据驱动图元配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "修改数据驱动图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2节；R10套路；维护数据驱动图元配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "删除数据驱动图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2节；R10套路；维护数据驱动图元配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "查询数据驱动图元配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2节；R10套路；读取数据驱动图元配置信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "数据驱动图元功能（FR_1.1.2）",
+   "requirementName": "导出数据驱动图元配置信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2节；R10套路；创建衍生配置文件或改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "表格图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.2.1节；维护组态表格的样式、位置、绑定参数等配置信息；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_1.1.2.1节；由数据中台提供，本系统只读用于绑定表格；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "新增表格图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.1节；创建普通/追加/矩阵表格及基础属性；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "修改表格图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.1节；调整表格行列结构、滚动策略、参数绑定及通用样式；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "删除表格图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.1节；移除已配置的表格图元及其关联数据；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "查询表格图元配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.1节；检索已保存的表格图元配置列表及详情；R10套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.1节；从数据中台获取参数定义供表格绑定使用；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "表格图元功能（FR_1.1.2.1）",
+   "requirementName": "可视化表格图元配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.1.2.1节；在组态界面渲染表格布局、状态灯及动态滚动效果；R6有改变/渲染；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "状态灯图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.2节；R3穿越判断；维护图元形状尺寸、位置、数值-颜色映射及绑定参数等内部持久化数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "外部参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.2节；R3穿越判断；由数据中台维护，本系统仅读取用于参数绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "新增状态灯图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.2节；R10套路；创建图元基础属性、位置及初始绑定参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "修改状态灯图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.2节；R10套路；更新数值-颜色对应关系及多状态分段配置规则",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "删除状态灯图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.2节；R10套路；移除已配置的图元及其关联数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "查询状态灯图元配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.2节；R10套路；读取并展示已保存的图元配置列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "可视化状态灯图元配置数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.2节；R10&R6；根据配置规则与状态量动态渲染图元颜色与显示样式",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "状态灯图元功能（FR_1.1.2.2）",
+   "requirementName": "读取外部参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.2节；R9典型配置；从数据中台获取参数定义供图元绑定使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "仪表盘图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.3节；R1命名规范；R3穿越判断（本系统内部维护图元样式、属性及显示规则）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.3节；R1命名规范；R3穿越判断（由数据中台维护，本系统只读校验数据类型）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "新增仪表盘图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.3节；R10套路；维护仪表盘图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "修改仪表盘图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.3节；R10套路；维护仪表盘图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "删除仪表盘图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.3节；R10套路；维护仪表盘图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "查询仪表盘图元配置列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.3节；R10套路；仅读取配置信息，无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.3节；R9典型配置；从外部数据中台获取并校验浮点/整型参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "可视化仪表盘图元配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.3节；R6判定标准；涉及刻度分段颜色渲染、指针动画效果及动态刷新呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "仪表盘图元功能（FR_1.1.2.3）",
+   "requirementName": "导出仪表盘图元配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.3节；R10套路；输出包含样式、大小、位置、显示规则及参数绑定的完整配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "曲线图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.4节；R1命名规范，R3内部维护，R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.4节；R1命名规范，R3穿越判断（数据中台提供只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "理论值曲线数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.4节；R1命名规范，R3穿越判断（外部CSV导入只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "配置曲线图元属性",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.4节；R10套路，维护曲线图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "查询曲线图元配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.4节；R10套路，无状态改变读取配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "可视化渲染曲线图元",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.4节；R6、R14判定（含动态刻度优化、叠加策略、图表渲染）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.4节；R9典型配置，无改变读取外部数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "过滤绑定时序参数",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.4节；R6判定（按类型过滤非数值型并建立映射关系，属数据计算与衍生）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "导入理论值曲线数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.4节；R11套路，无改变读取外部CSV文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "曲线图元功能（FR_1.1.2.4）",
+   "requirementName": "生成理论值追踪显示",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.4节；R6判定（自动追踪与自适应位置调整，属创建衍生展示数据）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "外部音视频源数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.5节；R3穿越判断；由数据中台维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "音视频图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.5节；R3穿越判断；本系统内部维护的图元绑定、叠加参数及算法配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "读取外部音视频源数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.5节；R11套路；从数据中台获取视频列表与参数定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "新增音视频图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.5节；R10套路；绑定视频源并初始化叠加参数与智能算法",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "修改音视频图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.5节；R10套路；调整视频叠加参数或智能分析算法",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "删除音视频图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.5节；R10套路；移除不再使用的音视频图元配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "查询音视频图元配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.5节；R10套路；加载并读取已配置的图元属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "音视频浏览图元功能（FR_1.1.2.5）",
+   "requirementName": "导出音视频播放配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.5节；R10套路；生成并归档完整的图元播放与算法配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "三维模型图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.6节；R3穿越判断；R10报价根基",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "外部参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.6节；R3穿越判断；R4仅读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "新增三维模型图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.6节；R10套路；维护三维模型图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "修改三维模型图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.6节；R10套路；维护三维模型图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "查询三维模型图元配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.6节；R10套路；R6无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "可视化三维模型图元",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.6节；R6/R14；涉及三维模型渲染与动效绑定显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "读取外部参数定义",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.6节；R9；EIF典型配置；从数据中台获取参数定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "三维模型图元功能（FR_1.1.2.6）",
+   "requirementName": "解析生成三维模型图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.6节；R11套路；上传模型文件后解析并绑定至ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "外部参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_1.1.2.7节‘从数据中台获取参数定义’；R3穿越判断（外部系统维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "读取外部参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.7节‘从数据中台获取参数定义’；R9典型配置（EIF匹配EQ）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "可视化外部参数定义数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.1.2.7节‘绑定到统计图图元’；R6改变应用行为/统计图表生成",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "统计图图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.1.2.7节‘图元可配置的属性/时间显示模式/坐标轴留白比例/时间段设置’；R1内部逻辑文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "新增统计图图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.7节‘加载选择的统计图图元’；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "修改统计图图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.7节‘设置时间显示模式/坐标轴留白比例/时间段设置/跨型号参数选择与过滤’；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "删除统计图图元配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.7节‘配置好的统计图图元’生命周期管理；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "查询统计图图元配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.1.2.7节‘加载选择的统计图图元’；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "统计图图元功能（FR_1.1.2.7）",
+   "requirementName": "可视化统计图图元配置数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.1.2.7节‘动态调整坐标轴刻度密度/建立实时更新机制’；R6执行数据计算/统计图表生成/R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "地图图元功能（FR_1.1.2.8）",
+   "requirementName": "地图图元数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.8节；R3穿越判断（本系统内部维护图元配置与状态）；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "地图图元功能（FR_1.1.2.8）",
+   "requirementName": "查询地图图元信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.8节；R6判定标准（仅加载读取，无内部数据改变）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "地图图元功能（FR_1.1.2.8）",
+   "requirementName": "配置地图图元信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.8节；R6判定标准（修改图元可配置属性及导入参数）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "地图图元功能（FR_1.1.2.8）",
+   "requirementName": "可视化晨昏线与轨迹",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.8节；R6判定标准（执行经纬度映射计算并动态渲染显示）；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "轮播图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.2.9节；R3穿越判断；本系统内部维护宽、高、显示方式、显示时间及绑定页面/图片等配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "外部参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.1.2.9节；R3穿越判断；由数据中台维护，本系统仅只读获取参数定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "新增轮播图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.9节；R10套路；处理加载图元、设置属性、绑定页面/图片并持久化至配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "修改轮播图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.9节；R10套路；更新图元显示时间、适配方式及绑定资源等配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "删除轮播图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.2.9节；R10套路；移除已配置的轮播图元及其关联数据记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "查询轮播图元配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.9节；R6判定标准；无状态改变，仅读取已保存的图元配置列表及属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "可视化轮播图元",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.2.9节；R14可视化定义；执行顺序循环播放逻辑与动画渲染呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "轮播图元功能（FR_1.1.2.9）",
+   "requirementName": "读取外部参数定义",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.2.9节；R9典型配置；从数据中台读取参数定义供图元绑定使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "交互图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.3节；R1/R7/R8；维护按钮共性及特定属性等内部逻辑文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "新增交互图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；执行新增操作并维护交互图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "修改交互图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；执行修改操作并维护交互图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "删除交互图元配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；执行删除操作并维护交互图元配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "查询交互图元配置列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10/R12套路；无状态改变读取配置列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "读取交互图元属性详情",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.3节；R10套路；无状态改变读取单条配置属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "交互式图元功能（FR_1.1.3）",
+   "requirementName": "导出交互图元配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.3节；R1/R6套路；将配置数据转换为外部格式输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "悬浮按钮配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R3穿越判断；R7颗粒度；本系统内部维护按钮配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "外部参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_1节；R3穿越判断；R5典型配置；由数据中台维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "新增悬浮按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；完整动宾短语；执行新增按钮配置操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "修改悬浮按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；完整动宾短语；执行修改按钮配置操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "删除悬浮按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；完整动宾短语；执行删除按钮配置操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "查询悬浮按钮配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节；R10套路；无状态改变的读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "可视化悬浮按钮配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节；R6、R14；涉及曲线/视频动态渲染与界面行为改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "悬浮信息提示按钮功能",
+   "requirementName": "读取外部参数定义",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节；R4、R9；仅读取外部参数，不修改内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "页面跳转按钮配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1节；R3穿越判断；维护按钮款式、触发模式、参数传递等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "新增页面跳转按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1节；R10套路；输入按钮属性与跳转目标，持久化至页面跳转按钮配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "修改页面跳转按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1节；R10套路；更新已配置的按钮样式、触发模式及参数传递规则",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "删除页面跳转按钮配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1节；R10套路；移除无效的页面跳转按钮配置记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "查询页面跳转按钮配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1节；R10套路；无状态改变，仅读取并展示已配置的按钮图元属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "已发布页面地址池",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1节；R3穿越判断；由页面管理系统维护，本系统只读用于跳转目标校验",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面跳转按钮功能",
+   "requirementName": "读取已发布页面地址池",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1节；R4绑定规则；读取外部地址池数据以支持下拉选择与IP/权限校验",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "指令按钮组态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1节；R3穿越判断；维护指令绑定、通道协议及按钮样式等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "新增指令按钮组态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节处理流程；R10套路；创建新按钮图元及指令绑定配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "修改指令按钮组态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节处理流程；R10套路；更新已配置的按钮参数与指令绑定关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "删除指令按钮组态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1节处理流程；R10套路；移除失效的按钮或指令配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "查询指令按钮组态数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1节处理流程；R10套路；读取现有按钮图元与可发送指令参数列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "指令下发按钮功能",
+   "requirementName": "可视化指令按钮组态数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1节输出要求；R10套路；渲染按钮图元并展示配置状态，涉及界面元素动态生成",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "图元配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.1.4节；R3穿越判断；R7颗粒度；内部维护非数据驱动图元及其属性",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "新增图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；支持文本/图形/图片上传及初始属性设置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "修改图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；支持拖拽调整位置尺寸及样式属性更新",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "删除图元配置信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；移除已配置的图元数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "查询图元配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.1.4节；R10套路；无状态改变，仅读取已存储图元列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "非数据驱动图元功能（FR_1.1.4）",
+   "requirementName": "可视化图元配置信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.1.4节；R10套路；R6判定；根据配置参数计算布局坐标并渲染图元样式输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "页面分类数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.1节；R3穿越判断；R7颗粒度；本系统内部维护的文件夹及页面层级关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "创建新文件夹",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R10套路；输入新建文件夹，维护页面分类数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "修改文件夹名称",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R10套路；支持编辑文件夹名称，维护页面分类数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "删除文件夹",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R10套路；支持删除文件夹，维护页面分类数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "检索文件夹",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R10套路；支持根据文件夹名称检索，读取页面分类数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面分类管理功能（FR_1.2.1）",
+   "requirementName": "查询文件夹列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.1节；R10套路；输出文件夹列表，读取页面分类数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "页面信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2.2节；R-ENHANCE-1与R8命名规范；本系统维护的页面名称、型号绑定、类别、状态及修改记录等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "新增页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2节；R10内部管理套路；在指定文件夹下创建新页面并初始化属性数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "修改页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2节；R10内部管理套路；编辑页面属性、批量启用/停用、复制及迁移页面并记录操作痕迹",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "删除页面信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2节；R10内部管理套路；执行单条或批量删除页面操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "查询页面列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2节；R10内部管理套路；读取并返回页面基础属性列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面管理功能（FR_1.2.2）",
+   "requirementName": "预览页面信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.2节；R6无改变判定标准；浮层窗口只读展示已保存的页面内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据“处理”节；R3穿越判断，本系统内部维护页面尺寸、图元布局、参数绑定等持久化配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "页面模板数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据“处理”节；R3穿越判断，外部提供模板尺寸与基础配置，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "图元库数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据“处理”节；R3穿越判断，外部提供图元组件及属性，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "系统参数数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据“处理”节；R3穿越判断，外部提供跨型号参数列表供绑定，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "打开已创建页面",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6无改变，仅读取页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "加载页面模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6无改变，仅读取页面模板数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "设置画布尺寸",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，验证并维护页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "添加图元组件",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，向页面配置数据ILF写入图元位置与大小",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "调整图元布局",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，批量修改页面配置数据ILF中的图元坐标与样式",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "修改图元属性",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，更新页面配置数据ILF中的图元内容",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "查询可用参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6无改变，精确或模糊读取系统参数数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "绑定页面参数",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，将参数映射关系及备用名称写入页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "保存页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，持久化维护页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "备份页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，复制并维护页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面绘制功能（FR_1.2.2）",
+   "requirementName": "恢复页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据“处理”节；R6有改变，覆盖并维护页面配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "设计文档数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.2.3节；R3穿越判断；外部输入的设计文档文件，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "读取设计文档数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.3节；R9典型配置；读取外部设计文档内容格式与要求",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.3节；R3穿越判断；本系统内部维护的页面及布局配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "解析生成页面配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.2.3节；R11导入套路；将设计文档输入模型并解析生成页面布局",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "查询页面配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.3节；R10内部管理套路；无状态改变的页面配置信息查询",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面自动生成功能（FR_1.2.3）",
+   "requirementName": "生成组态化页面",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.3节；R6判定标准；基于模型计算创建衍生页面布局并维护ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面预览功能（FR_1.2.4）",
+   "requirementName": "页面配置信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.4节；R-ENHANCE-1功能模块数据实体识别；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面预览功能（FR_1.2.4）",
+   "requirementName": "外部实时数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_1.2.4节；R3穿越判断（外部维护本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面预览功能（FR_1.2.4）",
+   "requirementName": "查询页面配置信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.4节；R6判定标准（仅读取无内部状态改变）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面预览功能（FR_1.2.4）",
+   "requirementName": "读取外部实时数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.4节；R4权限绑定（EIF仅配EQ）；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面预览功能（FR_1.2.4）",
+   "requirementName": "可视化页面预览效果",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.2.4节；R6判定标准（含渲染计算与调试状态改变）；R14可视化定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "生成模板功能（FR_1.2.5）",
+   "requirementName": "页面模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.2.5节；R1/R3/R8内部维护的持久化业务数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "生成模板功能（FR_1.2.5）",
+   "requirementName": "保存页面模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.2.5节；R1/R8/R10完整动宾操作，将画布配置与图元样式信息持久化至ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "生成模板功能（FR_1.2.5）",
+   "requirementName": "查询页面模板",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.2.5节；R1/R6/R8无状态改变，仅读取模板数据供编辑页面直接调用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面查询功能（FR_1.2.6）",
+   "requirementName": "页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.2.6节；R3穿越判断（本系统内部维护）；R7颗粒度；支撑页面查询与后续组态业务",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面查询功能（FR_1.2.6）",
+   "requirementName": "查询页面配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.2.6节；R6判定标准（仅条件筛选与列表加载，无内部数据或状态改变）；R8命名规范",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "页面模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_1.3节；R3穿越判断（本系统内部维护）；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "新增页面模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.3节；R10内部管理套路；维护页面模板信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "修改页面模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.3节；R10内部管理套路；维护页面模板信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "删除页面模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_1.3节；R10内部管理套路；维护页面模板信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "查询页面模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_1.3节；R6无改变判定；读取页面模板信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3）",
+   "requirementName": "导出页面模板信息",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_1.3节；R6有改变判定（生成衍生配置文件）；输出页面模板信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板分类管理功能（FR_1.3.1）",
+   "requirementName": "模板分类数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.3.1节；R3穿越判断；本系统内部维护的文件夹层级与模板归属关系数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板分类管理功能（FR_1.3.1）",
+   "requirementName": "创建文件夹",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.1节；R10套路；处理包括创建新的文件夹，新增模板分类数据ILF记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板分类管理功能（FR_1.3.1）",
+   "requirementName": "修改文件夹名称",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.1节；R10套路；处理包括编辑文件夹名称，更新模板分类数据ILF记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板分类管理功能（FR_1.3.1）",
+   "requirementName": "删除文件夹",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.1节；R10套路；处理包括删除文件夹，移除模板分类数据ILF记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板分类管理功能（FR_1.3.1）",
+   "requirementName": "检索文件夹列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.3.1节；R6判定标准；处理包括根据文件夹名称检索并输出列表，仅读取不改变内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "模板信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.3.2节；R3穿越判断；本系统维护模板名称、型号、类别、状态及修改记录等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "新增模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；创建新模板并持久化至模板信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "修改模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；更新模板属性及修改日志并维护模板信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "删除模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；从模板信息数据ILF中移除指定模板记录",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "复制模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；基于原模板生成副本数据并写入模板信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "迁移模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；变更模板所属文件夹路径并更新模板信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "启用或停用模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R10套路；批量修改模板启用状态标志并维护模板信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "查询模板列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R6判定标准；无内部状态改变，仅读取模板信息数据ILF返回结果集",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板管理功能（FR_1.3.2）",
+   "requirementName": "预览模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.3.2节；R6判定标准；浮层窗口展示模板内容，不涉及计算或衍生数据生成",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板查询功能（FR_1.3.3）",
+   "requirementName": "模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.3.3节；R1/R8命名规范；R3穿越判断（本系统维护）；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "模板查询功能（FR_1.3.3）",
+   "requirementName": "查询模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.3.3节；R1/R8命名规范；R6无计算/衍生/状态改变，仅读取筛选列表判定为EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面操作审计功能（FR_1.4）",
+   "requirementName": "页面操作审计日志数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_1.4节；R3穿越判断（本系统内部维护）；R16业务价值过滤",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面操作审计功能（FR_1.4）",
+   "requirementName": "查询页面操作审计日志",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_1.4节；R6判定标准（仅读取列表无状态改变）；R4权限绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "组态化页面配置功能（FR_1）",
+   "softwareObject": "页面操作审计功能（FR_1.4）",
+   "requirementName": "导出页面操作审计日志",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_1.4节；R6判定标准（生成导出文件，改变应用输出行为）；R4权限绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "公有模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.1节；R3穿越判断；管理员维护并发布，系统内部持久化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "新增公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；管理员新建页面并初始化布局",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "修改公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；变更控件、拖拽调整位置尺寸、绑定参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "删除公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；删除模板及其关联配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "发布公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；状态变更并同步至用户公有模板库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "暂存公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；编辑过程中保存中间状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "备份公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；对页面配置进行备份",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "恢复公有模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；从备份恢复页面配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "查询公有模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；全局参数检索及定位关联页面",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "定制模板信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.1节；R3穿越判断；用户级私有模板数据，系统内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "新增定制模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；创建用户专属定制模板",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "修改定制模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；调整定制模板布局与参数绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "删除定制模板信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；移除用户定制模板",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "查询定制模板信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.1节；R10套路；检索用户定制模板列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_2.1节说明；R3穿越判断；由数据中台维护，本系统同步只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "公有模板功能（FR_2.1）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.1节说明；R9典型配置；同步刷新及参数检索依赖",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "定制模板数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_2.2节；R3穿越判断；本系统内部维护用户定制模板库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "参数定义数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_2.2节；R3穿越判断；由数据中台维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "视频源数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_2.2节；R3穿越判断；外部提供视频列表，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "新建定制模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.2节；R10套路；自动生成左右布局并保存至定制模板库",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "修改定制模板配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.2节；R10套路；变更控件位置尺寸及绑定参数或视频源",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "删除定制模板",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_2.2节；R10套路；移除指定模板及其关联配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "查询定制模板列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.2节；R10套路；检索用户名下所有定制模板",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "检索定制模板参数",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.2节；R12拆分；全局检索参数名称/代号提示包含页面",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "读取参数定义数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.2节；R9典型配置；获取数据中台参数定义用于页面同步刷新",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "读取视频列表数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_2.2节；R9典型配置；获取外部视频源列表供拖拽绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "数据监测功能（FR_2）",
+   "softwareObject": "定制模板功能（FR_2.2）",
+   "requirementName": "可视化监测页面布局",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_2.2节；R6判定标准；渲染左右布局及曲线图表等显示控件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "组态化页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.1节；维护树结构与页面绑定关系；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "新增文件夹节点",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.1节处理描述；R10套路；维护组态化页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "绑定组态化页面",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.1节处理描述；R10套路；维护组态化页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "查询树结构列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.1节UI交互隐含；R10套路；读取组态化页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "读取组态化页面列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.1节输入描述；R10套路；读取组态化页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "态势监测功能（FR_3.1）",
+   "requirementName": "可视化组态化页面",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.1节输出描述；R10套路；涉及大屏页面渲染加载",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程监测功能（FR_3.2）",
+   "requirementName": "流程监测数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.2节；R2报价根基；R-ENHANCE-2业务数据识别；维护任务总体与分系统流程状态及结构信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程监测功能（FR_3.2）",
+   "requirementName": "查询流程监测数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.2节；R2报价根基；R6无改变判定；读取流程树及组态页面关联数据供席位显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "流程监测功能（FR_3.2）",
+   "requirementName": "可视化流程树",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3.2节；R6有改变判定；R14可视化定义；采用流程树+组态化页面关联模式进行动态渲染与显示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "流程态势配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.2.1节；R-ENHANCE-2业务数据；R23关联合并；R7颗粒度",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "流程状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_3.2.1节；R-ENHANCE-2过程数据；R18不报价缓存，此为准状态持久化",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "外部任务与系统数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_3.2.1节输入项；R-ENHANCE-4接口数据；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "新增流程态势配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "修改流程态势配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "删除流程态势配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "解析生成流程状态",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R11外部导入套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "查询流程态势配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "查询流程状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节处理逻辑；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "读取外部任务与系统数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_3.2.1节输入项；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "计算参数达标状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3.2.1节处理逻辑；R6有改变(执行数据计算)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "更新指示灯显示状态",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3.2.1节处理逻辑；R6有改变(改变应用行为)",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "总体流程态势功能（FR_3.2.1）",
+   "requirementName": "可视化流程态势演进",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_3.2.1节输出项；R6有改变(创建衍生数据)；R14动态切换呈现",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "分系统流程配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.2.2节；处理-配置四级流程节点及参数绑定；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "新增分系统流程配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-配置四级流程节点；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "修改分系统流程配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-参数定义接口，为二级到四级节点绑定状态参数；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "删除分系统流程配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-配置四级流程节点；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "查询分系统流程配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-配置四级流程节点；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "配置指示灯状态映射",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.2.2节；处理-配置指示灯状态映射；R6④改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "流程监测状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_3.2.2节；处理-显示当前流程阶段下流程进度；R3内部维护",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "更新流程监测状态",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-已完成节点点亮；当前流程阶段系统工作完成，点亮对应分系统准备好状态灯；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "查询流程监测状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；处理-显示当前流程阶段下流程进度；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "展示分系统流程进度",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.2.2节；处理-显示效果为每个分系统一列，内显示该分系统的流程节点以及流程进度；R6③创建衍生数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "外部试验任务与流程数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_3.2.2节；输入-型号；发次；任务信息；试验任务；流程阶段；系统信息；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "读取外部试验任务与流程数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；输入-型号；发次；任务信息；试验任务；流程阶段；系统信息；R3穿越判断；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "外部组态化态势页面数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_3.2.2节；输入-组态化态势页面；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "读取外部组态化态势页面数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_3.2.2节；输入-组态化态势页面；R3穿越判断；R9典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "流程及态势监测功能（FR_3）",
+   "softwareObject": "分系统流程监测功能（FR_3.2.2）",
+   "requirementName": "绑定并打开组态化态势页面",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_3.2.2节；处理-流程节点均可绑定组态化态势页面，点击节点打开态势页面；R6④改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "告警信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.1节；本系统内部维护的告警配置核心数据实体；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "故障信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.1节；由数据中台/健康管理软件提供，本系统只读绑定；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "预案信息",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.1节；由设备设施健康管理软件提供，本系统只读引用；R3穿越判断",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "新增告警信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.1节处理流程；创建告警记录并绑定外部故障信息；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "修改告警信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.1节处理流程；设置告警等级、方式、所属系统及上报层级等属性；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "删除告警信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.1节处理流程；支持单条或批量删除已配置的告警信息；R10内部管理套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "查询告警配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.1节输出要求；检索并展示已配置的告警信息列表；R6无状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "读取故障信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.1节输入处理；从外部系统读取故障详情用于绑定；R4 EIF仅配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警配置功能（FR_4.1）",
+   "requirementName": "读取预案信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.1节输入处理；从外部系统读取预案内容供配置参考；R4 EIF仅配EQ",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "预案信息数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.2输入项；R8命名规范；本系统内部维护的业务数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "告警配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.2输入项；R8命名规范；本系统内部维护的配置数据实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "告警处理记录数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.2处理逻辑（已读确认、层级确认、失效时间）；R8命名规范；本系统内部维护的状态跟踪实体",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "故障信息数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.2说明“相关信息由设备设施健康管理软件维护”；R3穿越判断；外部系统维护本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "新增预案信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.2输入项；R10内部管理报价套路；维护预案信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "修改预案信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.2输入项；R10内部管理报价套路；维护预案信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "删除预案信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.2输入项；R10内部管理报价套路；维护预案信息数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "查询预案信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.2输入项；R10内部管理报价套路；无状态改变的读取操作",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "读取故障信息数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.2输入项；R9典型配置；仅读取外部故障信息数据EIF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "确认告警已读",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.2处理逻辑“已读确认”；R10套路；更新告警处理记录数据ILF状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "告警提示功能（FR_4.2）",
+   "requirementName": "确认告警层级",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.2处理逻辑“当前层级确认后下一层级才显示”；R10套路；更新告警处理记录数据ILF流转状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "定向告警配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.3节；R10套路；维护告警系统、等级、角色、方式及上报层级映射关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "新增定向告警配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；维护定向告警配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "修改定向告警配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；维护定向告警配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "删除定向告警配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；维护定向告警配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "查询定向告警配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；无状态改变读取配置列表",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "导出告警配置",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_4.3节；R10套路；创建并输出配置结果文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "故障信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.3节；R-ENHANCE-2；持久化记录故障基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "接收故障信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；维护故障信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "查询故障信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；无状态改变读取故障数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "预案信息",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_4.3节；R-ENHANCE-2；持久化记录预案基础数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "关联预案信息",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；维护预案信息ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "查询预案信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R10套路；无状态改变读取预案数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "账号角色数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.3节；R3穿越判断；外部权限系统维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "定向告警功能（FR_4.3）",
+   "requirementName": "读取账号角色数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.3节；R9典型配置；读取外部角色列表用于定向匹配",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "预案推送功能（FR_4.4）",
+   "requirementName": "预案数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.4节；R3穿越判断（由外部设备设施健康管理软件维护，本系统只读）；R-ENHANCE-4接口数据识别",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "预案推送功能（FR_4.4）",
+   "requirementName": "读取预案信息",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.4节；R4EIF绑定规则（仅配EQ）；R6无内部计算或状态改变；R9EIF典型配置",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "故障预案推送功能（FR_4.4.1）",
+   "requirementName": "故障预案关联数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据文档‘发射场知识库中维护参数异常-故障模式关联关系与故障模式-处置预案关联关系’；R3穿越判断（由外部系统维护，本系统只读）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "故障预案推送功能（FR_4.4.1）",
+   "requirementName": "读取故障预案关联数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文档‘输入：预案信息’；R9典型配置（EIF仅配读取类操作）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "故障预案推送功能（FR_4.4.1）",
+   "requirementName": "故障告警数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据文档‘输入：故障信息’、‘当出现相关故障模式时’；R10报价根基（本地需维护当前触发状态以支撑推送逻辑）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "故障预案推送功能（FR_4.4.1）",
+   "requirementName": "读取故障告警数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据文档‘处理包括：某些故障有对应的预案...’；R6无改变内部数据或状态（仅监测读取）",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "故障预案推送功能（FR_4.4.1）",
+   "requirementName": "推送预案详情",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据文档‘将预案内容一并推送’、‘输出：预案详情’、‘浮动气泡提示’；R6有改变应用行为/创建衍生显示数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "流程预案推送功能（FR_4.4.2）",
+   "requirementName": "预案文档数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_4.4.2节；R3穿越判断；由设备设施健康管理软件发射场知识库维护，本系统只读",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "流程预案推送功能（FR_4.4.2）",
+   "requirementName": "读取预案文档数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.4.2节；R9配置模式；读取外部知识库中的指挥协同程序等文档",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "流程预案推送功能（FR_4.4.2）",
+   "requirementName": "推送阶段预案提示",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_4.4.2节；R6判定标准；结合阶段时间触发智能模型抽取，改变应用行为向用户推送提示",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "告警及预案推送功能（FR_4）",
+   "softwareObject": "流程预案推送功能（FR_4.4.2）",
+   "requirementName": "查询预案详情",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_4.4.2节；R6判定标准；无内部状态改变，仅读取并展示预案详情",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示控制功能（FR_5）",
+   "requirementName": "大屏页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_5节；R1/R3规则；系统内部维护的组态化页面绘制配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示控制功能（FR_5）",
+   "requirementName": "新增大屏组配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_5节；R1/R10规则；对应大屏组创建操作，维护大屏页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示控制功能（FR_5）",
+   "requirementName": "执行页面自动切换",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_5节；R6规则；触发页面状态改变与渲染更新，改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示控制功能（FR_5）",
+   "requirementName": "执行页面手动切换",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_5节；R6规则；触发页面状态改变与渲染更新，改变应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示控制功能（FR_5）",
+   "requirementName": "配置大屏显示图层",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_5节；R1/R10规则；对应大屏显示图层控制操作，维护大屏页面配置数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "大屏分组配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_5.1节；R-ENHANCE-1增强识别；本系统内部维护的大屏组名称、页面列表及显示逻辑等核心业务数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "综合态势页面库数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_5.1节；R-ENHANCE-3增强识别；外部提供的组态化页面库，本系统仅只读引用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "新增大屏分组配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_5.1节；R10报价套路；创建大屏组并维护大屏分组配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "修改大屏分组配置数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_5.1节；R10报价套路；编辑显示逻辑与轮巡参数，维护大屏分组配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "查询大屏分组配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_5.1节；R10报价套路；无状态改变地读取大屏分组配置数据ILF",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "导出大屏分组配置数据",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_5.1节；R10报价套路；生成并输出型号大屏分组配置数据文件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏组创建功能（FR_5.1）",
+   "requirementName": "读取综合态势页面库数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_5.1节；R9典型配置；只读读取综合态势页面库数据EIF以支持页面挂载",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "大屏页面配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_5.2节；R-ENHANCE-3；处理逻辑中明确的页面组、配置间隔、持续时长等配置信息",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "流程阶段状态数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "FR_5.2节；R-ENHANCE-2；处理逻辑中涉及的测试发射流程阶段、倒计时进度等过程状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "外部参数监测数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_5.2节；R-ENHANCE-4；处理逻辑中提及的由外部系统提供的特定参数或阈值数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "读取页面配置数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_5.2节；R8；获取大屏组页面组及切换基础参数",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "读取流程阶段状态",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_5.2节；R8；获取当前测试发射流程阶段与倒计时状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "读取外部参数数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_5.2节；R9；读取外部参数监测数据以判断触发条件",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "执行页面自动切换",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_5.2节；R6；根据阶段、参数、轮巡规则计算并改变大屏显示状态与应用行为",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面自动切换功能（FR_5.2）",
+   "requirementName": "更新切换状态数据",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "FR_5.2节；R10；维护多参数触发覆盖、倒计时结束返回原模式等状态流转",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面手动切换功能（FR_5.3）",
+   "requirementName": "页面库数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5.3节输入‘页面库’及处理‘大屏页面池’；R-ENHANCE-3库数据识别；R10内部管理报价套路",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面手动切换功能（FR_5.3）",
+   "requirementName": "切换手动模式",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.3节处理‘切换为手动模式’；R1动宾命名；修改系统运行状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面手动切换功能（FR_5.3）",
+   "requirementName": "查询页面列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.3节处理‘在大屏页面池中定位目标页面’；R1动宾命名；R6无内部数据改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面手动切换功能（FR_5.3）",
+   "requirementName": "读取页面预览",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.3节处理‘右侧为页面预览’；R1动宾命名；R6仅读取展示不改变状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "页面手动切换功能（FR_5.3）",
+   "requirementName": "执行页面切换",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.3节处理‘手动强制切换至特定页面’、‘选中的页面支持上屏显示’；R6改变输出行为；R1动宾命名",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "大屏图层控制配置数据",
+   "fpType": "ILF",
+   "fpCount": "7",
+   "description": "依据FR_5.4节；R-ENHANCE-1及R3穿越判断；本系统内部维护大屏图层、控制逻辑及参数关联关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "音视频平台图层列表数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_5.4节；R3穿越判断；由音视频综合管理平台维护，本系统只读获取用于绑定",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "型号任务元数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "依据FR_5.4节；R3穿越判断；由数据中台提供，本系统只读用于单任务单组激活约束校验",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "新增大屏图层控制配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R10套路；在型号层级下创建新图层并初始化控制逻辑与参数定义",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "修改大屏图层控制配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R10套路；调整控制逻辑、参数定义或图层关联关系",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "删除大屏图层控制配置",
+   "fpType": "EI",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R10套路；移除不再使用的大屏图层及其关联的控制逻辑",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "查询大屏图层控制配置",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R6判定标准；无状态改变，仅读取并展示配置列表供管理",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "读取音视频平台图层列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R9典型配置；调用外部接口获取图层清单供本系统绑定使用",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "读取型号任务元数据",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R9典型配置；获取数据中台元数据以校验激活数量限制",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "预览大屏图层内容",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "依据FR_5.4节；R6判定标准；点击图层仅返回当前视图数据，不改变内部状态",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "大屏显示控制功能（FR_5）",
+   "softwareObject": "大屏显示图层控制功能（FR_5.4）",
+   "requirementName": "驱动大屏图层切换",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "依据FR_5.4节；R6判定标准；参数触发后执行联动指令，改变应用行为并驱动外部平台切换",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "文件数据",
+   "fpType": "EIF",
+   "fpCount": "5",
+   "description": "FR_6节；R3穿越判断（中台维护本系统只读）；R-ENHANCE-4外部接口数据",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "查询文件列表",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6无内部状态改变；R12列表查询拆分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "检索文件内容",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6无内部状态改变；R12关键字查询拆分",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "筛选分类条件",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6无内部状态改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "预览PDF文件",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6仅读取显示无改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "导出文件",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_6节；R6含数据导出/下载输出",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "查看历史版本",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6仅读取旧版数据无改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "刷新列表倒序展示",
+   "fpType": "EQ",
+   "fpCount": "4",
+   "description": "FR_6节；R6仅调整显示顺序无改变",
+   "auditResult": null
+  },
+  {
+   "moduleSystem": "二期01一体化指显软件需求规格说明",
+   "moduleConfig": "文件管理功能（FR_6）",
+   "softwareObject": "文件管理功能（FR_6）",
+   "requirementName": "同步文件至知识库",
+   "fpType": "EO",
+   "fpCount": "5",
+   "description": "FR_6节；R6含数据归档/同步输出",
+   "auditResult": null
+  }
+ ],
+ "summary": {
+  "count": 407,
+  "types": {
+   "ILF": 62,
+   "EI": 146,
+   "EQ": 110,
+   "EO": 52,
+   "EIF": 37
+  },
+  "totalYuan": 2179599.54
+ }
+}

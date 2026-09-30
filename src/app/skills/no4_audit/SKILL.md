@@ -41,12 +41,7 @@ description: 四号文审价工具专属规则（外协谈价阶段）
 ## 输入与输出
 
 输入：外协任务书（应做的功能）+ 报价文件（报了什么价）。
-对报价文件中每条功能点输出：
-```json
-{"requirementName": "新增目标信息", "fpType": "EI", "fpCount": 1,
- "auditResult": 1, "description": "任务书3.2.1节有依据；符合R10套路"}
-```
-- `auditResult`：1-合理，0-不合理（引用规则编号写入 description，如"判0依据A2：EIF配EI"）
+对报价文件中每条功能点逐条判定 auditResult（输出格式由管线注入）。
 
 ## 自检清单
 
