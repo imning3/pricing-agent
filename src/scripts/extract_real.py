@@ -24,7 +24,7 @@ from app.core.config import load_settings
 from app.engine import assembler
 from app.llm.client import LiteLLMClient
 from app.pipeline import locator, markdown_ir, normalizer, segmenter, validator
-from app.pipeline.extractor import LlmExtractor, RawFpEntry
+from app.pipeline.extractor import LlmExtractor, RawFpEntry, pack_segments
 from app.schemas.contract import ToolCode
 
 
@@ -84,13 +84,30 @@ async def run(kw: str, filter_re: str | None, limit: int | None, conc: int, tool
         segs = segs[:limit]
     print(f"S0-S3 完成：候选段 {len(segs)} 个（耗时 {time.time()-t0:.1f}s）")
 
-    extractor = LlmExtractor(client, skills_dir=skills_dir)
+    extractor = LlmExtractor(client, skills_dir=skills_dir,
+                             max_tokens=settings.llm_extract_max_tokens)
+    packs = pack_segments(segs,
+                          max_chars=settings.llm_pack_max_chars,
+                          max_segments=settings.llm_pack_max_segments)
+    print(f"S4 pack: {len(segs)} segs -> {len(packs)} packs (conc={conc})")
     sem = asyncio.Semaphore(conc)
 
+    async def extract_pack(pack):
+        async with sem:
+            for attempt in (1, 2, 3):
+                try:
+                    return await extractor.extract_pack(pack, tool.value, mode)
+                except Exception as exc:
+                    rate_limited = "rate_limit" in str(exc).lower() or "速率限制" in str(exc)
+                    if attempt == 3:
+                        print(f"    pack fail {pack[0].path}: {exc}")
+                        return []
+                    await asyncio.sleep(20 if rate_limited else 2)
+
     t1 = time.time()
-    results = await asyncio.gather(*[extract_one(extractor, s, tool.value, sem, mode) for s in segs])
+    results = await asyncio.gather(*[extract_pack(p) for p in packs])
     entries: list[RawFpEntry] = [e for chunk in results for e in chunk]
-    print(f"S4 完成：{len(entries)} 条原始条目（{time.time()-t1:.1f}s，并发 {conc}）")
+    print(f"S4 done: {len(entries)} entries ({time.time()-t1:.1f}s, {len(packs)} packs, conc {conc})")
 
     fp_list = validator.validate_and_merge(entries, tool)
     scales = assembler.build_fp_scale(fp_list, tool)
